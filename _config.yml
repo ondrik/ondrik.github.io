@@ -109,7 +109,7 @@ author:
   name             : "Ondřej Lengál"
   avatar           : "https://avatars3.githubusercontent.com/u/350697"
   bio              : "We apologize for the inconvenience."
-  location         : "Somewhere over the rainbow"
+  location         : #"Somewhere over the rainbow"
   email            :
   links:
     - label: "Email"
