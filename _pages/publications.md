@@ -1,5 +1,7 @@
 ---
 permalink: /publications/
+published: true
+title: Publications
 ---
 ## A New Post
 
