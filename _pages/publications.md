@@ -36,4 +36,33 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 
 # 2018
 
+* L. Holik, O. Lengal, J. Sic, M. Veanes, and T. Vojnar.
+Simulation Algorithms for Symbolic Automata.
+In *Proc. of 16th International Symposium on Automated Technology for Verification and Analysis* --- ATVA'18,
+Los Angeles, USA,
+volume 11138 of LNCS, pages 109--125, 2018.
+Springer-Verlag.
+A preliminary version is available here.
+An extended version appeared as the technical report CoRR abs/1807.08487, 2018.
+
+* Y. Chen, M. Heizmann, O. Lengal, Y. Li, M. Tsai, A. Turrini, and L. Zhang.
+Advanced Automata-based Algorithms for Program Termination Checking.
+In *Proc. of 39th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- PLDI'18,
+Philadelphia, PA, USA,
+pages 135--150, 2018.
+ACM.
+A preliminary version is available here.
+
+* M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
+Approximate Reduction of Finite Automata for High-Speed Network Intrusion Detection.
+In *Proc. of 24th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- TACAS'18,
+Thessaloniki, Greece,
+volume 10806 of LNCS,
+pages 155--175, 2018.
+Springer-Verlag.
+A preliminary version is available here.
+An extended version appeared as the technical report CoRR abs/1710.08647, 2018.
+
+# 2017
+
 * TBD
