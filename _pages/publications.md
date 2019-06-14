@@ -2,6 +2,7 @@
 permalink: /publications/
 published: true
 title: Publications
+classes: wide
 ---
 # 2019
 
