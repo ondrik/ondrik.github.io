@@ -15,7 +15,11 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697), 2019.
 [incomplete reference]
 
-* M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar. Approximate reduction of finite automata for high-speed network intrusion detection. International Journal on Software Tools for Technology Transfer (STTT) 0(0), pages 1--17, 2019. Springer-Verlag. A preliminary version is available here. [incomplete reference]
+* M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
+[Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
+International Journal on Software Tools for Technology Transfer (STTT) 0(0), pages 1--17, 2019. Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/chhlv-sttt-19-problomata.pdf).
+[incomplete reference]
 
 * M. Ceska, V. Havlena, L. Holik, J. Korenek O. Lengal, D. Matousek, J. Matousek, J. Semric, and T. Vojnar. [Deep Packet Inspection in FPGAs via Approximate Nondeterministic Automata](http://dx.doi.org/XXXXXXXXXXXXXXX). In *Proc. of 27th IEEE International Symposium On Field-Programmable Custom Computing Machines* --- [FCCM'19](http://www.fccm.org/), San Diego, USA, pages XXX--XXX, 2019. IEEE. A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fccm19-hw-nfa-reductions.pdf). An extended version appeared as the technical report [CoRR abs/1904.10786](https://arxiv.org/abs/1904.10786). [incomplete reference]
 
