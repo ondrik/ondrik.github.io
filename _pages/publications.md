@@ -8,7 +8,7 @@ classes: wide
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
-In *Proc. of the 27th International Conference on Automated Deduction* --- [CADE-27](https://www.mat.ufrn.br/cade-27),
+To appear in *Proc. of the 27th International Conference on Automated Deduction* --- [CADE-27](https://www.mat.ufrn.br/cade-27),
 Natal, Brazil,
 volume XXXXX of LNCS, pages XXX--XXX, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf).
