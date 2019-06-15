@@ -228,4 +228,16 @@ The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # 2011
 
+* L. Holik, O. Lengal, J. Simacek, and T. Vojnar.
+[Efficient Inclusion Checking on Explicit and Semi-Symbolic Tree Automata](http://dx.doi.org/10.1007/978-3-642-24372-1_18).
+In *Proc. of 9th International Symposium on Automated Technology for Verification and Analysis* --- [ATVA'11](http://www2.ee.ntu.edu.tw/~atva2011/),
+Taipei, Taiwan,
+volume 6996 of LNCS, pages 243--258, 2011.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva11-downward-incl.pdf).
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+An extended version appeared as the technical report [FIT-TR-2011-04](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2011-04.pdf), FIT BUT, Brno, Czech Republic, 2011.
+
+# 2010
+
 * TBD
