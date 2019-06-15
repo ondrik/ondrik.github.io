@@ -73,13 +73,13 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 Springer-Verlag.
 
 * Y. Chen, O. Lengal, T. Tan, and Z. Wu.
-Register Automata with Linear Arithmetic.
-In *Proc. of 32nd Annual ACM/IEEE Symposium on Logic in Computer Science* --- LICS'17,
+[Register Automata with Linear Arithmetic](http://dx.doi.org/10.1109/LICS.2017.8005111).
+In *Proc. of 32nd Annual ACM/IEEE Symposium on Logic in Computer Science* --- [LICS'17](http://lics.rwth-aachen.de/lics17/),
 Reykjavik, Iceland,
 pages 1--12, 2017.
 IEEE.
-A preliminary version is available here.
-An extended version appeared as the technical report CoRR abs/1704.03972, 2017.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lics17-ra-with-la.pdf).
+An extended version appeared as the technical report [CoRR abs/1704.03972](https://arxiv.org/abs/1704.03972), 2017.
 
 * C. Enea, O. Lengal, M. Sighireanu, and T. Vojnar.
 SPEN: A Solver for Separation Logic.
