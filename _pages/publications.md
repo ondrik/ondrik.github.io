@@ -37,21 +37,21 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 # 2018
 
 * L. Holik, O. Lengal, J. Sic, M. Veanes, and T. Vojnar.
-Simulation Algorithms for Symbolic Automata.
-In *Proc. of 16th International Symposium on Automated Technology for Verification and Analysis* --- ATVA'18,
+[Simulation Algorithms for Symbolic Automata](http://dx.doi.org/10.1007/978-3-030-01090-4_7).
+In *Proc. of 16th International Symposium on Automated Technology for Verification and Analysis* --- [ATVA'18](http://atva-conference.org/),
 Los Angeles, USA,
 volume 11138 of LNCS, pages 109--125, 2018.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report CoRR abs/1807.08487, 2018.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva18-symbolic-simulation.pdf).
+An extended version appeared as the technical report [CoRR abs/1807.08487](https://arxiv.org/abs/1807.08487), 2018.
 
 * Y. Chen, M. Heizmann, O. Lengal, Y. Li, M. Tsai, A. Turrini, and L. Zhang.
-Advanced Automata-based Algorithms for Program Termination Checking.
-In *Proc. of 39th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- PLDI'18,
+[Advanced Automata-based Algorithms for Program Termination Checking](http://dx.doi.org/10.1145/3192366.3192405).
+In *Proc. of 39th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'18](https://conf.researchr.org/home/pldi-2018),
 Philadelphia, PA, USA,
 pages 135--150, 2018.
 ACM.
-A preliminary version is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi18-semidet-buchi-compl.pdf).
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 Approximate Reduction of Finite Automata for High-Speed Network Intrusion Detection.
