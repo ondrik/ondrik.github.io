@@ -197,6 +197,24 @@ An extended version appeared as the technical report [FIT-TR-2014-01](https://gi
 
 # 2013
 
-* P.A. Abdulla, L. Holik, B. Jonsson, O. Lengal, C.Q. Trinh, and T. Vojnar. Verification of Heap Manipulating Programs with Ordered Data by Extended Forest Automata. In Proc. of 11th International Symposium on Automated Technology for Verification and Analysis --- ATVA'13, Hanoi, Vietnam, volume 8172 of LNCS, pages 224--239, 2013. Springer-Verlag. A preliminary version is available here. An extended version appeared as the technical report FIT-TR-2013-02, FIT BUT, Brno, Czech Republic, 2013.
+* P.A. Abdulla, L. Holik, B. Jonsson, O. Lengal, C.Q. Trinh, and T. Vojnar.
+[Verification of Heap Manipulating Programs with Ordered Data by Extended Forest Automata](http://dx.doi.org/10.1007/978-3-319-02444-8_17).
+In *Proc. of 11th International Symposium on Automated Technology for Verification and Analysis* --- [ATVA'13](http://www.uet.vnu.edu.vn/atva2013/),
+Hanoi, Vietnam,
+volume 8172 of LNCS, pages 224--239, 2013.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva13_forester_data.pdf).
+An extended version appeared as the technical report [FIT-TR-2013-02](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2013-02.pdf), FIT BUT, Brno, Czech Republic, 2013.
 
-* L. Holik, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar. Fully Automated Shape Analysis Based on Forest Automata. In Proc. of 25th International Conference on Computer Aided Verification --- CAV'13, Saint Petersburg, Russia, volume 8044 of LNCS, pages 740--755, 2013. Springer-Verlag. A preliminary version is available here. The slides from the presentation are available here.
+* L. Holik, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
+[Fully Automated Shape Analysis Based on Forest Automata](http://dx.doi.org/10.1007/978-3-642-39799-8_52).
+In *Proc. of 25th International Conference on Computer Aided Verification* --- [CAV'13](http://cav2013.forsyte.at/),
+Saint Petersburg, Russia,
+volume 8044 of LNCS, pages 740--755, 2013.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav13-forester-boxing.pdf).
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+
+# 2012
+
+* TBD
