@@ -155,30 +155,34 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 # 2015
 
 * O. Lengal.
-Automata in Infinite-State Formal Verification.
-Ph.D. thesis (an abridged version).
+[Automata in Infinite-State Formal Verification](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal_phd_thesis.pdf).
+Ph.D. thesis ([an abridged version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal_phd_thesis_short.pdf)).
 FIT BUT, Brno, Czech Republic, 2015.
 
 * P.A. Abdulla, L. Holik, B. Jonsson, O. Lengal, C.Q. Trinh, and T. Vojnar.
-Verification of Heap Manipulating Programs with Ordered Data by Extended Forest Automata.
+[Verification of Heap Manipulating Programs with Ordered Data by Extended Forest Automata](http://dx.doi.org/10.1007/s00236-015-0235-0).
 Acta Informatica 53(4), pages 357--385, 2016.
 Springer-Verlag.
-A preliminary version is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/ahjltv-acta-15.pdf).
 
 * T. Fiedor, L. Holik, O. Lengal, and T. Vojnar.
-Nested Antichains for WS1S.
-In Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems --- TACAS'15,
+[Nested Antichains for WS1S](http://dx.doi.org/10.1007/978-3-662-46681-0_59).
+In *Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'15](http://www.etaps.org/2015/tacas),
 London, United Kingdom,
 volume 9035 of LNCS, pages 658--674, 2015.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report FIT-TR-2014-06, FIT BUT, Brno, Czech Republic, 2014.
-The associated tool dWiNA is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas15_ws1s.pdf).
+An extended version appeared as the technical report [FIT-TR-2014-06](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-06.pdf), FIT BUT, Brno, Czech Republic, 2014.
+The associated tool dWiNA is available [here](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/).
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
-Forester: Shape Analysis Using Tree Automata (Competition Contribution).
-In Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems --- TACAS'15,
+[Forester: Shape Analysis Using Tree Automata (Competition Contribution)](http://dx.doi.org/10.1007/978-3-662-46681-0_37).
+In *Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'15](http://www.etaps.org/2015/tacas),
 London, United Kingdom,
 volume 9035 of LNCS, pages 431--434, 2015.
 Springer-Verlag.
-A preliminary version is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas15_forester_svcomp.pdf).
+
+# 2014
+
+* TBD
