@@ -90,13 +90,13 @@ Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/nfm17-spen-toolpaper.pdf).
 
 * Y. Chen, C. Hong, O. Lengal, S. Mu, N. Sinha, and B. Wang.
-An Executable Sequential Specification for Spark Aggregation.
-In *Proc. of 5th International Conference of NETworked sYStems* --- NETYS'17,
+[An Executable Sequential Specification for Spark Aggregation](http://dx.doi.org/10.1007/978-3-319-59647-1_31).
+In *Proc. of 5th International Conference of NETworked sYStems* --- [NETYS'17](http://www.netys.net/),
 Marrakech, Morocco,
 volume 10299 of LNCS, pages 421--438, 2017.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report CoRR abs/1702.02439, 2017.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys17-spark-spec.pdf).
+An extended version appeared as the technical report [CoRR abs/1702.02439](https://arxiv.org/abs/1702.02439), 2017.
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
 Forester: From Heap Shapes to Automata Predicates (Competition Contribution).
