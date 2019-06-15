@@ -82,12 +82,12 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/1704.03972](https://arxiv.org/abs/1704.03972), 2017.
 
 * C. Enea, O. Lengal, M. Sighireanu, and T. Vojnar.
-SPEN: A Solver for Separation Logic.
-In *Proc. of 9th NASA Formal Methods Symposium* --- NFM'17,
+[SPEN: A Solver for Separation Logic](http://dx.doi.org/10.1007/978-3-319-57288-8_22).
+In *Proc. of 9th NASA Formal Methods Symposium* --- [NFM'17](https://ti.arc.nasa.gov/events/nfm-2017/),
 NASA Ames Research Center, Moffett Field, CA, USA,
 volume 10227 of LNCS,pages 302--309, 2017.
 Springer-Verlag.
-A preliminary version is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/nfm17-spen-toolpaper.pdf).
 
 * Y. Chen, C. Hong, O. Lengal, S. Mu, N. Sinha, and B. Wang.
 An Executable Sequential Specification for Spark Aggregation.
