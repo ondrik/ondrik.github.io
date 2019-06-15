@@ -185,4 +185,16 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 
 # 2014
 
+* C. Enea, O. Lengal, M. Sighireanu, and T. Vojnar.
+[Compositional Entailment Checking for a Fragment of Separation Logic](http://dx.doi.org/10.1007/978-3-319-12736-1_17).
+In *Proc. of 12th Asian Symposium on Programming Languages and Systems* --- [APLAS'14](http://www.math.nagoya-u.ac.jp/~garrigue/APLAS2014/),
+Singapore, Singapore,
+volume 8858 of LNCS, pages 314--333, 2014.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas14_seplog_decproc.pdf).
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+An extended version appeared as the technical report [FIT-TR-2014-01](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-01.pdf), FIT BUT, Brno, Czech Republic, 2014.
+
+# 2013
+
 * TBD
