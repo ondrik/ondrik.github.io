@@ -54,14 +54,14 @@ ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi18-semidet-buchi-compl.pdf).
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
-Approximate Reduction of Finite Automata for High-Speed Network Intrusion Detection.
-In *Proc. of 24th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- TACAS'18,
+[Approximate Reduction of Finite Automata for High-Speed Network Intrusion Detection](http://dx.doi.org/10.1007/978-3-319-89963-3_9).
+In *Proc. of 24th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'18](https://www.etaps.org/index.php/2018/tacas),
 Thessaloniki, Greece,
 volume 10806 of LNCS,
 pages 155--175, 2018.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report CoRR abs/1710.08647, 2018.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas18-approximate-reduction.pdf).
+An extended version appeared as the technical report [CoRR abs/1710.08647](https://arxiv.org/abs/1710.08647), 2018.
 
 # 2017
 
