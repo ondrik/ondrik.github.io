@@ -217,4 +217,15 @@ The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # 2012
 
+* O. Lengal, J. Simacek, and T. Vojnar.
+[VATA: A Library for Efficient Manipulation of Non-Deterministic Tree Automata](http://dx.doi.org/10.1007/978-3-642-28756-5_7).
+In *Proc. of 18th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'12](http://www.etaps.org/2012/tacas),
+Tallinn, Estonia,
+volume 7214 of LNCS, pages 79--94, 2012.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas12-vata.pdf).
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+
+# 2011
+
 * TBD
