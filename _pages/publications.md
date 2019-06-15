@@ -99,21 +99,21 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/1702.02439](https://arxiv.org/abs/1702.02439), 2017.
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
-Forester: From Heap Shapes to Automata Predicates (Competition Contribution).
-In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- TACAS'17,
+[Forester: From Heap Shapes to Automata Predicates (Competition Contribution)](http://dx.doi.org/10.1007/978-3-662-54580-5_24).
+In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'17](http://www.etaps.org/index.php/2017/tacas),
 Uppsala, Sweden,
 volume 10206 of LNCS, pages 365--369, 2017.
 Springer-Verlag.
-A preliminary version is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-forester-svcomp.pdf).
 
 * O. Lengal, A.W. Lin, R. Majumdar, and P. Ruemmer.
-Fair Termination for Parameterized Probabilistic Concurrent Systems.
-In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- TACAS'17,
+[Fair Termination for Parameterized Probabilistic Concurrent Systems](http://dx.doi.org/10.1007/978-3-662-54577-5_29).
+In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'17](http://www.etaps.org/index.php/2017/tacas),
 Uppsala, Sweden,
 volume 10205 of LNCS, pages 499--517, 2017.
 Springer-Verlag.
-A preliminary version is available here.
-The slides from the presentation are available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-fairness.pdf).
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
 
 * T. Fiedor, L. Holik, P. Janku, O. Lengal, and T. Vojnar.
 Lazy Automata Techniques for WS1S.
