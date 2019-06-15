@@ -240,4 +240,11 @@ An extended version appeared as the technical report [FIT-TR-2011-04](https://gi
 
 # 2010
 
-* TBD
+* O. Lengal.
+[An Efficient Finite Tree Automata Library](https://github.com/ondrik/ondrik.github.io/raw/master/publications/masters_thesis.pdf).
+Master's thesis.
+FIT BUT, Brno, Czech Republic, 2010.
+
+# 2009
+
+* J. Kastil, J. Korenek, and O. Lengal. Methodology for Fast Pattern Matching by Deterministic Finite Automaton with Perfect Hashing. In Proc. of 12th Euromicro Conference on Digital System Design, Architectures, Methods and Tools --- DSD'09, Patras, Greece, 2009. IEEE.
