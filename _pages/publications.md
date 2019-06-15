@@ -66,10 +66,10 @@ An extended version appeared as the technical report [CoRR abs/1710.08647](https
 # 2017
 
 * C. Enea, O. Lengal, M. Sighireanu, and T. Vojnar.
-Compositional Entailment Checking for a Fragment of Separation Logic.
+[Compositional Entailment Checking for a Fragment of Separation Logic](http://dx.doi.org/10.1007/s10703-017-0289-4).
 Formal Methods in System Design 51(3),
 pages 575--607, 2017.
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/elsv-fmsd17-spen.pdf).
 Springer-Verlag.
 
 * Y. Chen, O. Lengal, T. Tan, and Z. Wu.
