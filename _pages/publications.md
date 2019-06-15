@@ -137,4 +137,21 @@ An extended version appeared as the technical report [FIT-TR-2016-03](https://gi
 
 # 2016
 
+* Y. Chen, C. Hsieh, O. Lengal, T. Lii, M. Tsai, B. Wang, and F. Wang.
+[PAC Learning-Based Verification and Model Synthesis](http://dx.doi.org/10.1145/2884781.2884860).
+In *Proc. of 38th International Conference on Software Engineering* --- [ICSE'16](http://2016.icse.cs.txstate.edu/),
+Austin, Texas, pages 714--724, 2016.
+ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/icse16-pac-learning.pdf).
+
+* L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
+[Run Forester! Run Backwads! (Competition Contribution)](http://dx.doi.org/10.1007/978-3-662-49674-9_61).
+In *Proc. of 22nd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'16](http://www.etaps.org/2016/tacas),
+Eindhoven, Netherlands,
+volume 9636 of LNCS, pages 923--926, 2016.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas16-forester-svcomp.pdf).
+
+# 2015
+
 * TBD
