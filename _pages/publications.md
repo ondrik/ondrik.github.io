@@ -154,4 +154,31 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 
 # 2015
 
-* TBD
+* O. Lengal.
+Automata in Infinite-State Formal Verification.
+Ph.D. thesis (an abridged version).
+FIT BUT, Brno, Czech Republic, 2015.
+
+* P.A. Abdulla, L. Holik, B. Jonsson, O. Lengal, C.Q. Trinh, and T. Vojnar.
+Verification of Heap Manipulating Programs with Ordered Data by Extended Forest Automata.
+Acta Informatica 53(4), pages 357--385, 2016.
+Springer-Verlag.
+A preliminary version is available here.
+
+* T. Fiedor, L. Holik, O. Lengal, and T. Vojnar.
+Nested Antichains for WS1S.
+In Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems --- TACAS'15,
+London, United Kingdom,
+volume 9035 of LNCS, pages 658--674, 2015.
+Springer-Verlag.
+A preliminary version is available here.
+An extended version appeared as the technical report FIT-TR-2014-06, FIT BUT, Brno, Czech Republic, 2014.
+The associated tool dWiNA is available here.
+
+* L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
+Forester: Shape Analysis Using Tree Automata (Competition Contribution).
+In Proc. of 21st International Conference on Tools and Algorithms for the Construction and Analysis of Systems --- TACAS'15,
+London, United Kingdom,
+volume 9035 of LNCS, pages 431--434, 2015.
+Springer-Verlag.
+A preliminary version is available here.
