@@ -116,21 +116,25 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
 
 * T. Fiedor, L. Holik, P. Janku, O. Lengal, and T. Vojnar.
-Lazy Automata Techniques for WS1S.
-In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- TACAS'17,
+[Lazy Automata Techniques for WS1S](http://dx.doi.org/10.1007/978-3-662-54577-5_24).
+In *Proc. of 23rd International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'17](http://www.etaps.org/index.php/2017/tacas),
 Uppsala, Sweden,
 volume 10205 of LNCS, pages 407--425, 2017.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report CoRR abs/1701.06282, 2017.
-The slides from the presentation are available here.
-The associated tool Gaston is available here.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-ws1s-lazy.pdf).
+An extended version appeared as the technical report [CoRR abs/1701.06282](https://arxiv.org/abs/1701.06282), 2017.
+The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The associated tool Gaston is available [here](http://www.fit.vutbr.cz/research/groups/verifit/tools/gaston/).
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, and T. Vojnar.
-Counterexample Validation and Interpolation-Based Refinement for Forest Automata.
-In *Proc. of 18th International Conference on Verification, Model Checking, and Abstract Interpretation* --- VMCAI'17,
+[Counterexample Validation and Interpolation-Based Refinement for Forest Automata](http://dx.doi.org/10.1007/978-3-319-52234-0_16).
+In *Proc. of 18th International Conference on Verification, Model Checking, and Abstract Interpretation* --- [VMCAI'17](http://conf.researchr.org/home/VMCAI-2017),
 Paris, France,
 volume 10145 of LNCS, pages 288--309, 2017.
 Springer-Verlag.
-A preliminary version is available here.
-An extended version appeared as the technical report FIT-TR-2016-03, FIT BUT, Brno, Czech Republic, 2016
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/vmcai17-forester-pred-abstr.pdf).
+An extended version appeared as the technical report [FIT-TR-2016-03](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2016-03.pdf), FIT BUT, Brno, Czech Republic, 2016
+
+# 2016
+
+* TBD
