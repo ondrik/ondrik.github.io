@@ -250,8 +250,8 @@ FIT BUT, Brno, Czech Republic, 2010.
 * J. Kastil, J. Korenek, and O. Lengal.
 [Methodology for Fast Pattern Matching by Deterministic Finite Automaton with Perfect Hashing](https://github.com/ondrik/ondrik.github.io/raw/master/publications/dsd09-perfect-hashing.pdf).
 In *Proc. of 12th Euromicro Conference on Digital System Design, Architectures, Methods and Tools* --- [DSD'09](http://www.iuma.ulpgc.es/dsd09/),
-Patras, Greece,
-2009. IEEE.
+Patras, Greece, 2009.
+IEEE.
 
 # 2008
 
