@@ -10,7 +10,7 @@ classes: wide
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of the 27th International Conference on Automated Deduction* --- [CADE-27](https://www.mat.ufrn.br/cade-27),
 Natal, Brazil,
-volume XXXXX of LNCS, pages XXX--XXX, 2019. Springer-Verlag.
+volume 11716 of LNCS, pages XXX--XXX, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf).
 An extended version appeared as the technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697), 2019.
 [incomplete reference]
