@@ -2,6 +2,7 @@
 permalink: /cv/
 published: true
 title: CV
+toc: true
 ---
 * **2016--now:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica, Taiwan](https://www.iis.sinica.edu.tw), Republic of China
