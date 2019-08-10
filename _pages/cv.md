@@ -1,7 +1,4 @@
----
-permalink: /cv/
----
-# Membership
+## Membership
 
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
@@ -13,7 +10,7 @@ permalink: /cv/
   * [SV-COMP'15](https://sv-comp.sosy-lab.org/2015/index.php)
 * The fan club of Ondra Lengál
 
-# Links
+## Links
 
 * [Google Scholar](https://scholar.google.com/citations?user=m3bsxv4AAAAJ)
 * [DBLP](https://dblp.uni-trier.de/pers/hd/l/Leng=aacute=l:Ondrej)
