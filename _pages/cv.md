@@ -1,3 +1,6 @@
+---
+permalink: /cv/
+---
 # Membership
 
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
@@ -16,4 +19,3 @@
 * [DBLP](https://dblp.uni-trier.de/pers/hd/l/Leng=aacute=l:Ondrej)
 * [ORCID](https://www.orcid.org/0000-0002-3038-5875)
 * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=24822331700)
-
