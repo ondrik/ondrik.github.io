@@ -3,7 +3,9 @@ permalink: /cv/
 published: true
 title: CV
 ---
-# Membership
+* **2016--now:** assistant professor at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
+
+## Membership
 
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
