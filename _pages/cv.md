@@ -1,3 +1,7 @@
+---
+permalink: /cv/
+published: true
+---
 ## Membership
 
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
