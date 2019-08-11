@@ -6,6 +6,8 @@ main:
     url: /
   - title: "CV"
     url: /cv/
+  - title: "Tools"
+    url: /tools/
   - title: "Publications"
     url: /publications/
   # - title: "Sample Posts"
