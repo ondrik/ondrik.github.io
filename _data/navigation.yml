@@ -6,10 +6,10 @@ main:
     url: /
   - title: "CV"
     url: /cv/
-  - title: "Tools"
-    url: /tools/
   - title: "Publications"
     url: /publications/
+  - title: "Tools"
+    url: /tools/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
