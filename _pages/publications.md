@@ -32,6 +32,7 @@ In *Proc. of the 27th International Conference on Automated Deduction* --- [CADE
 Natal, Brazil,
 volume 11716 of LNAI, pages 300--318, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf).
+**Best Paper of CADE-27**.
 An extended version appeared as the technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697), 2019.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cade19-automata-terms.pdf).
 
