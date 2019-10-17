@@ -13,7 +13,7 @@ Natal, Brazil,
 volume 11716 of LNAI, pages 295--311, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf).
 An extended version appeared as the technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697), 2019.
-[incomplete reference]
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cade19-automata-terms.pdf).
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
