@@ -14,7 +14,7 @@ volume XXXXX of LNCS, pages YYY--ZZZ, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-buchi-compl-simulation.pdf).
 An extended version appeared as the technical report [CoRR abs/1905.07139](https://arxiv.org/abs/1905.07139), 2019.
 The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-[incomplete reference]
+**[incomplete reference]**
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18).
@@ -29,7 +29,7 @@ The slides from the presentation are available [here](https://github.com/ondrik/
 [Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
 International Journal on Software Tools for Technology Transfer (STTT) 0(0), pages 1--17, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/chhlv-sttt-19-problomata.pdf).
-[incomplete reference]
+**[incomplete reference]**
 
 * M. Ceska, V. Havlena, L. Holik, J. Korenek O. Lengal, D. Matousek, J. Matousek, J. Semric, and T. Vojnar. [Deep Packet Inspection in FPGAs via Approximate Nondeterministic Automata](http://dx.doi.org/10.1109/FCCM.2019.00025).
 In *Proc. of 27th IEEE International Symposium On Field-Programmable Custom Computing Machines* --- [FCCM'19](http://www.fccm.org/),
