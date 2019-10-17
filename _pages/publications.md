@@ -6,9 +6,19 @@ classes: wide
 ---
 # 2019
 
+* Y. Chen, V. Havlena, and O. Lengal.
+[Simulations in Rank-Based Büchi Automata Complementation](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
+Nusa Dua, Bali, Indonesia,
+volume XXXXX of LNCS, pages YYY--ZZZ, 2019. Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-buchi-compl-simulation.pdf).
+An extended version appeared as the technical report [CoRR abs/1905.07139](https://arxiv.org/abs/1905.07139), 2019.
+The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[incomplete reference]
+
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18).
-To appear in *Proc. of the 27th International Conference on Automated Deduction* --- [CADE-27](https://www.mat.ufrn.br/cade-27),
+In *Proc. of the 27th International Conference on Automated Deduction* --- [CADE-27](https://www.mat.ufrn.br/cade-27),
 Natal, Brazil,
 volume 11716 of LNAI, pages 300--318, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf).
