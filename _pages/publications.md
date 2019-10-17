@@ -6,6 +6,16 @@ classes: wide
 ---
 # 2019
 
+* L. Holik, O. Lengal, O. Saarikivi, L. Turonova, M. Veanes, and T. Vojnar.
+[Succinct Determinisation of Counting Automata via Sphere Construction](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
+Nusa Dua, Bali, Indonesia,
+volume XXXXX of LNCS, pages YYY--ZZZ, 2019. Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-counting-automata.pdf).
+An extended version appeared as the technical report [CoRR abs/1910.01996](https://arxiv.org/abs/1910.01996), 2019.
+The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+**[incomplete reference]**
+
 * Y. Chen, V. Havlena, and O. Lengal.
 [Simulations in Rank-Based Büchi Automata Complementation](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
