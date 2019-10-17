@@ -13,6 +13,7 @@ toc: true
 
 ## Membership
 
+* [AVM'19](https://avm19.fit.vutbr.cz) co-organiser (together with [Tomáš Vojnar](https://www.fit.vutbr.cz/~vojnar) and [Jan Strejček](https://www.fi.muni.cz/~xstrejc/))
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
