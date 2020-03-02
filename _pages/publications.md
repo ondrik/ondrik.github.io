@@ -7,24 +7,22 @@ classes: wide
 # 2019
 
 * L. Holik, O. Lengal, O. Saarikivi, L. Turonova, M. Veanes, and T. Vojnar.
-[Succinct Determinisation of Counting Automata via Sphere Construction](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
+[Succinct Determinisation of Counting Automata via Sphere Construction](http://dx.doi.org/10.1007/978-3-030-34175-6_24).
+In *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
 Nusa Dua, Bali, Indonesia,
-volume 11893 of LNCS, pages YYY--ZZZ, 2019. Springer-Verlag.
+volume 11893 of LNCS, pages 468--489, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-counting-automata.pdf).
 An extended version appeared as the technical report [CoRR abs/1910.01996](https://arxiv.org/abs/1910.01996), 2019.
 The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-**[incomplete reference]**
 
 * Y. Chen, V. Havlena, and O. Lengal.
-[Simulations in Rank-Based Büchi Automata Complementation](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
+[Simulations in Rank-Based Büchi Automata Complementation](http://dx.doi.org/10.1007/978-3-030-34175-6_23).
+In *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- [APLAS'19](https://conf.researchr.org/home/aplas-2019),
 Nusa Dua, Bali, Indonesia,
-volume 11893 of LNCS, pages YYY--ZZZ, 2019. Springer-Verlag.
+volume 11893 of LNCS, pages 447--467, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-buchi-compl-simulation.pdf).
 An extended version appeared as the technical report [CoRR abs/1905.07139](https://arxiv.org/abs/1905.07139), 2019.
 The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-**[incomplete reference]**
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18).
