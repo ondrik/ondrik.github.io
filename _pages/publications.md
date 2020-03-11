@@ -132,6 +132,7 @@ Uppsala, Sweden,
 volume 10205 of LNCS, pages 499--517, 2017.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-fairness.pdf).
+An extended version appeared as the technical report [CoRR abs/1710.10756](https://arxiv.org/abs/1710.10756), 2017.
 The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
 
 * T. Fiedor, L. Holik, P. Janku, O. Lengal, and T. Vojnar.
