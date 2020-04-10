@@ -192,6 +192,7 @@ London, United Kingdom,
 volume 9035 of LNCS, pages 658--674, 2015.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas15_ws1s.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas15-ws1s-antichains.pdf).
 An extended version appeared as the technical report [FIT-TR-2014-06](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-06.pdf), FIT BUT, Brno, Czech Republic, 2014.
 The associated tool dWiNA is available [here](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/).
 
