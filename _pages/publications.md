@@ -22,7 +22,7 @@ Nusa Dua, Bali, Indonesia,
 volume 11893 of LNCS, pages 447--467, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-buchi-compl-simulation.pdf).
 An extended version appeared as the technical report [CoRR abs/1905.07139](https://arxiv.org/abs/1905.07139), 2019.
-The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/aplas19-buchi-compl.pdf).
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18).
@@ -45,7 +45,9 @@ In *Proc. of 27th IEEE International Symposium On Field-Programmable Custom Comp
 San Diego, USA,
 pages 109--117, 2019.
 IEEE.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fccm19-hw-nfa-reductions.pdf). An extended version appeared as the technical report [CoRR abs/1904.10786](https://arxiv.org/abs/1904.10786).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fccm19-hw-nfa-reductions.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fccm19-hw-nfa-reduction.pdf).
+An extended version appeared as the technical report [CoRR abs/1904.10786](https://arxiv.org/abs/1904.10786).
 
 * T. Fiedor, L. Holik, O. Lengal, and T. Vojnar. [Nested Antichains for WS1S](http://dx.doi.org/10.1007/s00236-018-0331-z).
 Acta Informatica 56(3),
@@ -80,6 +82,7 @@ volume 10806 of LNCS,
 pages 155--175, 2018.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas18-approximate-reduction.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas18-nfa-approx-red-presentation.pdf).
 An extended version appeared as the technical report [CoRR abs/1710.08647](https://arxiv.org/abs/1710.08647), 2018.
 
 # 2017
