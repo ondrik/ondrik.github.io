@@ -4,6 +4,18 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2020
+
+* V. Havlena, L. Holik, O. Lengal, O. Vales, and T. Vojnar.
+[Antiprenexing for WSkS: A Little Goes a Long Way](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
+volume XXXX of EPiC, pages YYY--ZZZ, 2020. Easychair.
+A preliminary version is available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+An extended version appeared as the technical report [CoRR abs/XXXX.ZZZZZZ](https://arxiv.org/abs/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX), 2020.
+The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+**[incomplete reference]**
+
+
 # 2019
 
 * L. Holik, O. Lengal, O. Saarikivi, L. Turonova, M. Veanes, and T. Vojnar.
