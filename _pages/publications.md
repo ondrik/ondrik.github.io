@@ -244,7 +244,7 @@ Tallinn, Estonia,
 volume 7214 of LNCS, pages 79--94, 2012.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas12-vata.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas12-vata.pdf).
 
 # 2011
 
