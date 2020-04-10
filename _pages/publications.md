@@ -255,7 +255,7 @@ Taipei, Taiwan,
 volume 6996 of LNCS, pages 243--258, 2011.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva11-downward-incl.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/atva11-symbolicTA.pdf).
 An extended version appeared as the technical report [FIT-TR-2011-04](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2011-04.pdf), FIT BUT, Brno, Czech Republic, 2011.
 
 # 2010
