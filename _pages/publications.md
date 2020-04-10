@@ -115,6 +115,7 @@ Marrakech, Morocco,
 volume 10299 of LNCS, pages 421--438, 2017.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys17-spark-spec.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys17-spark-commutativity.pdf).
 An extended version appeared as the technical report [CoRR abs/1702.02439](https://arxiv.org/abs/1702.02439), 2017.
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
@@ -132,8 +133,9 @@ Uppsala, Sweden,
 volume 10205 of LNCS, pages 499--517, 2017.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-fairness.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas17-fairness.pdf).
 An extended version appeared as the technical report [CoRR abs/1710.10756](https://arxiv.org/abs/1710.10756), 2017.
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+
 
 * T. Fiedor, L. Holik, P. Janku, O. Lengal, and T. Vojnar.
 [Lazy Automata Techniques for WS1S](http://dx.doi.org/10.1007/978-3-662-54577-5_24).
@@ -143,7 +145,7 @@ volume 10205 of LNCS, pages 407--425, 2017.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-ws1s-lazy.pdf).
 An extended version appeared as the technical report [CoRR abs/1701.06282](https://arxiv.org/abs/1701.06282), 2017.
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas17-lazy-automata-ws1s.pdf).
 The associated tool Gaston is available [here](http://www.fit.vutbr.cz/research/groups/verifit/tools/gaston/).
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, and T. Vojnar.
