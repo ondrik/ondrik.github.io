@@ -212,7 +212,7 @@ Singapore, Singapore,
 volume 8858 of LNCS, pages 314--333, 2014.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas14_seplog_decproc.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/aplas14_seplog_decproc.pdf).
 An extended version appeared as the technical report [FIT-TR-2014-01](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-01.pdf), FIT BUT, Brno, Czech Republic, 2014.
 
 # 2013
@@ -233,7 +233,7 @@ Saint Petersburg, Russia,
 volume 8044 of LNCS, pages 740--755, 2013.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav13-forester-boxing.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav13_forester_learning.pdf).
 
 # 2012
 
@@ -244,7 +244,7 @@ Tallinn, Estonia,
 volume 7214 of LNCS, pages 79--94, 2012.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas12-vata.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas12-vata.pdf).
 
 # 2011
 
@@ -255,7 +255,7 @@ Taipei, Taiwan,
 volume 6996 of LNCS, pages 243--258, 2011.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva11-downward-incl.pdf).
-The slides from the presentation are available here XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/atva11-symbolicTA.pdf).
 An extended version appeared as the technical report [FIT-TR-2011-04](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2011-04.pdf), FIT BUT, Brno, Czech Republic, 2011.
 
 # 2010
