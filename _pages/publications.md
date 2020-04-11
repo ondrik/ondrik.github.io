@@ -23,8 +23,8 @@ In *Proc. of the 17th Asian Symposium on Programming Languages and Systems* --- 
 Nusa Dua, Bali, Indonesia,
 volume 11893 of LNCS, pages 468--489, 2019. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas19-counting-automata.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/aplas19-counting-aut.pdf).
 An extended version appeared as the technical report [CoRR abs/1910.01996](https://arxiv.org/abs/1910.01996), 2019.
-The slides from the presentation are available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 
 * Y. Chen, V. Havlena, and O. Lengal.
 [Simulations in Rank-Based Büchi Automata Complementation](http://dx.doi.org/10.1007/978-3-030-34175-6_23).
