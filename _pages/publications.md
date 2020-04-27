@@ -10,7 +10,7 @@ classes: wide
 [Antiprenexing for WSkS: A Little Goes a Long Way](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
 volume XXXX of EPiC, pages YYY--ZZZ, 2020. Easychair.
-A preliminary version is available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lpar19-wsks-antiprenex.pdf).
 **[incomplete reference]**
 
 
