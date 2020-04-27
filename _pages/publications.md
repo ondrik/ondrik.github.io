@@ -11,7 +11,6 @@ classes: wide
 To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
 volume XXXX of EPiC, pages YYY--ZZZ, 2020. Easychair.
 A preliminary version is available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-An extended version appeared as the technical report [CoRR abs/XXXX.ZZZZZZ](https://arxiv.org/abs/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX), 2020.
 **[incomplete reference]**
 
 
