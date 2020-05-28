@@ -11,7 +11,6 @@ classes: wide
 To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
 volume 73 of EPiC, pages 298--316, 2020. Easychair.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lpar19-wsks-antiprenex.pdf).
-**[incomplete reference]**
 
 
 # 2019
