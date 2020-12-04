@@ -6,6 +6,15 @@ classes: wide
 ---
 # 2020
 
+* L. Turonova, L. Holik, O. Lengal, O. Saarikivi, M. Veanes, and T. Vojnar.
+[Regex Matching with Counting-Set Automata
+](http://dx.doi.org/10.1145/3428286).
+In *Proc. of the ACM on Programming Languages* --- [OOPLSA'20](https://conf.researchr.org/home/aplas-2019) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
+volume 4 of PACMPL, article number 218. ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf).
+A recording of the talk is available [here](https://youtu.be/bICOrgqkF40).
+An extended version appeared as the technical report [MSR-TR-2020-31](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft, 2020.
+
 * V. Havlena, L. Holik, O. Lengal, O. Vales, and T. Vojnar.
 [Antiprenexing for WSkS: A Little Goes a Long Way](https://doi.org/10.29007/6bfc).
 To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
