@@ -9,7 +9,7 @@ classes: wide
 * L. Turonova, L. Holik, O. Lengal, O. Saarikivi, M. Veanes, and T. Vojnar.
 [Regex Matching with Counting-Set Automata
 ](http://dx.doi.org/10.1145/3428286).
-In *Proc. of the ACM on Programming Languages* --- [OOPLSA'20](https://conf.researchr.org/home/aplas-2019) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
+In *Proc. of the ACM on Programming Languages* --- [OOPLSA'20](https://2020.splashcon.org/track/splash-2020-oopsla) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
 volume 4 of PACMPL, article number 218. ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf).
 A recording of the talk is available [here](https://youtu.be/bICOrgqkF40).
