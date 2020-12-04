@@ -23,6 +23,11 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 A recording of the talk is available [here](https://youtu.be/bICOrgqkF40).
 An extended version appeared as the technical report [MSR-TR-2020-31](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft, 2020.
 
+* M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
+[Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
+International Journal on Software Tools for Technology Transfer (STTT) 22(5), pages 523--539, 2020. Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/chhlv-sttt-19-problomata.pdf).
+
 * V. Havlena, L. Holik, O. Lengal, O. Vales, and T. Vojnar.
 [Antiprenexing for WSkS: A Little Goes a Long Way](https://doi.org/10.29007/6bfc).
 To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
@@ -59,12 +64,6 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 **Best Paper of CADE-27**.
 An extended version appeared as the technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697), 2019.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cade19-automata-terms.pdf).
-
-* M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
-[Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
-International Journal on Software Tools for Technology Transfer (STTT) 0(0), pages 1--17, 2019. Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/chhlv-sttt-19-problomata.pdf).
-**[incomplete reference]**
 
 * M. Ceska, V. Havlena, L. Holik, J. Korenek O. Lengal, D. Matousek, J. Matousek, J. Semric, and T. Vojnar. [Deep Packet Inspection in FPGAs via Approximate Nondeterministic Automata](http://dx.doi.org/10.1109/FCCM.2019.00025).
 In *Proc. of 27th IEEE International Symposium On Field-Programmable Custom Computing Machines* --- [FCCM'19](http://www.fccm.org/),
