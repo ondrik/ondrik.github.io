@@ -4,9 +4,22 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2021
+
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 9th International Conference of NETworked sYStems* --- [NETYS'21](http://www.netys.net/),
+virtual conference,
+volume YYYYY of LNCS, pages WWW--ZZZ, 2021.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys21-deciding-s1s.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys21-deciding-s1s.pdf).
+A recording of the talk is available [here](https://www.youtube.com/watch?v=TLmQ2TXAoLs).
+**INCOMPLETE REFERENCE**
+
 # 2020
 
-* Y. Chen, V. Havlena, O. Lengal, and Andrea Turrini.
+* Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
 [A Symbolic Algorithm for the Case-Split Rule in String Constraint Solving](https://doi.org/10.1007/978-3-030-64437-6_18).
 In *Proc. of the 18th Asian Symposium on Programming Languages and Systems* --- [APLAS'20](https://conf.researchr.org/home/aplas-2020),
 Fukuoka, Japan,
