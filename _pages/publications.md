@@ -4,6 +4,22 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2021
+
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 9th International Conference of NETworked sYStems* --- [NETYS'21](http://www.netys.net/),
+virtual conference,
+volume YYYYY of LNCS, pages WWW--ZZZ, 2021.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys21-deciding-s1s.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys21-deciding-s1s.pdf).
+A recording of the talk is available [here](https://www.youtube.com/watch?v=TLmQ2TXAoLs).
+**INCOMPLETE REFERENCE**
+
+# 2020
+
+* Y. Chen, V. Havlena, O. Lengal, and Andrea Turrini.
 # 2020
 
 * Y. Chen, V. Havlena, O. Lengal, and Andrea Turrini.
@@ -138,7 +154,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 
 * Y. Chen, C. Hong, O. Lengal, S. Mu, N. Sinha, and B. Wang.
 [An Executable Sequential Specification for Spark Aggregation](http://dx.doi.org/10.1007/978-3-319-59647-1_31).
-In *Proc. of 5th International Conference of NETworked sYStems* --- [NETYS'17](http://www.netys.net/),
+In *Proc. of 5th International Conference of NETworked sYStems* --- [NETYS'17](http://netys.net/history/netys2017/),
 Marrakech, Morocco,
 volume 10299 of LNCS, pages 421--438, 2017.
 Springer-Verlag.
