@@ -19,10 +19,7 @@ A recording of the talk is available [here](https://www.youtube.com/watch?v=TLmQ
 
 # 2020
 
-* Y. Chen, V. Havlena, O. Lengal, and Andrea Turrini.
-# 2020
-
-* Y. Chen, V. Havlena, O. Lengal, and Andrea Turrini.
+* Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
 [A Symbolic Algorithm for the Case-Split Rule in String Constraint Solving](https://doi.org/10.1007/978-3-030-64437-6_18).
 In *Proc. of the 18th Asian Symposium on Programming Languages and Systems* --- [APLAS'20](https://conf.researchr.org/home/aplas-2020),
 Fukuoka, Japan,
