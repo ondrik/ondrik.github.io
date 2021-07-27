@@ -6,6 +6,15 @@ classes: wide
 ---
 # 2021
 
+* V. Havlena and O. Lengal.
+[Reducing (to) the Ranks: Efficient Rank-based Büchi Automata Complementation](https://doi.org/10.4230/LIPIcs.CONCUR.2021.9).
+In *Proc. of 32nd International Conference on Concurrency Theory* --- [CONCUR'21](https://qonfest2021.lacl.fr/concur21.php),
+virtual conference,
+volume 203 of LIPIcs, article 9, pages 9:1--9:19, 2021.
+Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur21-reducing-ranks.pdf).
+An extended version appeared as the technical report [CoRR abs/2010.07834](https://arxiv.org/abs/2010.07834), 2020.
+**INCOMPLETE REFERENCE**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
