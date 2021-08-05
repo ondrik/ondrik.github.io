@@ -6,6 +6,12 @@ classes: wide
 ---
 # 2021
 
+* V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
+[Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/s10817-021-09597-w).
+Journal of Automated Reasoning (JAR) XXX(YYY), pages WWW--ZZZ, 2021. Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/jar-21-lazy-wsks.pdf).
+**INCOMPLETE REFERENCE**
+
 * V. Havlena and O. Lengal.
 [Reducing (to) the Ranks: Efficient Rank-based Büchi Automata Complementation](https://doi.org/10.4230/LIPIcs.CONCUR.2021.9).
 In *Proc. of 32nd International Conference on Concurrency Theory* --- [CONCUR'21](https://qonfest2021.lacl.fr/concur21.php),
