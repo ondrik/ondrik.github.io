@@ -20,6 +20,9 @@ volume 203 of LIPIcs, article 2, pages 2:1--2:19, 2021.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur21-reducing-ranks.pdf).
 An extended version appeared as the technical report [CoRR abs/2010.07834](https://arxiv.org/abs/2010.07834), 2020.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur21-reducing-ranks.pdf).
+A video teaser is avialable [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+A video with the presentation is available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 **INCOMPLETE REFERENCE**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
