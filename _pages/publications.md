@@ -8,7 +8,7 @@ classes: wide
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/s10817-021-09597-w).
-Journal of Automated Reasoning (JAR) XXX(YYY), pages WWW--ZZZ, 2021. Springer-Verlag.
+Journal of Automated Reasoning (JAR) 65(7), pages WWW--ZZZ, 2021. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/jar-21-lazy-wsks.pdf).
 **INCOMPLETE REFERENCE**
 
