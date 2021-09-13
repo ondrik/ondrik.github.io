@@ -20,9 +20,8 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur21-reducing-ranks.pdf).
 An extended version appeared as the technical report [CoRR abs/2010.07834](https://arxiv.org/abs/2010.07834), 2020.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur21-reducing-ranks.pdf).
-A video teaser is avialable [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-A video with the presentation is available [here](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-**INCOMPLETE REFERENCE**
+A video teaser is avialable [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
+A video with the presentation is available [here](https://www.youtube.com/watch?v=wX-U8V8NAbc).
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
@@ -32,7 +31,7 @@ volume YYYYY of LNCS, pages WWW--ZZZ, 2021.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys21-deciding-s1s.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys21-deciding-s1s.pdf).
-A recording of the talk is available [here](https://www.youtube.com/watch?v=TLmQ2TXAoLs).
+A video with the presentation is available [here](https://www.youtube.com/watch?v=TLmQ2TXAoLs).
 **INCOMPLETE REFERENCE**
 
 # 2020
