@@ -8,9 +8,8 @@ classes: wide
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/s10817-021-09597-w).
-Journal of Automated Reasoning (JAR) XXX(YYY), pages WWW--ZZZ, 2021. Springer-Verlag.
+Journal of Automated Reasoning (JAR) 65(7), pages 971--999, 2021. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/jar-21-lazy-wsks.pdf).
-**INCOMPLETE REFERENCE**
 
 * V. Havlena and O. Lengal.
 [Reducing (to) the Ranks: Efficient Rank-based Büchi Automata Complementation](https://doi.org/10.4230/LIPIcs.CONCUR.2021.2).
