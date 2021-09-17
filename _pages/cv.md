@@ -31,6 +31,13 @@ toc: true
 ## Awards
 
 * Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
+* Prize of Antonín Svoboda for the best PhD thesis in Computer Science (Czech Republic, 2016)
+* A co-authored separation logic solver SPEN won the division `qf_shlid_ent` of international Competition of Solvers for Separation Logic (SL-COMP) 2014 and was the second in divisions `qf_shls_entl` and `qf_shls_sat` in both SL-COMP 2014 and SL-COMP 2018.
+* First place at MSc Thesis of the Year competition (Czech Republic, 2010)
+* Dean's prize for MSc thesis (FIT BUT, 2010)
+* Prize of Zdena Rábová (a prize for exceptional students at FIT BUT, 2009)
+* Two first place awards at a local student research competition (EEICT 2008, EEICT 2010)
+* GE Foundation Scholar-Leaders scholarship (Czech Republic, 2007)
 
 ## Links
 
