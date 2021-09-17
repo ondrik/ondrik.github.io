@@ -7,7 +7,7 @@ toc: true
 ## Timeline
 
 * **2016--now:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
-* **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica, Taiwan](https://www.iis.sinica.edu.tw), Republic of China
+* **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw), Taiwan, Republic of China
 * **2010--2015:** Ph.D. student under Tomáš Vojnar and Lukáš Holík in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2005--2010:** Bc. and MSc. student at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 
@@ -27,6 +27,10 @@ toc: true
   * [SV-COMP'16](https://sv-comp.sosy-lab.org/2016/index.php)
   * [SV-COMP'15](https://sv-comp.sosy-lab.org/2015/index.php)
 * 龍龖龘隊
+
+## Awards
+
+* Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
 
 ## Links
 
