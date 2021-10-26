@@ -27,7 +27,7 @@ A video with the presentation is available [here](https://www.youtube.com/watch?
 [Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 9th International Conference of NETworked sYStems* --- [NETYS'21](http://www.netys.net/),
 virtual conference,
-volume YYYYY of LNCS, pages WWW--ZZZ, 2021.
+volume 12754 of LNCS, pages WWW--ZZZ, 2021.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys21-deciding-s1s.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys21-deciding-s1s.pdf).
