@@ -7,7 +7,7 @@ classes: wide
 # 2021
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
-[Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/s10817-021-09597-w).
+[Automata Terms in a Lazy WSkS Decision Procedure](https://doi.org/10.1007/s10817-021-09597-w).
 Journal of Automated Reasoning (JAR) 65(7), pages 971--999, 2021. Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/jar-21-lazy-wsks.pdf).
 
@@ -24,15 +24,14 @@ A video teaser is avialable [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=wX-U8V8NAbc).
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
-[Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](http://dx.doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Deciding S1S: Down the Rabbit Hole and Through the Looking Glass](https://doi.org/10.1007/978-3-030-91014-3_15).
 In *Proc. of 9th International Conference of NETworked sYStems* --- [NETYS'21](http://www.netys.net/),
 virtual conference,
-volume 12754 of LNCS, pages WWW--ZZZ, 2021.
+volume 12754 of LNCS, pages 215--222, 2021.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/netys21-deciding-s1s.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/netys21-deciding-s1s.pdf).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=TLmQ2TXAoLs).
-**INCOMPLETE REFERENCE**
 
 # 2020
 
