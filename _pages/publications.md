@@ -4,6 +4,17 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2022
+
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 28th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'22](https://www.etaps.org/index.php/2022/tacas),
+Munich, Germany,
+volume XXXXX of LNCS,
+pages YYY--ZZZ, 2022.
+Springer-Verlag.
+An extended version appeared as the technical report [CoRR abs/2110.10187](https://arxiv.org/abs/2110.10187), 2021.
+
 # 2021
 
 * V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
