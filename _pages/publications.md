@@ -347,8 +347,9 @@ IEEE.
 # 2008
 
 * M. Zadnik, J. Korenek, P. Kobiersky, and O. Lengal.
-[Network Probe for Flexible Flow Monitoring](https://github.com/ondrik/ondrik.github.io/raw/master/publications/ddecs08-network-probe.pdf).
+[Network Probe for Flexible Flow Monitoring](https://doi.org/10.1109/DDECS.2008.4538788).
 In *Proc. of 2008 IEEE Workshop on Design and Diagnostics of Electronic Circuits and Systems* --- [DDECS'08](http://www.ui.savba.sk/DDECS2008/),
 Bratislava, Slovakia,
 pages 213--218, 2008.
 IEEE.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/ddecs08-network-probe.pdf).
