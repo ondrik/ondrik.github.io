@@ -13,6 +13,7 @@ Munich, Germany,
 volume XXXXX of LNCS,
 pages YYY--ZZZ, 2022.
 Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas22-sky-is-not-the-limit.pdf).
 An extended version appeared as the technical report [CoRR abs/2110.10187](https://arxiv.org/abs/2110.10187), 2021.
 
 # 2021
