@@ -15,9 +15,6 @@ USENIX Association.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/usenix-security22-counting-redos.pdf).
 **[INCOMPLETE REFERENCE]**
 
-
-
-
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 28th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'22](https://www.etaps.org/index.php/2022/tacas),
