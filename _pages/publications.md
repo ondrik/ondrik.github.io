@@ -42,7 +42,7 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur21-reducing-ranks.pdf).
 An extended version appeared as the technical report [CoRR abs/2010.07834](https://arxiv.org/abs/2010.07834), 2020.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur21-reducing-ranks.pdf).
-A video teaser is avialable [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
+A video teaser is available [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=wX-U8V8NAbc).
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
