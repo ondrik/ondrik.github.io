@@ -6,6 +6,15 @@ classes: wide
 ---
 # 2022
 
+* L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
+[Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 31st USENIX Security Symposium* --- [USENIX-Security'22](https://www.usenix.org/conference/usenixsecurity22),
+Boston, MA, USA,
+pages YYY--ZZZ, 2022.
+USENIX Association.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/usenix-security22-counting-redos.pdf).
+**[INCOMPLETE REFERENCE]**
+
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 28th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'22](https://www.etaps.org/index.php/2022/tacas),
@@ -33,7 +42,7 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur21-reducing-ranks.pdf).
 An extended version appeared as the technical report [CoRR abs/2010.07834](https://arxiv.org/abs/2010.07834), 2020.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur21-reducing-ranks.pdf).
-A video teaser is avialable [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
+A video teaser is available [here](https://www.youtube.com/watch?v=MvZpNxGeIhE).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=wX-U8V8NAbc).
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
