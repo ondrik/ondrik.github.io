@@ -16,15 +16,15 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 **[INCOMPLETE REFERENCE]**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
-[Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/10.1007/978-3-030-99527-0_7).
 In *Proc. of 28th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'22](https://www.etaps.org/index.php/2022/tacas),
 Munich, Germany,
-volume XXXXX of LNCS,
-pages YYY--ZZZ, 2022.
+volume 13244 of LNCS,
+pages 118--136, 2022.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas22-sky-is-not-the-limit.pdf).
 An extended version appeared as the technical report [CoRR abs/2110.10187](https://arxiv.org/abs/2110.10187), 2021.
-**[INCOMPLETE REFERENCE]**
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas22-buchi-elevator.pdf).
 
 # 2021
 
