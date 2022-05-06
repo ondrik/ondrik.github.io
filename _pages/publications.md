@@ -73,6 +73,7 @@ volume 4 of PACMPL, article number 218, 2020. ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf).
 A recording of the talk is available [here](https://youtu.be/bICOrgqkF40).
 An extended version appeared as the technical report [MSR-TR-2020-31](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft, 2020.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.3975566](https://doi.org/10.5281/zenodo.3975566).
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
