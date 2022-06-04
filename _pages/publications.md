@@ -6,6 +6,20 @@ classes: wide
 ---
 # 2022
 
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Complementing Büchi Automata with Ranker](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To apper in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
+Haifa, Israel,
+volume XXXXXXX of LNCS,
+pages YYY--ZZZ, 2022.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+An extended version appeared as the technical report [CoRR abs/XXXXXXXXXXXXXXXX](https://arxiv.org/abs/XXXXXXXXXXXXXXXX), 2022.
+The artifact for the paper is available at Zenodo as a virtual machine under the DOI [10.5281/zenodo.6524909](https://doi.org/10.5281/zenodo.6524909) and as a package that can be installed on other systems under the DOI [https://doi.org/10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (the artifact is also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)).
+The tool Ranker is available at [GitHub](https://github.com/vhavlena/ranker) and the evaluation environment is also at [GitHub](https://github.com/VeriFIT/ba-compl-eval).
+**[INCOMPLETE REFERENCE]**
+
+
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
 [Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 31st USENIX Security Symposium* --- [USENIX-Security'22](https://www.usenix.org/conference/usenixsecurity22),
