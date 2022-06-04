@@ -8,7 +8,7 @@ classes: wide
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Complementing Büchi Automata with Ranker](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To apper in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
+To appear in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
 Haifa, Israel,
 volume XXXXXXX of LNCS,
 pages YYY--ZZZ, 2022.
