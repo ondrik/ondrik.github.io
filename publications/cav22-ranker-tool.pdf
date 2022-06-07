@@ -1,0 +1,1485 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[envcountsame]{llncs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage{hyperref}
+\usepackage{colortbl}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{subcaption}
+\usepackage{dcolumn}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[linesnumbered,ruled,noend,vlined]{algorithm2e}
+\usepackage{paralist}
+\usepackage{environ}
+\usepackage{wrapfig}
+\usepackage{thm-restate}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{typed-checklist}
+% \usepackage{tikzducks}
+
+% \usepackage{showframe}
+
+\makeatletter
+\RequirePackage[bookmarks,unicode,colorlinks=true]{hyperref}%
+   \def\@citecolor{blue}%
+   \def\@urlcolor{blue}%
+   \def\@linkcolor{blue}%
+\def\UrlFont{\rmfamily}
+\def\orcidID#1{\smash{\href{http://orcid.org/#1}{\protect\raisebox{-1.25pt}{\protect\includegraphics{orcid_color.pdf}}}}}
+\makeatother
+
+\usepackage[capitalise]{cleveref}
+
+\usepackage[firstpage]{draftwatermark}
+
+\SetWatermarkAngle{0}
+%%%%%%%%% Use only one of the four following blocks
+% use this block if you received the the "reusable" badge
+\SetWatermarkText{\raisebox{12.2cm}{%
+  \hspace{0.1cm}%
+  \href{https://doi.org/10.5281/zenodo.6524909}{\includegraphics{1-available}}% 
+  \hspace{9cm}%
+  \includegraphics{3-reusable}%
+}}
+
+% the following are an alternative to times
+% \usepackage{mathtools}
+% \usepackage{newtxmath}
+% \usepackage{newtxtext}
+
+% \usepackage{times}
+
+\usepackage{fontawesome}
+
+
+\NewEnviron{killcontents}{}
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
+\newcommand\notes[1]{\textcolor{magenta}{#1}}
+
+\usetikzlibrary{automata,positioning,trees,shapes,petri,arrows,snakes,backgrounds,calc,fit,arrows.meta,shadows,math,decorations.markings}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes.multipart,arrows,automata}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc,patterns,patterns.meta}
+% \usetikzlibrary{external}
+% \tikzexternalize[prefix=TikzPictures/]
+
+% line numbers
+% \usepackage{lineno}
+% \linenumbers
+% \setlength\linenumbersep{1cm}
+% \renewcommand\linenumberfont{\normalfont\tiny\color{red}}
+
+% comment to review blinded parts
+\def\blindreview{}
+
+% switch for technical report
+\newif\ifTR
+% uncomment the following to turn to technical report
+%\TRtrue
+%
+% use
+% \ifTR
+% blabla
+% \else    % this can be omited
+% bleble
+% \fi
+
+% \usepackage{enumitem}   % may clash with paralist (first paralist, then enumitem)
+
+\ifTR
+\else
+  %\let\proof\killcontents
+  %\let\endproof\endkillcontents
+\fi
+
+\newcounter{claimcounter}
+% %\numberwithin{claimcounter}{thm}
+\renewenvironment{claim}{\refstepcounter{claimcounter}{\medskip\noindent \underline{Claim \theclaimcounter:}}\itshape}{\smallskip}
+\crefname{claimcounter}{Claim}{Claims}
+
+\Crefname{algocf}{Algorithm}{Algorithms}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{section}{Sec.}{Secs.}
+
+\InputIfFileExists{cutmargins.tex}{%
+  %
+  % If you don't want the margins, create an (empty) file cutmargins.tex in the
+  % directory
+  %
+
+	\pdfpagesattr{/CropBox [92 112 523 758]} % LNCS page made big
+	% \pdfpagesattr{/CropBox [125 82 490 688]} % LNCS page made even biger
+}{%
+}
+
+% remove to suppress page numbering
+\pagestyle{plain}
+
+\input{macros.tex}
+
+% switch for technical report
+\newif\ifTR
+% uncomment the following to turn to technical report
+\TRtrue
+%
+% use
+% \ifTR
+% blabla
+% \else    % this can be omited
+% bleble
+% \fi
+
+
+
+% \title{\ranker}
+\title{Complementing B\"{u}chi Automata with \ranker}
+% \subtitle{Optimized Constructions for B\"{u}chi Automata Complementation}
+% \title{\ranker: Better than Drugs}
+% \subtitle{Tighter Rank Bounds for Elevator Automata in\\ B\"{u}chi Automata Complementation\ifTR{\\ (Technical Report)}\fi}
+
+\author{
+  Vojt\v{e}ch Havlena\orcidID{0000-0003-4375-7954} \and
+  Ond\v{r}ej Leng\'{a}l\orcidID{0000-0002-3038-5875}\Envelope \and
+	Barbora \v{S}mahl\'{i}kov\'{a}\orcidID{0000-0002-1184-4669}\\
+  \href{mailto:ihavlena@fit.vut.cz}{\tt ihavlena@fit.vut.cz},
+  \href{mailto:lengal@vut.cz}{\tt lengal@vut.cz},
+  \href{mailto:xsmahl00@vut.cz}{\tt xsmahl00@vut.cz}
+  }
+
+\authorrunning{
+  Vojt\v{e}ch Havlena \and
+  Ond\v{r}ej Leng\'{a}l \and
+	Barbora \v{S}mahl\'{i}kov\'{a}
+}
+
+\institute{
+  \vspace*{4mm}
+  Faculty of Information Technology,\\
+  Brno University of Technology,\\
+  Czech Republic
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+  We present the tool \ranker for complementing B\"{u}chi automata (BAs).
+  \ranker builds on our previous optimizations of rank-based BA
+  complementation and pushes them even further using numerous heuristics to
+  produce even smaller automata.
+  Moreover, it contains novel optimizations of specialized constructions for
+  complementing
+  (i)~inherently weak automata and
+  (ii)~semi-deterministic automata, all delivered in a~robust tool.
+  The optimizations significantly improve the usability of
+  \ranker, as shown in an extensive experimental evaluation with
+  real-world benchmarks, where \ranker produced in the majority of cases
+  a~strictly smaller complement than other state-of-the-art tools.
+\end{abstract}
+
+% \vspace{-4mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2.0mm}
+\section{Introduction}
+\vspace{-0.0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{center}
+%   \begin{tikzpicture}
+% \duck[body=pink,
+% unicorn=magenta!60!violet,
+% longhair=magenta!60!violet]
+% \end{tikzpicture}
+% \end{center}
+%
+\noindent
+B\"{u}chi automata (BA) complementation is an essential operation in the toolbox
+of automata theory, logic, and formal methods.
+It has many applications, e.g., implementing negation in decision procedures of
+some logics (such as
+the monadic second-order logic S1S~\cite{buchi1962decision,HLS-S1S},
+the temporal logics EPTL and QPTL~\cite{sistla1987complementation}, or
+the first-order logic over Sturmian words~\cite{pecan}),
+proving termination of
+programs~\cite{fogarty2009buchi,heizmann2014termination,ChenHLLTTZ18}, or model
+checking of temporal properties~\cite{VardiW86}.
+BA complementation also serves as the foundation stone of algorithms
+for checking inclusion and equivalence of $\omega$-regular languages.
+In all applications of BAs, the number of states of a~BA affects the overall
+performance.
+The many uses of BA complementation, as well as the challenging theoretical
+nature of the problem, has incited researchers to develop a~number of different
+approaches, e.g.,
+\emph{determinization-based}~\cite{safra1988complexity,piterman2006nondeterministic,Redziejowski12},
+\emph{rank-based}~\cite{KupfermanV01,FriedgutKV06,Schewe09}, or
+\emph{Ramsey-based}~\cite{buchi1962decision,breuers-improved-ramsey},
+some of them~\cite{fribourg,Schewe09} producing BAs with the number of states
+asymptotically matching the lower bound $(0.76n)^n$ of Yan~\cite{yan}.
+Despite their theoretical optimality, for many real-world
+cases the constructions  create BAs with a~lot of unnecessary states, so
+optimizations making the algorithms efficient in practice are
+needed.
+
+We present \ranker, a~robust tool for complementing (transition-based)~BAs.
+\ranker uses several complementation approaches based on properties of the
+input BA: it combines an optimization of the rank-based procedure developed
+in~\cite{HavlenaL2021,HavlenaLS22,ChenHL19} with specialized (and further
+optimized) procedures for complementing
+semi-deterministic BAs~\cite{BlahoudekHSST16},
+inherently weak BAs~\cite{Miyano84,BoigelotJW01}, and
+elevator BAs~\cite{HavlenaLS22}.
+An extensive experimental evaluation on a~wide range of automata
+occurring in practice shows that \ranker can obtain a~smaller complement in
+the majority of cases compared to the other state-of-the-art tools.
+
+\input{dont-look-here.tex}
+
+% As a
+% starting point, we use our construction
+% from~\cite{HavlenaL2021,HavlenaLSTech21,ChenHL19}, which we improve, and connect
+% it with optimized procedures tailored for special classes of automata. In this
+% work, we introduce optimizations of the NCSB procedure for complementation of
+% semi-deterministic BA reducing the number of successors. We also propose an
+% optimization of the procedure for inherently weak automata based on macrostates
+% saturation/pruning. The experimental evaluation on a wide range of automata
+% occurring in practice shows that \ranker can obtain a smaller complement in
+% majority of cases compared to the other state-of-the-art tools.
+%
+%
+% %~\cite{HavlenaL2021,HavlenaLSTech21,ChenHL19}.
+% Even though these
+% optimizations are beneficial for hard nondeterministic automata, they lag behind
+% the approaches tailored for certain automata types, such as semi-deterministic
+% BAs~\cite{BlahoudekHSST16}, inherently weak
+% BAs~\cite{Miyano84,BoigelotJW01}, or elevator BAs~\cite{HavlenaLSTech21}. In
+% order to achieve really practical procedure, it is hence necessary to fine tune
+% a combination of such techniques.
+
+% B\"{u}chi automata (BA) complementation has occupied an important place in the interest
+% of researchers since B\"{u}chi introduced BAs in his automata-based decision
+% procedure for a~fragment of second-order arithmetic~\cite{buchi1962decision}.
+% Soon after that, BA complementation became a topic attracting attention of
+% researchers who tackle the problem from both theoretical and practical
+% perspectives. Efficient complementation is a crucial task in many areas
+% including termination analysis of
+% programs~\cite{fogarty2009buchi,heizmann2014termination,ChenHLLTTZ18} and
+% decision procedures of various logics, such as the monadic logic
+% S1S~\cite{buchi1962decision,HLS-S1S}, the temporal logics EPTL,
+% QPTL~\cite{sistla1987complementation}, or the first-order logic over Sturmian
+% words~\cite{pecan}. B\"{u}chi automata complementation is also a fundamental
+% stone for the inclusion and equivalence checking of $\omega$-regular languages.
+
+
+% The original, double exponential construction of B\"{u}chi, started a hunt for an
+% optimal complementation procedure. By the time, there emerged various
+% techniques, often orthogonal, aiming at obtaining as small complement as
+% possible. For instance, \emph{determinization-based}
+% techniques~\cite{safra1988complexity,piterman2006nondeterministic},
+% \emph{rank-based} techniques~\cite{KupfermanV01,FriedgutKV06,Schewe09}, or
+% \emph{Ramsey-based} techniques~\cite{buchi1962decision,breuers-improved-ramsey}.
+% On top of that, some of the constructions, e.g.,~\cite{fribourg,Schewe09}
+% asymptotically match the lower bound given by Yan~\cite{yan}. Despite their
+% theoretical optimality, the constructions may generate a lot of unnecessary
+% states for many real-world cases. Therefore, optimizations making the
+% complementation practically efficient are
+% necessary~\cite{HavlenaL2021,HavlenaLSTech21,ChenHL19}. Even though these
+% optimizations are beneficial for hard nondeterministic automata, they lag behind
+% the approaches tailored for certain automata types, such as semi-deterministic
+% BAs~\cite{BlahoudekHSST16}, inherently weak
+% BAs~\cite{Miyano84,BoigelotJW01}, or elevator BAs~\cite{HavlenaLSTech21}. In
+% order to achieve really practical procedure, it is hence necessary to fine tune
+% a combination of such techniques.
+
+% In this paper, we present \ranker a tool for the complementation of
+% (transition-based) BAs combining several complementation approaches based on
+% automata types in order to obtain as small output automaton as possible. As a
+% starting point, we use our construction
+% from~\cite{HavlenaL2021,HavlenaLSTech21,ChenHL19}, which we improve, and connect
+% it with optimized procedures tailored for special classes of automata. In this
+% work, we introduce optimizations of the NCSB procedure for complementation of
+% semi-deterministic BA reducing the number of successors. We also propose an
+% optimization of the procedure for inherently weak automata based on macrostates
+% saturation/pruning. The experimental evaluation on a wide range of automata
+% occurring in practice shows that \ranker can obtain a smaller complement in
+% majority of cases compared to the other state-of-the-art tools.
+
+
+\paragraph{Contribution.}
+%
+We describe a~major improvement of
+\ranker~\cite{HavlenaL2021,HavlenaLS22}, turning~it from a~prototype into a
+robust tool.
+We list
+the particular optimizations below.
+%
+\begin{itemize}
+	\item We extended the original BA complementation procedure
+  with improved deelevation (cf.\ \cite{HavlenaLS22}) and advanced
+  automata reductions.
+
+  \item We also equipped \ranker with specialized constructions tailored for
+    widely-used semi-deterministic and inherently weak automata.
+
+  \item On top of that, we propose novel optimizations of the original NCSB
+  construction for semi-deterministic BAs and a~simulation-based optimization of
+    the Miyano-Hayashi algorithm for complementing inherently weak automata.
+\end{itemize}
+%
+All of these improvements
+are pushing the capabilities of \ranker, and also of practical BA complementation
+itself, much further.
+
+% \paragraph{Related work.}
+% %
+% A search for an efficient complementation algorithm was lunched by a pioneer work
+% of J.R.B\"{u}chi~\cite{buchi1962decision}. Techniques for BA complementation can
+% be roughly distinguished into several branches.
+% \emph{Determinization-based}~\cite{safra1988complexity,piterman2006nondeterministic,Redziejowski12},
+% \emph{Slice-based}~\cite{vardi2008automata,kahler2008complementation},
+% \emph{Ramsey-based}~\cite{buchi1962decision,breuers-improved-ramsey},
+% \emph{Rank-based}~\cite{KupfermanV01,FriedgutKV06,Schewe09}, which was further
+% improved in~\cite{ChenHL19,HavlenaL2021,HavlenaLSTech21}. There are also
+% complementation techniques based on \emph{learning}~\cite{roll,li2018learning},
+% \emph{semi-determinization}~\cite{seminator}, or the optimal technique by Allred
+% and Ultes-Nitsche~\cite{allred2018simple}. Above the mentioned approaches for the
+% complementation of general BAs, there are approaches tailored for certain
+% automata classes, such as deterministic~\cite{Kurshan87},
+% semi-deterministic~\cite{BlahoudekHSST16}, inherently
+% weak~\cite{Miyano84,BoigelotJW01}, or unambiguous~\cite{li-unambigous}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2.0mm}
+\section{B\"{u}chi Automata}
+\vspace{-0.0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\paragraph{Words, functions.}
+We fix a~finite nonempty alphabet~$\Sigma$ and the first infinite ordinal
+$\omega = \{0, 1, \ldots\}$.
+%
+% For $n\in\omega$, by $\numsetof{n}$ we denote the
+% set $\{ 0, \dots, n \}$. For $i \in \omega$ we use $\evenceil{i}$ to denote
+% the largest even number smaller of equal to~$i$, e.g., $\evenceil{42} =
+% \evenceil{43} = 42$.
+An (infinite) word~$\word$ is
+a~function $\word\colon \omega \to \Sigma$ where the $i$-th
+symbol is denoted as $\wordof i$. We~abuse notation and sometimes
+represent~$\word$ as an~infinite sequence $\word = \wordof 0 \wordof 1 \dots$
+$\Sigma^\omega$ denotes the set of all infinite words over~$\Sigma$.
+%
+% For a~(partial) function $f\colon X\to Y$ and a set $S\subseteq X$, we define $f(S) = \{ f(x)
+% \mid x\in S \}$. Moreover, for $x\in X$ and $y\in Y$, we use $f \triangleleft \{
+% % x\mapsto y \}$ to denote the function $(f \cap (X\setminus \{x\})\times Y) \cup \{
+% % x\mapsto y \}$.
+% x\mapsto y \}$ to denote the function $(f \setminus \{x \mapsto f(x)\}) \cup \{
+% x\mapsto y \}$.
+
+%------------------------------------------------------------------------------
+% \paragraph{$\omega$-automata.}
+
+
+\vspace{-1mm}
+\paragraph{B\"{u}chi automata.}
+A~(nondeterministic transition/state-based) \emph{B\"{u}chi
+automaton} (BA) over~$\Sigma$ is a~quintuple $\aut = (Q, \trans, I,
+\accstates, \acctrans)$ where $Q$ is a~finite set of \emph{states},
+$\trans\colon Q \times \Sigma \to 2^Q$ is a~\emph{transition function}, $I
+\subseteq Q$ is the sets of \emph{initial} states, and $\accstates \subseteq Q$
+and $\acctrans \subseteq \trans$ are the sets of \emph{accepting states} and
+\emph{accepting transitions} respectively. $\aut$ is called deterministic if
+$|I|\leq 1$ and $|\delta(q,a)|\leq 1$ for each $q\in Q$ and $a \in \Sigma$.
+%
+We sometimes treat~$\trans$ as a~set of transitions $p \ltr a q$, for instance,
+we use $p \ltr a q \in \trans$ to denote that $q \in \trans(p, a)$. Moreover, we
+extend $\trans$ to sets of states $P \subseteq Q$ as $\trans(P, a) = \bigcup_{p
+\in P} \trans(p,a)$.
+% and
+% $\trans^{-1}(q, \Sigma)$ to denote $\bigcup_{a \in \Sigma} \trans^{-1}(q, a)$.
+%For a set of states $S$ we define \emph{reachability} from $S$ as $\reach_\trans(S) = \mu Z.\,S \cup \bigcup_{a\in\Sigma}\trans(Z, a)$.
+The notation $\restrof \trans S$ for $S \subseteq Q$ is used to denote the
+restriction of the transition function $\trans \cap (S \times \Sigma \times S)$.
+Moreover, for $q \in Q$, we use $\aut[q]$ to denote the automaton $(Q, \trans, \{q\},
+\accstates, \acctrans)$.
+
+A~\emph{run}
+of~$\aut$ from~$q \in Q$ on an input word $\word$ is an infinite sequence $\rho\colon
+\omega \to Q$ that starts in~$q$ and respects~$\trans$, i.e., $\rho_0 = q$ and
+$\forall i \geq 0\colon \rho_i \ltr{\wordof i}\rho_{i+1} \in \trans$.
+Let $\infofst \rho \subseteq Q \cup \delta$ denote the set of states and transitions occurring in~$\rho$ infinitely often.
+% Let $\infofs \rho$ denote the states occurring in~$\rho$ infinitely often and
+% $\infoft \rho$ denote the transitions occurring in~$\rho$ infinitely often.
+%
+% The run~$\rho$ is called \emph{accepting} iff $\infofs
+% \rho \cap \accstates \neq \emptyset$ or $\infoft \rho \cap \acctrans \neq
+% \emptyset$.
+The run~$\rho$ is called \emph{accepting} iff $\infofst
+\rho \cap (\accstates \cup \acctrans) \neq \emptyset$.
+A~word~$\word$ is \emph{accepted by~$\aut$ from a~state~$q \in Q$} if $\aut$ has an
+accepting run~$\rho$ on~$\word$ from~$q$, i.e., $\rho_0 = q$.
+The set
+$\langautof{\aut} q = \{\word \in \Sigma^\omega \mid \aut \text{ accepts } \word
+\text{ from } q\}$ is called the \emph{language} of~$q$ (in~$\aut$). Given a~set
+of states~$R \subseteq Q$, we define the language of~$R$ as $\langautof \aut R =
+\bigcup_{q \in R} \langautof \aut q$ and the language of~$\aut$ as~$\langof \aut =
+\langautof \aut I$.
+If $\acctrans = \emptyset$, we call~$\aut$ \emph{state-based} and
+if $\accstates = \emptyset$, we call~$\aut$ \emph{transition-based}.
+
+A~\emph{co-B\"{u}chi automaton} (co-BA)~$\autc$ is the same as a~BA
+except the definition of when a~run is accepting: a~run~$\rho$ of~$\autc$ is
+\emph{accepting} iff $\infofst \rho \cap (\accstates \cup \acctrans) = \emptyset$.
+
+% Let $\aut = (Q, \trans, I, \acccond)$ be an $\omega$-automaton.
+% If the acceptance condition is a set of
+% \emph{accepting} states, i.e., $\acccond = F \subseteq Q$, $\aut$ is called a
+% \emph{B\"{u}chi automaton (BA)}.
+% For a~BA, a~run $\rho$ is called \emph{accepting} iff $\infofs \rho \cap F \neq \emptyset$.
+% If the acceptance condition is a set of
+% \emph{accepting} transitions, i.e., $\acccond = T \subseteq \trans$, $\aut$ is
+% called a \emph{Transition-based B\"{u}chi automaton (TBA)}.
+% For a TBA a run
+% $\rho$ is called \emph{accepting} iff $\infoft \rho \cap T \neq \emptyset$.
+%We say that~$\rho$ is \emph{accepting} iff $\infof \rho \cap F \neq \emptyset$.
+% For a~pair of states~$p$ and~$q$ in~$\aut$, we use $p
+% \subseteqlang q$ to denote $\langaut p \subseteq \langaut q$.
+%We say that a~state $q \in Q$ is \emph{useless} iff $\langof{\aut[q]} = \emptyset$.
+%
+% Without loss of generality, in this paper, we assume~$\aut$ to be complete, i.e., for every state~$q$ and
+% symbol~$a$, it holds that $\trans(q, a) \neq \emptyset$.
+% $\aut$~is \emph{complete} iff for every state~$q$ and
+% symbol~$a$, it holds that $\trans(q, a) \neq \emptyset$.
+% \vh{A~\emph{trace} over a~word~$\word$ is an infinite sequence $\pi = q_0
+% \ltr{\wordof 0} q_1 \ltr{\wordof 1} \cdots$ such that $\rho = q_0 q_1 \ldots$ is
+% a~run of~$\aut$ over~$\word$ from~$q_0$.
+% We say~$\pi$ is \emph{fair} if it contains infinitely many accepting states.
+% Moreover, we use $p \transover{w} q$ for $w \in \Sigma^*$ to denote that~$q$ is
+% reachable from~$p$ over the word~$w$; if a~path from~$p$ to~$q$ over~$w$ contains an
+% accepting state, we can write $p \ftransover{w} q$.}
+% In this paper, we fix an $\omega$-automaton $\aut = (Q, \trans, I, \acc)$.
+% If $\acctrans = \emptyset$, we call~$\aut$ \emph{state-based} and
+% if $\accstates = \emptyset$, we call~$\aut$ \emph{transition-based}.
+%In this paper, we fix a~BA $\aut = (Q, \trans, I, \accstates \cup \acctrans)
+
+\vspace{-1mm}
+\paragraph{Automata types.}
+Let $\aut = (Q, \trans, I, \accstates, \acctrans)$ be a BA. $C \subseteq Q$ is
+a~\emph{strongly connected component} (SCC) of~$\aut$ if for any pair of states
+$q, q' \in C$ it holds that~$q$ is reachable from~$q'$ and~$q'$ is reachable
+from~$q$. $C$~is \emph{maximal} (MSCC) if it is not a~proper subset of another
+SCC. An MSCC is \emph{non-accepting} if it contains no accepting state and no
+accepting transition.
+%
+We say that an SCC~$C$ is \emph{inherently weak accepting} (IWA) iff \emph{every
+cycle} in the transition diagram of~$\aut$ restricted to~$C$ contains an
+accepting state or an accepting transition.
+%
+We say that an SCC~$C$ is \emph{deterministic} iff $(C, \restrof \trans C,
+\emptyset, \emptyset, \emptyset)$ is deterministic.
+%
+$\aut$ is \emph{inherently weak} (IW) if all its MSCCs are inherently weak accepting
+or non-accepting, and \emph{weak} if for states $q, q'$ that belong to the same
+SCC, $q \in \accstates$ iff $q' \in \accstates$.
+%
+$\aut$ is \emph{semi-deterministic} (SDBA) if $\aut[q]$ is deterministic for every
+$q \in \accstates \cup \{p \in Q \mid s \ltr a p \in \acctrans, s \in Q, a \in
+\Sigma\}$.
+Finally, $\aut$ is called \emph{elevator} if all its MSCCs are
+inherently weak accepting, deterministic, or non-accepting.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2.0mm}
+\section{Architecture}
+\vspace{-0.0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ranker~\cite{ranker} is a~publicly available command line tool, written in C++,
+implementing several approaches for complementation of (transition/state-based)
+B\"{u}chi automata.
+%It is publicly available on \textsc{GitHub}.
+%\footnote{\url{https://github.com/vhavlena/ranker}}.
+As an input,
+\ranker accepts BAs in the HOA~\cite{BabiakBDKKM0S15} or
+the simpler \texttt{ba}~\cite{abdulla2010simulation} format.
+The architecture overview
+is shown in Fig.~\ref{fig:ranker-arch}.
+An input automaton is first adjusted by various
+structural preprocessing steps to an intermediate equivalent automaton with a
+form suitable for a complementation procedure. Based on the intermediate
+automaton type, a concrete complementation procedure is used.
+The result of the complementation is
+subsequently polished by postprocessing steps, yielding an automaton on the
+output. In the following text, we provide details about the internal blocks of
+\ranker's architecture.
+
+\begin{figure}[t]
+	\centering
+  \resizebox{\textwidth}{!}{
+		\input{figs/ranker-architecture-alt-cmd.tikz}
+  }
+	% \scalebox{0.87}{
+	% 	\input{figs/ranker-architecture-alt-cmd.tikz}
+	% }
+	\caption{
+    Overview of the architecture of \ranker with the most important command-line
+    options.
+    Default settings are highlighted in blue.
+	}
+	\label{fig:ranker-arch}
+\end{figure}
+
+%*******************************************************************************
+\vspace{-0.0mm}
+\subsection{Preprocessing and Postprocessing}
+\vspace{-0.0mm}
+%*******************************************************************************
+
+Before an input BA is sent to the complementation block itself, it is first
+transformed into a~form most suitable for a concrete complementation technique.
+On top of
+that as a part of preprocessing, we identify structural features that are
+further used to enabling/disabling certain optimizations during the
+complementation.
+After the complementation, the resulting automaton is optionally
+reduced in a postprocessing step.
+\ranker provides several options of preprocessing/postprocessing that are
+discussed below.
+
+%------------------------------------------------------------------------------
+\medskip
+\noindent
+\emph{Preprocessing}\textprecircle.
+The following are the most important settings for preprocessing:
+
+\begin{itemize}
+  \item \emph{Reduction}: In order to obtain a~smaller automaton, reduction
+    using \emph{direct simulation}~\cite{MayrC13} can be applied
+    (\texttt{--preprocess=red}).
+    Moreover, if the input automaton is IW or SDBA, we transform it into
+    a~transition-based BA, which might be smaller (we only do local
+    modifications and merge two states if they have the same successors while
+    moving the acceptance condition from states to transitions entering
+    accepting states).
+    We, however, do not use this strategy for other BAs, because despite their
+    possibly more compact representation, this reduction limits the effect of some
+    optimizations used in the rank-based complementation procedure (the presence
+    of accepting states allows to decrease the rank bound, cf.\ \cite{HavlenaLS22}).
+
+  \item \emph{Deelevation}~\cite{HavlenaLS22}: For elevator automata,
+    \ranker supports a~couple of deelevation strategies (extending a~basic
+    version introduced in~\cite{HavlenaLS22}).
+    Roughly speaking, deelevation makes a~copy of MSCCs such that each
+    copied MSCC becomes a~terminal component (i.e., no run can leave it) and
+    accepting states/transitions are removed from the original
+    component (we call this the \emph{deelevation} of the
+    component).
+    Deelevation increases the number of states but decreases the rank bounds for
+    rank-based complementation.
+    \ranker offers several strategies that differ on which components are
+    deelevated:
+    \begin{itemize}
+      \item  \texttt{--preprocess=copyall}: Every component is deelevated.
+      \item  \texttt{--preprocess=copyiwa}: Only IWA components are deelevated.
+      \item  \texttt{--preprocess=copyheur}: This option combines two
+        modifications applied in sequence:
+        \begin{inparaenum}[(i)]
+          \item  If the input BA is not IW and the rank bound
+            estimation~\cite{HavlenaLS22} of the BA is at least~5, then all
+            MSCCs with an accepting state/transition are deelevated (the higher
+            rank bound indicates a~longer sequence of components, for which
+            deelevation is likely to be benefical).
+          \item If on all paths from all initial states of the intermediate BA,
+            the first non-trivial MSCC is non-accepting, then we partially
+            determinize the initial part of the BA (up to the first non-trivial
+            MSCCs); this reduces sizes of macrostates obtained in rank-based
+            complementation.
+        \end{inparaenum}
+    \end{itemize}
+  \item  \emph{Saturation of accepting states/transitions}:
+    Since a~higher number of accepting states and transitions can help the
+    rank-based complementation procedure, \ranker can (using
+    \texttt{--preprocess=accsat}) saturate accepting states/transitions in the
+    input BA (while preserving the language).
+    This is, however, not always beneficial; for instance, saturation
+    can break the structure for elevator rank estimation
+    (cf.~\cite{HavlenaLS22}).
+  \item  \emph{Feature extraction}\textfeatcircle:
+    During preprocessing, we extract features of the BA that can help the complementation
+    procedure in the second step.
+    The features are, e.g., the type of the BA, rank bounds for individual
+    states~\cite{HavlenaLS22}, or settings of particular optimizations
+    from~\cite{HavlenaL2021} (e.g., for deterministic automata with
+    a~smaller rank bound, it is counter-productive to use techniques reducing
+    the rank bound based on reasoning about the waiting part).
+\end{itemize}
+
+
+\medskip
+\noindent
+\emph{Postprocessing}\textpostcircle.
+After the complementation procedure finishes, \ranker removes useless states and
+optionally applies simulation reduction (\texttt{--postprocess=red}).
+
+% \paragraph{Reduction.} \textprecircle~
+% In order to obtain a smaller automaton, a simulation reduction can be applied.
+% Moreover, if the input automaton is state-based and it allows more concise
+% transition-based representation that is inherently weak or semi-deterministic,
+% we further work with the transition-based one. Note that we do not use this
+% strategy also for general nondeterministic automata, because transition-based
+% automata, despite their possibly more compact representation, limits an effect
+% of some optimizations related to general nondeterministic BA complementation (in
+% particular those reducing the rank bound).
+%
+%
+% \paragraph{Deelevatorization.} \textprecircle~
+% For elevator automata, \ranker supports a couple of strategies of
+% deelevatorization (a basic version of deelevatorization was introduced
+% in~\cite{HavlenaLSTech21}). Roughly speaking, deelevatorization makes a copy of
+% automata MSCCs in a way that a new copy became a terminal component (i.e., you
+% cannot reach any other state outside the component) and the original component
+% keeps no accepting states/transitions. We further refer this as
+% deelevatorization of a component. We propose several strategies that differ on
+% which components are deelevatorized and which ones are kept as they are (i.e.,
+% they are not copied). In the case of the option \texttt{--copyall}, every
+% component regardless its type is deelevatorized. In the case of
+% \texttt{--copyiwa}, only inherently weak accepting components are
+% deelevatorized. In the case of \texttt{--copyheur}, only inherently weak
+% accepting components are deelevatorized provided the input automaton is not
+% inherently weak and the rank estimation of the automaton is at least 5. The
+% later condition suggests that there is a longer sequence of components and hence
+% deelevatorization will be likely beneficial. On top of that, the first
+% deterministic component of such processed automaton is partially determinized in
+% order to reduce sizes of macrostates during the complementation.
+%
+% \paragraph{Accepting states/transitions saturation.} \textprecircle~
+% Since the number of accepting sta\-tes/tran\-sitions affects the automaton size
+% after the complementation, \ranker allows to saturate accepting
+% states/transitions to the input automaton. Nevertheless, it is worth telling
+% that this preprocessing step is not beneficial in all cases, because for
+% instance the saturation can break the structure for elevator rank estimation
+% (see~\cite{HavlenaLSTech21} for more details).
+%
+% \paragraph{Features settings.} \textfeatcircle~
+% Based on the automaton type and its structure, features parameterizing the
+% complementation procedures are set. For example, for deterministic automata, or
+% automata with a smaller rank bound, it is contra-productive to use techniques
+% reducing the rank bound based on reasoning about the waiting
+% part~\cite{HavlenaL2021}.
+%
+% \paragraph{Postprocessing.}\textpostcircle~
+% The aforementioned steps can be applied, as a preprocessing, \emph{apriori} to
+% the complementation. As a postprocessing, \ranker removes useless states and
+% optionally applies simulation reduction.
+
+%*******************************************************************************
+\vspace{-2.0mm}
+\subsection{Complementation Approaches}
+\vspace{-0.0mm}
+%*******************************************************************************
+
+Based on the automaton type,
+\ranker uses several approaches for complementation (cf.\
+\cref{fig:compl-scheme}).
+These are, ordered by decreasing priority, the following:
+% Overview of applied techniques with the
+% decreasing priority \textiwacircle, \textsdcircle, \textgencircle~are shown in
+% Fig.~\ref{fig:compl-scheme}.
+%
+\begin{figure}[t]
+	\centering
+	\scalebox{0.8}{
+		\input{figs/compl-scheme-alt.tikz}
+	}
+  \vspace{-0mm}
+	\caption{
+	Overview of complementation approaches used in \ranker.
+	}
+	\label{fig:compl-scheme}
+  \vspace*{-2mm}
+\end{figure}
+%
+
+\begin{itemize}
+  \item  \emph{Inherently weak BAs}\textiwacircle:
+    For the complementation of inherently weak automata, both the Miyano-Hayashi
+    construction~\cite{Miyano84} and its optimization of adjusting macro\-states
+    (described in \cref{sec:iw-sim-opt}), are implemented.
+    The construction converts an input automaton into an intermediate equivalent
+    co-B\"{u}chi automaton, which is then complemented.
+    The implemented optimizations adjust macrostates of the Miyano-Hayashi
+    construction according to a~direct simulation relation.
+    By default (\texttt{--best}), the Miyano-Hayashi construction and the
+    optimization of pruning simulation-smaller states from macrostates are used
+    and the smaller result is output.
+    For the option \texttt{--light}, only the optimized construction is used.
+
+  \item  \emph{Semi-deterministic BA}\textsdcircle:
+    For SDBAs, \ranker by default (\texttt{--best}) uses both an
+    NCSB-based~\cite{BlahoudekHSST16} procedure and an optimized rank-based
+    construction with advanced rank estimation~\cite{HavlenaL2021,HavlenaLS22};
+    the smaller result is picked.
+    The particular NCSB-based procedure used is \ncsbmaxrank from
+    \cref{sec:ncsb-maxrank} (\ranker also contains an implementation of
+    \ncsblazy from~\cite{ChenHLLTTZ18}, which can be turned on using
+    \texttt{--ncsb-lazy}, but usually gives worse results).
+    For the option \texttt{--light}, only \ncsbmaxrank is used.
+
+  \item  \emph{Otherwise}\textgencircle:
+    For BAs with no special structure, \ranker uses the optimized
+    rank-based complementation algorithm from~\cite{HavlenaL2021,HavlenaLS22}
+    with \spot as the backoff~\cite{HavlenaL2021} (i.e., \ranker can determine
+    when the input has a~structure that is bad for the rank-based procedure and
+    use another approach).
+    Particular optimizations are selected according to the features of the input
+    BA (e.g., the number of states or the structure of the automaton).
+\end{itemize}
+
+
+
+% \paragraph{Inherently weak BA.} \textiwacircle~
+% For the complementation of inherently weak automata, both the Miyano-Hayashi
+% construction~\cite{Miyano84} and its optimization of adjusting macro\-states
+% (properly described in Sec.~\ref{sec:iw-sim-opt}), are implemented. The
+% construction converts an input automaton into an intermediate equivalent
+% co-B\"{u}chi automaton, which is then complemented. The optimizations adjust
+% macrostates of the Miyano-Hayashi construction according to a simulation
+% relation. By default (\texttt{--best}), the Miyano-Hayashi construction and the
+% optimization of pruning simulation smaller states from macrostates are used in
+% parallel with a smaller automaton as the result. For the option \texttt{--light},
+% only the optimized construction is used.
+%
+% \paragraph{Semi-deterministic BA.} \textsdcircle~
+% Regarding the semi-deterministic BAs, the optimized rank-based construction with
+% advanced rank-bound estimation~\cite{HavlenaL2021,HavlenaLS22}, together
+% with NCSB-based approaches are implemented within \ranker. The NCSB-based
+% approaches include the \ncsblazy construction~\cite{ChenHLLTTZ18} and the
+% \ncsbmaxrank construction. The latter improves the original NCSB
+% construction~\cite{BlahoudekHSST16} with a reduction of the number of
+% generated successors (see Sec.~\ref{sec:ncsb-maxrank}). By default
+% (\texttt{--best}), the rank-based construction and \ncsbmaxrank are used in
+% parallel taking a smaller automaton on the output. For the option
+% \texttt{--light}, only \ncsbmaxrank is used.
+%
+% \paragraph{General nondeterministic BA.} \textgencircle~
+% Complementation of general nondeterministic BAs involves the optimized
+% rank-based construction~\cite{HavlenaL2021,HavlenaLS22} with \spot as the
+% backoff~\cite{HavlenaL2021}. Particular optimizations are selected according to
+% features of an input automaton (e.g., the number of states or the structure of
+% the automaton).
+
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+%\enlargethispage{3mm}
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2.0mm}
+\section{Optimizations of the Constructions}
+\label{sec:optimizations}
+\vspace{-0.0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this section, we provide details about new optimizations of complementation
+of inherently weak and semi-deterministic automata implemented in \ranker.
+Proofs of their correctness can be found in the technical report~\cite{HavlenaLS22b}.
+
+%
+% The proposed optimizations aim at
+% adjusting macrostates and reducing nondeterminism in order to obtain smaller
+% automata.
+
+%*******************************************************************************
+\vspace{-2.0mm}
+\subsection{Macrostates Adjustment for Inherently Weak Automata}
+\label{sec:iw-sim-opt}
+\vspace{-0.0mm}
+%*******************************************************************************
+
+For complementing IW automata, \ranker uses a~method based on the Miyano-Hayashi
+construction (denoted as \mihay)~\cite{Miyano84}:
+In the first step, accepting states of an input IW BA~$\aut$ are saturated to
+obtain a~language-equivalent weak automaton $\autw = (Q, \delta, I, \accstates,
+\emptyset)$ (we remove accepting transitions because they do not provide any
+advantage for IW automata).
+In the second step, $\autw$ is converted to the
+equivalent co-B\"{u}chi automaton $\autc = (Q, \delta, I, \accstates' =
+Q\setminus \accstates, \emptyset)$ by swapping accepting and non-accepting
+states.
+Finally, the Miyano-Hayashi construction is used to obtain the complement
+(state-based) BA.
+
+% Within the \ranker tool, the Miyano-Hayashi construction~\cite{Miyano84} is used
+% for complementation of inherently weak automata in the following manner. In the
+% first step, accepting states/transitions of an inherently weak automaton $\aut$
+% are saturated resulting to the equivalent weak automaton $\autw = (Q, \delta, I,
+% \accstates, \emptyset)$. Note that in the following we assume automata
+% without accepting transitions as their presence does not provide any advantage
+% for inherently weak automata. In the second step, $\autw$ is converted to the
+% equivalent co-B\"{u}chi automaton $\autc = (Q, \delta, I, \accstates' =
+% Q\setminus \accstates, \emptyset)$. Finally, the Miyano-Hayashi construction
+% is used to obtain a complementary (state-based) BA.
+
+% We modify the
+% original construction by introducing an emph allowing to change an original
+% macrostate with a more suitable one.
+% Formally, given a co-BA $\autc$ and an adjustment
+% function $\theta: 2^Q \to 2^Q$, the construction $\cobapar$ gives the
+% (deterministic, state-based) BA $\cobapar(\autc) = (Q', \delta', I',
+% \accstates', \emptyset)$, whose components are defined as follows:
+
+Our optimizations of the \mihay procedure are inspired by optimizations of the
+determinization algorithm for automata over finite words~\cite{GlabbeekP08} and
+by saturation of macrostates in rank-based BA complementation
+procedure~\cite{ChenHL19}, where simulation relations are used to adjust
+macrostates in order to obtain a~smaller automaton.
+We modify the original construction by introducing an \emph{adjustment function}
+that modifies obtained macrostates, either to obtain \emph{smaller} macrostates
+(for \emph{pruning} strategy) or \emph{larger} macrostates (for
+\emph{saturating} strategy; the hope is that \emph{more} original macrostates
+map to \emph{the same} saturated macrostate).
+Formally, given a~co-BA~$\autc$ and an \emph{adjustment
+function} $\theta\colon 2^Q \to 2^Q$, the construction $\cobapar$ gives the
+(deterministic, state-based) BA $\cobapar(\autc) = (Q', \delta', I',
+\accstates', \emptyset)$, whose components are defined as follows:
+%
+\begin{itemize}
+%\vspace{-1mm}
+	\item $Q' = 2^Q \times 2^Q$,
+	\item $I' = \{(\theta(I), \theta(I) \setminus \accstates')\}$,
+	\item $\delta'((S, B), a) = (S', B')$ where
+	\begin{itemize}
+		\item $S' = \theta(\delta(S, a))$,
+		\item and
+		\begin{itemize}
+			\item $B' = S' \setminus \accstates'$ if $B = \emptyset$ or
+			\item $B' = (\delta(B, a) \cap S') \setminus \accstates'$ if $B \neq \emptyset$, and
+		\end{itemize}
+	\end{itemize}
+	\item $F' = 2^Q \times \{\emptyset\}$.
+%\vspace{-1mm}
+\end{itemize}
+%
+Intuitively, the construction tracks in the~$S$-component all runs over a~word
+and uses the~$B$-component to check that each of the runs sees infinitely many
+accepting states from~$\accstates'$ (by a~cut-point construction).
+The original \mihay procedure can be obtained by using identity for the
+adjustment function, $\theta = \mathrm{id}$.
+
+%\vh{do we need automata with no simulation equivalent sates?}
+% The construction uses cut-point construction to track all runs over a word and
+% to check if there are infinitely many accepting states on each run. For identity
+% adjustment function we obtain the original procedure. In the following, we
+% propose adjustment functions pruning and saturating macrostates respectively.
+% %\vh{do we need automata with no simulation equivalent sates?}
+
+% In the following, given a~BA (or a~co-BA) $\aut$, we use~$\dirsimbya$
+% and~$\fairsimbya$ to denote the direct and fair simulation on~$\aut$
+% respectively (see, e.g.,~\cite{etessami2002hierarchy} for more details; in
+% particular, $p \fairsimbyc q$ for a~co-BA~$\autc$ iff for every trace of~$\autc$
+% from state~$p$ with infinitely many non-final states, there exists a~trace
+% from~$q$ with infinitely many non-final states over the same word).
+
+In the following, we use~$\dirsimbyw$
+and~$\fairsimbyc$ to denote a~\emph{direct simulation} on~$\autw$ and
+a~\emph{fair simulation} on~$\autc$ respectively (see,
+e.g.,~\cite{etessami2002hierarchy} for more details; in particular, $p
+\fairsimbyc q$ iff for every trace of~$\autc$ from state~$p$ over~$\word$
+with finitely many accepting states, there exists a~trace from~$q$ with
+finitely many accepting states over~$\word$).
+
+Let ${\sqsubseteq}\subseteq Q\times Q$ be a~relation on the states of~$\autc$
+defined as follows:
+$p \sqsubseteq q$ iff
+%
+\begin{inparaenum}[(i)]
+	\item $p \fairsimbyc q$,
+	\item $q$ is reachable from~$p$ in~$\autc$, and
+	\item either $p$ is not reachable from~$q$ in~$\autc$ or $p=q$.
+\end{inparaenum}
+%
+The two adjustment functions $\pr,\sat\colon 2^Q \to 2^Q$ are then defined for each
+$S \subseteq Q$ as follows:
+\begin{itemize}
+%\vspace{-1mm}
+  \item  \emph{pruning}:
+      $\pr(S) =S'$ where $S'\subseteq S$ is the lexicographically smallest set
+      (given a~fixed ordering on~$Q$)
+      such that $\forall q \in S \exists q'\in S' \colon q\sqsubseteq q'$ and
+  \item  \emph{saturating}:
+    % $\sat(S) = \lfloor S \rfloor_{\fairsimbyc}$, where $\lfloor S
+    % \rfloor_{\fairsimbyc} = \{ p\in Q \mid \exists q \in Q\colon p \fairsimbyc q \}$.
+    $\sat(S) = \{ p\in Q \mid \exists q \in Q\colon p \fairsimbyc q \}$.
+\end{itemize}
+%
+%\vspace{-1mm}
+Informally, $\pr$ removes simulation-smaller states and $\sat$ saturates
+a~macrostate with all simulation-smaller states.\footnote{%
+It has been brought to our attention by Alexandre Duret-Lutz that a~strategy
+similar to \emph{pruning} with direct simulation has been implemented in
+\spot's~\cite{spot} determinization and, moreover, generalized
+in~\cite{LodingP19} to also work in some cases \emph{within} SCCs.
+}
+%
+% In the following we assume the following automata: let $\autw = (Q, \delta, I,
+% F)$ be a weak BA and $\autc$ the coBA obtained from $\autw$ switching accepting
+% and nonaccepting states, i.e., $\autc = (Q, \delta, I, Q\setminus F = F_{\autc})$. Further,
+% assume that $\dirsimby$ is the direct simulation on $\autw$. Moreover, we assume
+% that $\autw$ has no simulation equivalent states.
+%
+The correctness of the constructions is summarized by the following theorem:
+% We define the \emph{pruning} adjustment function
+% $\pr\colon 2^Q \to 2^Q$ in a way that for each $S\subseteq Q$
+% %
+% \begin{inparaenum}[(i)]
+% 	\item $\pr(S)\subseteq S$
+% 	\item $\forall q \in S \exists q'\in \pr(S): q\sqsubseteq q'$.
+% \end{inparaenum}
+% %
+% We also define the \emph{saturating} adjustment function $\sat\colon 2^Q \to 2^Q$ as
+% $\sat\colon S \mapsto \lfloor S \rfloor_{\fairsimbyc}$, where $\lfloor S
+% \rfloor_{\fairsimbyc} = \{ p\in Q \mid \exists q \in Q: p \fairsimbyc q \}$.
+% Informally, $\pr$ removes simulation smaller states and $\sat$ saturates a
+% macrostate with all the simulation smaller states.
+% %
+% % In the following we assume the following automata: let $\autw = (Q, \delta, I,
+% % F)$ be a weak BA and $\autc$ the coBA obtained from $\autw$ switching accepting
+% % and nonaccepting states, i.e., $\autc = (Q, \delta, I, Q\setminus F = F_{\autc})$. Further,
+% % assume that $\dirsimby$ is the direct simulation on $\autw$. Moreover, we assume
+% % that $\autw$ has no simulation equivalent states.
+% %
+% The correctness of the construction is summarized by the following lemma
+%
+%\vspace{-1mm}
+\begin{restatable}{theorem}{theCoBaCorr}\label{the:coba-corr}
+	For a co-BA $\autc$, $\langof{\cobasat(\autc)} =
+	\langof{\cobapr(\autc)} = \Sigma^\omega \setminus \langof{\autc}$.
+	% Let $\autc$ be a co-BA. Then, $\langof{\cobasat(\autc)} =
+	% \langof{\cobapr(\autc)} = \Sigma^\omega \setminus \langof{\autc}$.
+\end{restatable}
+
+\noindent
+In \ranker, we approximate a~fair simulation~$\fairsimbyc$ by a~direct
+simulation~$\dirsimbyw$ (which is easier to compute); the correctness holds
+due to the following lemma:
+% Note that in the ranker tool, we use approximation of $\fairsimbyc$ by $\dirsimbyw$ as it
+% establishes the following lemma.
+
+\begin{restatable}{lemma}{theFairSim}
+  Let $\autw = (Q, \delta, I, \accstates, \emptyset)$ be a~weak BA and
+  $\autc = (Q, \delta, I, \accstates' = Q\setminus \accstates, \emptyset)$ be
+  a~co-BA.
+  Then $\dirsimbyw {\subseteq} \fairsimbyc$.
+	%If $p \dirsimby q$ then $p \fairsimby q$ in $\autc$.
+\end{restatable}
+
+
+% \vh{todo:}
+% \vh{Construction based on modifying macrostates}
+% \vh{Correctness established by acc-equivalence}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-0.0mm}
+\subsection{\ncsbmaxrank Construction}
+\label{sec:ncsb-maxrank}
+\vspace{-0.0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{itemize}
+% 	\item $Q' = \{ (N,C,S,B) \in 2^{\stnondet}\times 2^{\stdet}\times 2^{\stdet\setminus F}\times 2^{\stdet} \mid B \subseteq C \}$,
+% 	\item $I' = \{ (\stnondet\cap I, \stdet\cap I, \emptyset, \stdet \cap I) \}$,
+% 	\item $(N', C', S', B') \in \delta'((N, C, S, B), a)$ where
+% 	\begin{enumerate}
+% 		\item $N' = \delnondet(N,a)$,
+% 		\item $C' \cup S' = \deltrans(N,a) \cup \deldet(C\cup S, a)$,
+% 		\item $C' \cap S' = \emptyset$,
+% 		\item $S' \subseteq \deldet(S, a)$,
+% 		\item $C' \subseteq \deldet(C\setminus F, a)$,
+% 		\item and
+% 		\begin{itemize}
+% 			\item $B' = C'$ if $B = \emptyset$ or
+% 			\item $B' = \deldet(B, a) \cap C'$ if $B \neq \emptyset$, and
+% 		\end{itemize}
+% 	\end{enumerate}
+% 	\item $F' = \{(N,C,S,B) \in Q' \mid B = \emptyset\}$.
+% \end{itemize}
+
+The structure of semi-deterministic BAs allows to use more efficient
+complementation techniques.
+From the point of view of rank-based complementation,
+the maximum rank of semi-deterministic automata can be bounded by~3.
+If a~rank-based complementation procedure based on \emph{tight rankings} (such
+as~\cite{HavlenaL2021,HavlenaLS22}) is used to complement an SDBA, it can suffer
+from having too many states due to the presence of the \emph{waiting} part
+(intuitively, runs wait in the waiting part of the complement until they can see
+only tight rankings, then they jump to the \emph{tight} part where they can
+accept, cf.~\cite{FriedgutKV06,Schewe09,HavlenaL2021} for more details).
+Furthermore, the information about ranks of individual runs may sometimes be
+more precise than necessary, which disables merging some runs.
+% Furthermore, it may also
+% use
+% distinguish similar runs by assigning them different
+% ranks\ol{I have no idea what the previous means}.
+The NCSB construction~\cite{BlahoudekHSST16} overcomes these issues by not
+considering the waiting part and keeping only rough information about the ranks.
+As a~matter of fact, NCSB and the rank-based approach are not
+comparable due to tight-rankings and additional techniques restricting the
+ranking functions~\cite{HavlenaL2021,HavlenaLS22}, taking into account
+structural properties of the automaton, which is why \ranker in the default
+setting tries both rank-based and NCSB-based procedures for complementing SDBAs.
+
+% A~drawback of the rank-based approach is a presence of the waiting part and
+% distinguishing similar runs using different ranks.
+% The
+% NCSB-construction~\cite{BlahoudekHSST16} overcomes these issues by
+% skipping the waiting part and keeping only rough information about the ranks. As
+% a matter of fact the NCSB-construction and the rank-based approach are not
+% comparable due to tight-rankings and additional techniques restricting the
+% ranking functions~\cite{HavlenaL2021,HavlenaLS22} taking into account
+% structural properties of the automaton. That is the reason why we use in \ranker
+% both the rank-based and the NCSB-based techniques for complementation of
+% semi-deterministic BAs.
+
+An issue of the NCSB algorithm is a~high degree of nondeterminism of the
+constructed BA (and therefore also a~higher number of states).
+The \ncsblazy construction~\cite{ChenHLLTTZ18} improves the original
+algorithm with postponing the nondeterministic choices, which usually produces
+smaller results.
+Even the \ncsblazy construction may, however, suffer in some cases from
+generating too many successors.
+We propose an
+improvement of the original NCSB algorithm, inspired by the \algmaxrank
+construction in rank-based complementation from~\cite{HavlenaL2021} (which is
+inspired by~\cite[Section~4]{Schewe09}), hence called the \ncsbmaxrank
+construction, reducing the number of successors of any macrostate and symbol to
+at most two.
+
+% The problem of the NCSB-construction is a high degree of nondeterminism. The
+% \ncsblazy construction~\cite{ChenHLLTTZ18} improves the original
+% NCSB-construction with slightly different treating of the $B$-set allowing to
+% postpone nondeterministic choices. However, even the \ncsblazy construction may
+% suffer in some cases from a generation of many successors. We propose an
+% improvement of the original NCSB-construction, inspired by the
+% \algmaxrank-construction~\cite{HavlenaL2021} hence called the \ncsbmaxrank
+% construction, reducing the the number of successors to at most two.
+
+Formally, for a given SDBA $\aut = (\stnondet \uplus \stdet, \delta = \delnondet
+\uplus \deldet \uplus \deltrans, I, \accstates, \acctrans)$ where~$\stdet$ are
+the states reachable from an accepting state or transition and
+$\stnondet$ is the rest, $\delnondet =\delta_{|\stnondet} $, $\deldet = \delta_{|\stdet}$,
+and $\deltrans$ is the transition function between $\stnondet$ and~$\stdet$, we
+define
+$\ncsbmaxrank(\aut) = (Q',I',\delta',\accstates', \emptyset)$ to be the
+(state-based) BA whose components are the following:
+%
+\begin{itemize}
+	\item $Q' = \{ (N,C,S,B) \in 2^{\stnondet}\times 2^{\stdet}\times 2^{\stdet\setminus \accstates}\times 2^{\stdet} \mid B \subseteq C \}$,
+	\item $I' = \{ (\stnondet\cap I, \stdet\cap I, \emptyset, \stdet \cap I) \}$,
+  \item $\delta' = \gamma_1 \cup \gamma_2$ where the successors of a~macrostate
+    $(N,C,S,B)$ over $a \in \Sigma$ are defined such that if $\acctrans(S,a)
+    \neq \emptyset$ then $\delta'((N, C, S, B), a) = \emptyset$, else
+    \begin{itemize}
+      \item $\gamma_1((N, C, S, B), a) = \{(N', C', S', B')\}$ where
+        \begin{itemize}
+          \item $N' = \delnondet(N,a)$,
+          \item $S' = \deldet(S, a)$,
+          \item $C' = (\deltrans(N,a) \cup \deldet(C, a))\setminus S'$, and
+          % \item $\acctrans(S,a) = \emptyset$ \label{mr:acctrans}, \ol{he?} and
+          \item $B' = C'$ if $B = \emptyset$, otherwise $B' = \deldet(B, a) \cap C'$.
+        \end{itemize}
+      \item If $B' \cap \accstates = \emptyset$, we also set $\gamma_2((N, C, S, B), a) =
+        \{(N', C^\bullet, S^\bullet, B^\bullet)\}$ with
+        \begin{itemize}
+          \item $B^\bullet = \emptyset$,
+          \item $S^\bullet = S' \cup B'$, and
+          \item $C^\bullet = C' \setminus S^\bullet$,
+        \end{itemize}
+        else $\gamma_2((N, C, S, B), a) = \emptyset$.
+      % \item If $B_t \cap \accstates = \emptyset$ then $\gamma_2((N, C, S, B), a) =
+      %   \{(N_t, C', S', B')\}$ where
+      %   \begin{itemize}
+      %     \item $(N_t, C_t, S_t, B_t) = \gamma_1((N,C,S,B),a)$,
+      %     \item $B' = \emptyset$,
+      %     \item $S' = S_t \cup B_t$, and
+      %     \item $C' = C_t \setminus S'$
+      %   \end{itemize}
+    \end{itemize}
+	\item $\accstates' = \{(N,C,S,B) \in Q' \mid B = \emptyset\}$.
+\end{itemize}
+%
+Intuitively,
+\ncsbmaxrank provides at most two choices for each macrostate:
+either keep all states in $B$ or move all states from $B$ to $S$ (if $B$
+contains no accepting state). If a word is not accepted by $\aut$, it
+will be safe to put all states from $B$ to $S$ at some point.
+The construction is in fact incomparable to the original NCSB
+algorithm~\cite{BlahoudekHSST16} (in particular due to the condition $C'
+\subseteq \deldet(C\setminus \accstates, a)$, which need not hold in
+\ncsbmaxrank).
+Correctness of the construction is given by the following theorem.
+
+\begin{restatable}{theorem}{theMaxrankCorr}
+	Let $\aut$ be an SDBA.
+  Then $\langof{\ncsbmaxrank(\aut)} = \Sigma^\omega \setminus \langof{\aut}$.
+\end{restatable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2mm}
+\section{Experimental Evaluation}
+\vspace{-0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \texttt{./ranker <file.hoa> --preprocess=no-red}\\
+% \texttt{./ranker-tacas <file.hoa> --preprocess=copyheur}
+%
+% \bigskip
+% \noindent
+% \texttt{./ranker <file.hoa> --preprocess=no-red --iw-prune-only} \\
+% \texttt{./ranker <file.hoa> --preprocess=no-red --iw-orig-only} \\
+% \texttt{./ranker <file.hoa> --preprocess=no-red --sd-ncsb-lazy-only} \\
+% \texttt{./ranker <file.hoa> --preprocess=no-red --sd-ncsb-maxrank-only}
+%
+% \begin{CheckList}{Task}
+%   % \Task{open}{Experiments}
+% 	% \begin{CheckList}{Task}
+% 	% 	\Task{done}{\ranker Random}
+% 	% 	\Task{done}{\ranker LTL}
+% 	% 	\Task{done}{\ranker Automizer}
+% 	% 	\Task{open}{\ranker-TACAS Random}
+% 	% 	\Task{open}{\ranker-TACAS LTL}
+% 	% 	\Task{open}{\ranker-TACAS Automizer}
+% 	% \end{CheckList}
+%
+% 	% \Task{open}{Evaluation: performed on \emph{all} automata}
+% 	% \begin{CheckList}{Task}
+% 	% 	\Task{done}{\ranker vs \ranker-TACAS}
+% 	% 	\Task{done}{\ranker vs other tools (plots for \goal, \spot, \roll?)}
+% 	% 	\Task{open}{Running times}
+% 	% \end{CheckList}
+% 	\Task{open}{Proposed optimizations evaluation}
+% 	\begin{CheckList}{Task}
+% 		\Task{open}{Comparison of IW complementation}
+% 		\Task{open}{Comparison of SD complementation}
+% 	\end{CheckList}
+% \end{CheckList}
+
+\newcommand{\figoldspot}[0]{
+\begin{figure}[t]
+  \vspace*{-2mm}
+  \begin{subfigure}[b]{0.49\linewidth}
+  \begin{center}
+  \includegraphics[width=\linewidth,keepaspectratio]{figs/ranker_vs_old-ranker-autfilt.pdf}
+  \end{center}
+  \vspace{-3mm}
+  \caption{$\ranker$ vs $\rankerold$}
+  \label{fig:rankerspot}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.49\linewidth}
+  \begin{center}
+  \includegraphics[width=\linewidth,keepaspectratio]{figs/ranker_vs_spot-autfilt.pdf}
+  \end{center}
+  \vspace{-3mm}
+  \caption{$\ranker$ vs $\spot$}
+  \label{fig:rankerroll}
+  \end{subfigure}
+  \vspace{0mm}
+\caption{Comparison of the complement size obtained by \ranker,
+  $\rankerold$, and \spot (horizontal and vertical dashed lines represent
+  timeouts).}
+\label{fig:comp-others}
+\vspace*{-3mm}
+\end{figure}
+}
+
+\newcommand{\figiwsdba}[0]{
+\begin{figure}[t]
+  \vspace*{-2mm}
+  \begin{subfigure}[b]{0.49\linewidth}
+  \begin{center}
+  \includegraphics[width=\linewidth,keepaspectratio]{figs/fig_iw_prune.pdf}
+  \end{center}
+  \vspace{-3mm}
+  \caption{$\cobapr$ vs $\mihay$}
+  \label{fig:res-mihay}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.49\linewidth}
+  \begin{center}
+  \includegraphics[width=\linewidth,keepaspectratio]{figs/fig_sdba_maxrank.pdf}
+  \end{center}
+  \vspace{-3mm}
+  \caption{$\ncsbmaxrank$ vs $\ncsblazy$}
+  \label{fig:res-ncsb}
+  \end{subfigure}
+  \vspace{0mm}
+\caption{Evaluation of the effect of our optimizations for IW and SDBA automata.
+	% Red data points are from \dsltl, green data points are from \dsautomizer.
+  % Axes
+	% are logarithmic.
+  % Axes are logarithmic.
+  }
+\label{fig:comp-others}
+\end{figure}
+}
+
+\newcommand{\tabresults}[0]{
+  \begin{table}[t]
+  \caption{Statistics for our experiments.
+    The table compares the sizes of complement BAs obtained by \ranker and other
+    approaches (after postprocessing).
+    The \textbf{wins} and \textbf{losses} columns give the number of times when \ranker
+    was strictly better and worse.
+    The values are given for the three datasets as ``\dsall (\dsrandom{} :
+    \dsltl{} : \dsautomizer)''.
+    Approaches in \goal are labelled with~\goalmark.
+    }
+    \vspace{3mm}
+  \label{tab:results}
+  \hspace{-3mm}
+  \resizebox{1.035\linewidth}{!}{%
+    \input{table-results.tex}
+  }
+  \vspace*{-3mm}
+  \end{table}
+}
+
+\newcommand{\tabletimes}[0]{
+\begin{wraptable}[11]{r}{6.3cm}
+\vspace{-6mm}
+\caption{Run times of the tools [s]
+given as ``\dsall (\dsrandom{} : \dsltl{} : \dsautomizer)''}
+\label{tab:times}
+\vspace{-1mm}
+\hspace*{-3mm}
+\resizebox{6.6cm}{!}{
+\input{table-times.tex}
+}
+\end{wraptable}
+}
+
+\figiwsdba
+
+%----------------------------------------------------------------------
+% \paragraph{Environment.}
+% We implemented the techniques described in the previous sections as an extension
+% of the tool \ranker~\cite{ranker} (written in C++).
+% % Speaking in the terms of~\cite{HavlenaL2021},
+% % the heuristics were implemented on top of the $\rankermaxrank$ configuration (we
+% % refer to this previous version as $\rankerold$).
+% The heuristics presented in this paper were implemented on top of the version of
+% \ranker from \cite{HavlenaLS22}.
+We compared the improved version of \ranker presented in this paper with other state-of-the-art tools, namely,
+\goal~\cite{goal} (implementing \piterman~\cite{piterman2006nondeterministic}, \safra~\cite{safra1988complexity},
+and \fribourg~\cite{fribourg}),
+\spot~2.9.3~\cite{spot} (implementing Redziejowski's
+algorithm~\cite{Redziejowski12}), \seminator~\cite{seminator},
+\ltldstar~0.5.4~\cite{KleinB07}, \roll~\cite{roll}, and the previous version of
+\ranker from~\cite{HavlenaLS22}, denoted as $\rankerold$.
+All tools were set to the mode where they output a~state-based BA.
+The correctness of our implementation was tested using \spot's
+\texttt{autcross} on all of BAs from our benchmarks.
+The experimental evaluation was performed on a~64-bit \textsc{GNU/Linux Debian}
+workstation with an Intel(R) Xeon(R) CPU E5-2620 running at 2.40\,GHz with
+32\,GiB of RAM, using a~5-minute timeout.
+Axes in plots are logarithmic.
+An~artifact that allows reproduction of the results is available as~\cite{Ranker22artifact}.
+
+%--------------------------------------------------------------------------
+\paragraph{Datasets.}
+We use automata from the following three datasets:
+%
+\begin{inparaenum}[(i)]
+  \item  \dsrandom containing 11,000 BAs over a~two letter alphabet used in~\cite{tsai-compl}, which
+    were randomly generated via the Tabakov-Vardi approach~\cite{TabakovV05},
+    starting from 15 states and with various parameter settings;
+  \item  \dsltl with 1,721 BAs over larger alphabets (up to 128 symbols) used in~\cite{seminator},
+    obtained from LTL formulae from literature (221) or randomly generated (1,500),
+  \item \dsautomizer containing 906 BAs over larger alphabets (up to $2^{35}$ symbols) used in~\cite{ChenHLLTTZ18}, which were obtained from the \automizer tool
+(all benchmarks are available at~\cite{Lengal22AB}).
+\end{inparaenum}
+%
+Note that we included \dsrandom in order to simulate applications that cannot
+easily generate BAs of one of the easier fragments (unlike, e.g., \automizer,
+which generates in most cases SDBAs) and have thus, so
+far, not been seriously considered by the community due to the lack of
+practically efficient BA complementation approaches (e.g., the automata-based
+S1S decision procedure~\cite{buchi1962decision}).
+%
+All automata were preprocessed using \spot's \autfilt (using the \verb=--high=
+simplification level),
+%transformed them to state-based acceptance BAs (if they were not already),
+and converted to the HOA format~\cite{BabiakBDKKM0S15}.
+%
+% From this set, we removed automata that were
+% \begin{inparaenum}[(i)]
+%   \item  semi-deterministic,
+%   \item  inherently weak,
+%   \item  unambiguous, or
+%   \item  have an empty language,
+% \end{inparaenum}
+% since for these automata types there exist more efficient complementation
+% procedures than for unrestricted
+% BAs~\cite{BlahoudekHSST16,seminator,BoigelotJW01,li-unambigous}.
+We~also removed trivial one-state BAs.
+%
+	In~the end, we were left with 4,533 (\dsrandom, \textcolor{blue}{\bf blue} data
+  points), 1,716
+	(\dsltl, \textcolor{red}{\bf red} data points), and 906 (\dsautomizer,
+  \textcolor{green!70!black}{\bf green} data points) automata.
+We use \dsall to denote their union (7,155 BAs).
+
+\figoldspot
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2mm}
+\subsection{Effect of the Proposed Optimizations}
+\vspace{-0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\taboptim}[0]{
+\begin{wraptable}[11]{r}{5.4cm}
+\vspace*{3mm}
+\caption{Effects of our optimizations for IW and SDBA automata.
+  Sizes of output BAs are given as ``\dsboth (\dsltl{} : \dsautomizer)''.
+  }
+\label{tab:optim}
+\vspace{-1mm}
+\hspace*{-4mm}
+\resizebox{5.9cm}{!}{
+\input{table-optim.tex}
+}
+\end{wraptable}
+}
+
+In the first part of the experimental evaluation, we measured the effect of the
+proposed optimizations from \cref{sec:optimizations} on the size of the generated
+state space, i.e., sizes of output automata without any postprocessing.
+This use case is motivated by language inclusion and equivalence checking,
+where the size of the generated state space directly affects the performance of
+the algorithm.
+We carried out the
+evaluation on \dsltl and \dsautomizer benchmarks (we use \dsboth to denote their union) since most of the automata
+there are either IW or SDBAs.
+
+\taboptim
+The first experiment compares the number of states generated by the
+original \mihay\ and by the macrostates-pruning optimization
+$\cobapr$ from \cref{sec:iw-sim-opt} on inherently weak BAs (948 BAs from
+\dsltl{} and 360 BAs from \dsautomizer{} = 1,308~BAs). Note that we omit $\cobasat$ as it is overall worse than $\cobapr$.
+The scatter plot is shown in~\cref{fig:res-mihay} and statistics are in the top
+part of \cref{tab:optim}.
+We can clearly see that the optimization works well, substantially decreasing
+both the mean and the median size of the output BAs.
+
+The second experiment compares the size of the state space generated by
+\ncsblazy~\cite{ChenHLLTTZ18} and
+\ncsbmaxrank from \cref{sec:ncsb-maxrank} on 735~SDBAs (that
+are not IW) from \dsltl{} (328~BAs) and \dsautomizer{} (407~BAs).
+We omit a comparison with the original NCSB~\cite{BlahoudekHSST16} procedure,
+since \ncsblazy behaves overall better~\cite{ChenHLLTTZ18}.
+The results are in \cref{fig:res-ncsb} and the bottom part of \cref{tab:optim}.
+Again, both the mean and the median are lower for \ncsbmaxrank.
+The scatter plot shows that the effect of the optimization is stronger when the
+generated state space is larger (for BAs where the output had $\geq$ 150
+states, our optimization was never worse).
+
+
+% LTL-IW: 948
+% LTL-SDBA: 328
+%
+% Automizer-IW: 360
+% Automizer-SDBA: 407
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-0mm}
+\subsection{Comparison with Other Tools}
+\vspace{-0mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+% \enlargethispage{2mm}
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+\tabresults
+
+
+
+In the second part of the experimental evaluation, we compared \ranker with
+other state-of-the-art tools for BA complementation.
+We measured how small output BAs we can obtain, therefore, we compared the
+number of states after reduction using \autfilt (with the simplification level
+\texttt{--high}).
+%
+The scatter plots in Fig. \ref{fig:comp-others} compare the numbers of states of
+automata generated by $\ranker$, $\rankerold$, and $\spot$. Summarizing
+statistics are given in \cref{tab:results}.
+The backoff strategy in \ranker was applied in 278 (264:1:13) cases.
+
+\tabletimes
+
+First, observe that \ranker significantly outperforms $\rankerold$, especially
+in the much lower number of timeouts, which decreased by 65\,\% (moreover, 66~of
+the 158 timeouts were due to the timeout of \texttt{autfilt} in postprocessing).
+The higher mean of $\ranker$ compared to $\rankerold$ is also caused by less
+timeouts).
+%
+From \cref{tab:results}, we can also see
+that \ranker has the smallest mean and median (except \roll and $\rankerold$,
+but they have a~much higher number of timeouts).
+\ranker has also the second lowest number of timeouts (\spot has the lowest).
+If we look at the number of \textbf{wins} and \textbf{loses}, we can see that
+\ranker in majority of cases produces a strictly smaller automaton compared to
+other tools.
+In \cref{tab:times}, see that the run time of \ranker is comparable to the run
+times of other tools (much better than \goal and \roll, comparable with
+\seminator, and a~bit worse than \spot and \ltldstar).
+
+
+
+
+% \vh{times}
+
+% \ol{also say how many times we timeouted because of the POC spot}
+% random: 10
+% LTL: 0
+% advanced: 56
+
+
+\paragraph{Acknowledgements.}
+We thank the anonymous reviewers for their useful remarks that helped us improve
+the quality of the paper, the artifact evaluation committee for their
+thorough testing of the artifact,
+and Alexandre Duret-Lutz for useful feedback on an earlier version of the paper.
+This work was supported by the Czech Ministry of Education, Youth and Sports project LL1908 of the ERC.CZ programme,
+the Czech Science Foundation project 20-07487S,
+and the FIT BUT internal project FIT-S-20-6427.
+
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \clearpage
+\bibliographystyle{splncs}
+\bibliography{literature}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newpage
+% \appendix
+
+% \input{appendix.tex}
+
+\end{document}
