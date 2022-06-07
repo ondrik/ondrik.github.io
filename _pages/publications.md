@@ -6,6 +6,20 @@ classes: wide
 ---
 # 2022
 
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Complementing Büchi Automata with Ranker](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
+Haifa, Israel,
+volume XXXXXXX of LNCS,
+pages YYY--ZZZ, 2022.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+An extended version appeared as the technical report [CoRR abs/XXXXXXXXXXXXXXXX](https://arxiv.org/abs/XXXXXXXXXXXXXXXX), 2022.
+The artifact for the paper is available at Zenodo as a virtual machine under the DOI [10.5281/zenodo.6524909](https://doi.org/10.5281/zenodo.6524909) and as a package that can be installed on other systems under the DOI [https://doi.org/10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (the artifact is also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)).
+The tool Ranker is available at [GitHub](https://github.com/vhavlena/ranker) and the evaluation environment is also at [GitHub](https://github.com/VeriFIT/ba-compl-eval).
+**[INCOMPLETE REFERENCE]**
+
+
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
 [Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 31st USENIX Security Symposium* --- [USENIX-Security'22](https://www.usenix.org/conference/usenixsecurity22),
@@ -16,15 +30,15 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 **[INCOMPLETE REFERENCE]**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
-[Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/10.1007/978-3-030-99527-0_7).
 In *Proc. of 28th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'22](https://www.etaps.org/index.php/2022/tacas),
 Munich, Germany,
-volume XXXXX of LNCS,
-pages YYY--ZZZ, 2022.
+volume 13244 of LNCS,
+pages 118--136, 2022.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas22-sky-is-not-the-limit.pdf).
 An extended version appeared as the technical report [CoRR abs/2110.10187](https://arxiv.org/abs/2110.10187), 2021.
-**[INCOMPLETE REFERENCE]**
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas22-buchi-elevator.pdf).
 
 # 2021
 
@@ -73,6 +87,7 @@ volume 4 of PACMPL, article number 218, 2020. ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf).
 A recording of the talk is available [here](https://youtu.be/bICOrgqkF40).
 An extended version appeared as the technical report [MSR-TR-2020-31](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft, 2020.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.3975566](https://doi.org/10.5281/zenodo.3975566) and the data set is available at Zenodo under the DOI [10.5281/zenodo.3974360](https://doi.org/10.5281/zenodo.3974360).
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
@@ -81,7 +96,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 
 * V. Havlena, L. Holik, O. Lengal, O. Vales, and T. Vojnar.
 [Antiprenexing for WSkS: A Little Goes a Long Way](https://doi.org/10.29007/6bfc).
-To appear in *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
+In *Proc. of the 23rd International Conference on Logic for Programming, Artificial Intelligence, and Reasoning* --- [LPAR-23](https://easychair.org/smart-program/LPAR23/index.html),
 volume 73 of EPiC, pages 298--316, 2020. Easychair.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lpar19-wsks-antiprenex.pdf).
 
