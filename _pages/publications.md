@@ -28,6 +28,7 @@ pages YYY--ZZZ, 2022.
 USENIX Association.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/usenix-security22-counting-redos.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/usenix-sec22-redos.pdf).
+A video with the presentation is available [here](https://www.youtube.com/watch?v=xJkcnGEL4es).
 **[INCOMPLETE REFERENCE]**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
