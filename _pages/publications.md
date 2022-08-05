@@ -7,11 +7,11 @@ classes: wide
 # 2022
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
-[Complementing Büchi Automata with Ranker](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Complementing Büchi Automata with Ranker](https://doi.org/10.1007/978-3-031-13188-2_10).
 To appear in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
 Haifa, Israel,
-volume XXXXXXX of LNCS,
-pages YYY--ZZZ, 2022.
+volume 13372 of LNCS,
+pages 188--201, 2022.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav22-ranker-tool.pdf).
 An extended version appeared as the technical report [CoRR abs/2206.01946](https://arxiv.org/abs/2206.01946), 2022.
