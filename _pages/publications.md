@@ -24,7 +24,7 @@ The tool Ranker is available at [GitHub](https://github.com/vhavlena/ranker) and
 [Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 31st USENIX Security Symposium* --- [USENIX-Security'22](https://www.usenix.org/conference/usenixsecurity22),
 Boston, MA, USA,
-pages YYY--ZZZ, 2022.
+pages 4165--4182, 2022.
 USENIX Association.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/usenix-security22-counting-redos.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/usenix-sec22-redos.pdf).
