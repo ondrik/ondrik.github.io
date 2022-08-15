@@ -18,8 +18,6 @@ An extended version appeared as the technical report [CoRR abs/2206.01946](https
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav22-ranker-tool.pdf).
 The artifact for the paper is available at Zenodo as a virtual machine under the DOI [10.5281/zenodo.6524909](https://doi.org/10.5281/zenodo.6524909) and as a package that can be installed on other systems under the DOI [https://doi.org/10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (the artifact is also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)).
 The tool Ranker is available at [GitHub](https://github.com/vhavlena/ranker) and the evaluation environment is also at [GitHub](https://github.com/VeriFIT/ba-compl-eval).
-**[INCOMPLETE REFERENCE]**
-
 
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
 [Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
