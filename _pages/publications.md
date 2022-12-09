@@ -13,7 +13,7 @@ Lübeck, Germany,
 volume XXXXX of LNCS,
 pages YYY--YYY, 2023.
 Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXXXXXXXXX.pdf).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fm23-noodler.pdf).
 An extended version appeared as the technical report [CoRR abs/2212.02317](https://arxiv.org/abs/2212.02317), 2022.
 The tool Noodler is available at [GitHub](https://github.com/vhavlena/Noodler).
 **[INCOMPLETE REFERENCE]**
