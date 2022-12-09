@@ -18,6 +18,7 @@ An extended version appeared as the technical report [CoRR abs/2212.02317](https
 The tool Noodler is available at [GitHub](https://github.com/vhavlena/Noodler).
 **[INCOMPLETE REFERENCE]**
 
+
 # 2022
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
