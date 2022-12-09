@@ -4,11 +4,25 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2023
+
+* F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
+[Word Equations in Synergy with Regular Constraints](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
+Lübeck, Germany,
+volume XXXXX of LNCS,
+pages YYY--YYY, 2023.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXXXXXXXXX.pdf).
+An extended version appeared as the technical report [CoRR abs/2212.02317](https://arxiv.org/abs/2212.02317), 2022.
+The tool Noodler is available at [GitHub](https://github.com/vhavlena/Noodler).
+**[INCOMPLETE REFERENCE]**
+
 # 2022
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Complementing Büchi Automata with Ranker](https://doi.org/10.1007/978-3-031-13188-2_10).
-To appear in *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
+In *Proc. of 34th International Conference on Computer Aided Verification* --- [CAV'22](http://i-cav.org/2022/),
 Haifa, Israel,
 volume 13372 of LNCS,
 pages 188--201, 2022.
@@ -20,7 +34,7 @@ The artifact for the paper is available at Zenodo as a virtual machine under the
 The tool Ranker is available at [GitHub](https://github.com/vhavlena/ranker) and the evaluation environment is also at [GitHub](https://github.com/VeriFIT/ba-compl-eval).
 
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
-[Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://www.usenix.org/conference/usenixsecurity22/presentation/turonova).
 In *Proc. of 31st USENIX Security Symposium* --- [USENIX-Security'22](https://www.usenix.org/conference/usenixsecurity22),
 Boston, MA, USA,
 pages 4165--4182, 2022.
@@ -28,7 +42,6 @@ USENIX Association.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/usenix-security22-counting-redos.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/usenix-sec22-redos.pdf).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=xJkcnGEL4es).
-**[INCOMPLETE REFERENCE]**
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Sky Is Not the Limit: Tighter Rank Bounds for Elevator Automata in Büchi Automata Complementation](https://doi.org/10.1007/978-3-030-99527-0_7).
