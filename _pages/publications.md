@@ -6,6 +6,19 @@ classes: wide
 ---
 # 2023
 
+* V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
+[Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'23](https://www.etaps.org/index.php/2023/tacas),
+Paris, France,
+volume XXXXX of LNCS,
+pages YYY--YYY, 2023.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf).
+An extended version appeared as the technical report [CoRR abs/2212.XXXXX](https://arxiv.org/abs/2212.XXXXX), 2022.
+The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
+**[INCOMPLETE REFERENCE]**
+
+
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
