@@ -14,7 +14,7 @@ volume XXXXX of LNCS,
 pages YYY--YYY, 2023.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf).
-An extended version appeared as the technical report [CoRR abs/2212.XXXXX](https://arxiv.org/abs/2212.XXXXX), 2022.
+An extended version appeared as the technical report [CoRR abs/2301.01890](https://arxiv.org/abs/2301.01890), 2023.
 The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
 **[INCOMPLETE REFERENCE]**
 
