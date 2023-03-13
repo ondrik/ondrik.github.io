@@ -21,17 +21,17 @@ The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
 
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
-[Word Equations in Synergy with Regular Constraints](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
 To appear in *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
 Lübeck, Germany,
-volume XXXXX of LNCS,
-pages YYY--YYY, 2023.
+volume 14000 of LNCS,
+pages 403--423, 2023.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fm23-noodler.pdf).
+**Best Paper of FM'23**.
 An extended version appeared as the technical report [CoRR abs/2212.02317](https://arxiv.org/abs/2212.02317), 2022.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fm23-strings-noodler.pdf).
 The tool Noodler is available at [GitHub](https://github.com/vhavlena/Noodler).
-**[INCOMPLETE REFERENCE]**
-
 
 # 2022
 
