@@ -10,7 +10,7 @@ classes: wide
 [Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'23](https://www.etaps.org/index.php/2023/tacas),
 Paris, France,
-volume XXXXX of LNCS,
+volume 13993 of LNCS,
 pages YYY--YYY, 2023.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf).
