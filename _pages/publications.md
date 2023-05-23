@@ -19,6 +19,12 @@ The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 **INCOMPLETE REFERENCE**
 
+* Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
+[A Symbolic Algorithm for the Case-Split Rule in Solving Word Constraints with Extensions](https://doi.org/10.1016/j.jss.2023.111673).
+Journal of Systems and Software (JSS) 201, 111673.
+Elsevier.
+An extended version appeared as the technical report [CoRR abs/2303.01142](https://arxiv.org/abs/2303.01142), 2023.
+
 * V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
 [Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/10.1007/978-3-031-30823-9_13).
 In *Proc. of 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'23](https://www.etaps.org/index.php/2023/tacas),
