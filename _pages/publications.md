@@ -6,6 +6,19 @@ classes: wide
 ---
 # 2023
 
+* Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
+[An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
+Orlando, Florida, USA,
+pages XXX--YYY, 2023.
+ACM.
+A preliminary version is available [here](XXXXXXX).
+**Distinguished Paper of PLDI'23**
+An extended version appeared as the technical report [CoRR abs/2301.07747](https://arxiv.org/abs/2301.07747), 2023.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349).
+The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+**INCOMPLETE REFERENCE**
+
 * V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
 [Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/10.1007/978-3-031-30823-9_13).
 In *Proc. of 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'23](https://www.etaps.org/index.php/2023/tacas),
@@ -17,6 +30,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/2301.01890](https://arxiv.org/abs/2301.01890), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7505280](https://doi.org/10.5281/zenodo.7505280) as a package for the TACAS'23 AE VM available [here](https://doi.org/10.5281/zenodo.7113223).
 The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
+**ADD SLIDES**
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
