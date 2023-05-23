@@ -12,7 +12,7 @@ In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Impl
 Orlando, Florida, USA,
 pages XXX--YYY, 2023.
 ACM.
-A preliminary version is available [here](XXXXXXX).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi23-quantum-bug-hunting.pdf).
 **Distinguished Paper of PLDI'23**
 An extended version appeared as the technical report [CoRR abs/2301.07747](https://arxiv.org/abs/2301.07747), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349).
