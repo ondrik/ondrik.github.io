@@ -29,8 +29,8 @@ Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf).
 An extended version appeared as the technical report [CoRR abs/2301.01890](https://arxiv.org/abs/2301.01890), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7505280](https://doi.org/10.5281/zenodo.7505280) as a package for the TACAS'23 AE VM available [here](https://doi.org/10.5281/zenodo.7113223).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas23-modular-complementation.pdf).
 The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
-**ADD SLIDES**
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
