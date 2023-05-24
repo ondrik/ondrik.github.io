@@ -8,7 +8,7 @@ classes: wide
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
 [An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
+To appear in *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
 Orlando, Florida, USA,
 pages XXX--YYY, 2023.
 ACM.
@@ -40,7 +40,7 @@ The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
-To appear in *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
+In *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
 Lübeck, Germany,
 volume 14000 of LNCS,
 pages 403--423, 2023.
