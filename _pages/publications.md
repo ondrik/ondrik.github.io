@@ -8,16 +8,22 @@ classes: wide
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
 [An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
+To appear in *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
 Orlando, Florida, USA,
 pages XXX--YYY, 2023.
 ACM.
-A preliminary version is available [here](XXXXXXX).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi23-quantum-bug-hunting.pdf).
 **Distinguished Paper of PLDI'23**
 An extended version appeared as the technical report [CoRR abs/2301.07747](https://arxiv.org/abs/2301.07747), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 **INCOMPLETE REFERENCE**
+
+* Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
+[A Symbolic Algorithm for the Case-Split Rule in Solving Word Constraints with Extensions](https://doi.org/10.1016/j.jss.2023.111673).
+Journal of Systems and Software (JSS) 201, 111673.
+Elsevier.
+An extended version appeared as the technical report [CoRR abs/2303.01142](https://arxiv.org/abs/2303.01142), 2023.
 
 * V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
 [Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/10.1007/978-3-031-30823-9_13).
@@ -34,7 +40,7 @@ The tool Kofola is available at [GitHub](https://github.com/verifit/kofola).
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
-To appear in *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
+In *Proc. of Formal Methods - 25th International Symposium* --- [FM'23](https://fm2023.isp.uni-luebeck.de/),
 Lübeck, Germany,
 volume 14000 of LNCS,
 pages 403--423, 2023.
