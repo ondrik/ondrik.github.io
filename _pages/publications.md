@@ -6,18 +6,28 @@ classes: wide
 ---
 # 2023
 
+* Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai.
+[AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/XXXXXXXXXXXXXXXX).
+To appear in *Proc. of 35th International Conference on Computer Aided Verification* --- [CAV'23](http://www.i-cav.org/2023),
+Paris, France,
+volume YYYYY of LNCS,
+pages ZZZ--ZZZ, 2023.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq).
+The artifact for the paper is available at Zenodo under the DOI [XXXXXXXX](https://doi.org/XXXXXXXX).
+The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
-[An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/),
+[An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/10.1145/3591270).
+In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/), PACMPL 7 (156),
 Orlando, Florida, USA,
-pages XXX--YYY, 2023.
+pages 1218--1243, 2023.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi23-quantum-bug-hunting.pdf).
 **Distinguished Paper of PLDI'23**
 An extended version appeared as the technical report [CoRR abs/2301.07747](https://arxiv.org/abs/2301.07747), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
-**INCOMPLETE REFERENCE**
 
 * Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
 [A Symbolic Algorithm for the Case-Split Rule in Solving Word Constraints with Extensions](https://doi.org/10.1016/j.jss.2023.111673).
