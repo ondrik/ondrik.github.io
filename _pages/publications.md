@@ -13,8 +13,8 @@ Paris, France,
 volume YYYYY of LNCS,
 pages ZZZ--ZZZ, 2023.
 Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq).
-The artifact for the paper is available at Zenodo under the DOI [XXXXXXXX](https://doi.org/XXXXXXXX).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq.pdf).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7966542](https://doi.org/10.5281/zenodo.7966542).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
