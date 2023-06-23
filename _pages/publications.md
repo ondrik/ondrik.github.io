@@ -27,6 +27,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 **Distinguished Paper of PLDI'23**
 An extended version appeared as the technical report [CoRR abs/2301.07747](https://arxiv.org/abs/2301.07747), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349).
+A video with the presentation is available [here](https://www.youtube.com/live/1L1eKWwa6fE?t=4481).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 
 * Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
