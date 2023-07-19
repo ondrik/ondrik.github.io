@@ -7,11 +7,11 @@ classes: wide
 # 2023
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai.
-[AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/XXXXXXXXXXXXXXXX).
-To appear in *Proc. of 35th International Conference on Computer Aided Verification* --- [CAV'23](http://www.i-cav.org/2023),
+[AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/10.1007/978-3-031-37709-9_7).
+In *Proc. of 35th International Conference on Computer Aided Verification* --- [CAV'23](http://www.i-cav.org/2023),
 Paris, France,
-volume YYYYY of LNCS,
-pages ZZZ--ZZZ, 2023.
+volume 13966 of LNCS,
+pages 139--153, 2023.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq.pdf).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7966542](https://doi.org/10.5281/zenodo.7966542).
