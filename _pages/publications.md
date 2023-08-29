@@ -6,6 +6,14 @@ classes: wide
 ---
 # 2023
 
+* Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
+[Solving String Constraints with Lengths by Stabilization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of the ACM on Programming Languages* --- [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
+volume XXXXXX of PACMPL, article number YYYYYYY, 2023. ACM.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.8289595](https://doi.org/10.5281/zenodo.8289595).
+The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
+**incomplete reference**
+
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai.
 [AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/10.1007/978-3-031-37709-9_7).
 In *Proc. of 35th International Conference on Computer Aided Verification* --- [CAV'23](http://www.i-cav.org/2023),
