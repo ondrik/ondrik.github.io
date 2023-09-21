@@ -40,8 +40,9 @@ toc: true
 
 ## Awards
 
-* Best paper award for the paper [Word Equations in Synergy with Regular Constraints](http://dx.doi.org//10.1007/978-3-031-27481-7_23) at [FM'23](https://fm2023.isp.uni-luebeck.de/).
-* Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
+* A Distinguished paper award for the paper [An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits](http://dx.doi.org/10.1145/3591270) at [PLDI'23](https://pldi23.sigplan.org/).
+* A Best paper award for the paper [Word Equations in Synergy with Regular Constraints](http://dx.doi.org/10.1007/978-3-031-27481-7_23) at [FM'23](https://fm2023.isp.uni-luebeck.de/).
+* A Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
 * Prize of Antonín Svoboda for the best PhD thesis in Computer Science (Czech Republic, 2016)
 * A co-authored separation logic solver SPEN won the division `qf_shlid_ent` of international Competition of Solvers for Separation Logic (SL-COMP) 2014 and was the second in divisions `qf_shls_entl` and `qf_shls_sat` in both SL-COMP 2014 and SL-COMP 2018.
 * First place at MSc Thesis of the Year competition (Czech Republic, 2010)
