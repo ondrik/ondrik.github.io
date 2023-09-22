@@ -10,6 +10,7 @@ classes: wide
 [Solving String Constraints with Lengths by Stabilization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
 In *Proc. of the ACM on Programming Languages* --- [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
 volume XXXXXX of PACMPL, article number YYYYYYY, 2023. ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla23-noodles-with-strings.pdf).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.8289595](https://doi.org/10.5281/zenodo.8289595).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 **incomplete reference**
