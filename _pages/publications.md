@@ -14,6 +14,7 @@ volume 7 of PACMPL (number OOPSLA2), article number 296, 2023. ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla23-noodles-with-strings.pdf).
 **Distinguished Paper of OOPSLA'23**.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.8289595](https://doi.org/10.5281/zenodo.8289595).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/oopsla23-strings-with-lengths.pdf).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai.
