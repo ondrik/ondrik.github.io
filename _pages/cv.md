@@ -42,6 +42,7 @@ toc: true
 
 ## Awards
 
+* A Distinguished paper award for the paper [Solving String Constraints with Lengths by Stabilization](http://dx.doi.org/10.1145/3622872) at [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla)
 * A Distinguished paper award for the paper [An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits](http://dx.doi.org/10.1145/3591270) at [PLDI'23](https://pldi23.sigplan.org/).
 * A Best paper award for the paper [Word Equations in Synergy with Regular Constraints](http://dx.doi.org/10.1007/978-3-031-27481-7_23) at [FM'23](https://fm2023.isp.uni-luebeck.de/).
 * A Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
