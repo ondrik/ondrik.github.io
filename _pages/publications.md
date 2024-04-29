@@ -4,8 +4,22 @@ published: true
 title: Publications
 classes: wide
 ---
-# 2023
+# 2024
 
+* Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
+[Z3-Noodler: An Automata-based String Solver](https://doi.org/10.1007/978-3-031-57246-3_2).
+In *Proc. of 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'24](https://etaps.org/2024/conferences/tacas/),
+Luxembourg City, Luxembourg,
+volume 14570 of LNCS,
+pages 24--33, 2024.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-z3-noodler.pdf).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10034513](https://doi.org/10.5281/zenodo.10034513).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-z3-noodler.pdf).
+The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
+
+
+# 2023
 
 * Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Solving String Constraints with Lengths by Stabilization](https://doi.org/10.1145/3622872).
