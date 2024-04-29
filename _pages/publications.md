@@ -7,7 +7,7 @@ classes: wide
 # 2024
 
 * Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
-[Z3-NOODLER: An Automata-based String Solver](https://doi.org/10.1007/978-3-031-57246-3_2).
+[Z3-Noodler: An Automata-based String Solver](https://doi.org/10.1007/978-3-031-57246-3_2).
 In *Proc. of 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'24](https://etaps.org/2024/conferences/tacas/),
 Luxembourg City, Luxembourg,
 volume 14570 of LNCS,
