@@ -6,6 +6,19 @@ classes: wide
 ---
 # 2024
 
+* P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
+[Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 36th International Conference on Computer Aided Verification* --- [CAV'24](http://www.i-cav.org/2024),
+Montreal, Canada,
+volume XXXXXX of LNCS,
+pages XXX--XXX, 2024.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf). XXXXXXXXXXXXXXXX
+An extended version appeared as the technical report [CoRR abs/2403.18995](https://arxiv.org/abs/2403.18995), 2024.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10993434](https://doi.org/10.5281/zenodo.10993434).
+The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya)
+**INCOMPLETE REFERENCE**
+
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
 [Mata: A Fast and Simple Finite Automata Library](https://doi.org/10.1007/978-3-031-57249-4_7).
 In *Proc. of 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'24](https://etaps.org/2024/conferences/tacas/),
@@ -14,6 +27,7 @@ volume 14571 of LNCS,
 pages 130--151, 2024.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-mata.pdf).
+An extended version appeared as the technical report [CoRR abs/2310.10136](https://arxiv.org/abs/2310.10136), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10044515](https://doi.org/10.5281/zenodo.10044515).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-mata.pdf).
 The library Mata is available at [GitHub](https://github.com/VeriFIT/mata).
@@ -26,6 +40,7 @@ volume 14570 of LNCS,
 pages 24--33, 2024.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-z3-noodler.pdf).
+An extended version appeared as the technical report [CoRR abs/2310.08327](https://arxiv.org/abs/2310.08327), 2023.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10034513](https://doi.org/10.5281/zenodo.10034513).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-z3-noodler.pdf).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
