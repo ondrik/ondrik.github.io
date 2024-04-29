@@ -6,6 +6,18 @@ classes: wide
 ---
 # 2024
 
+* D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
+[Mata: A Fast and Simple Finite Automata Library](https://doi.org/10.1007/978-3-031-57249-4_7).
+In *Proc. of 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'24](https://etaps.org/2024/conferences/tacas/),
+Luxembourg City, Luxembourg,
+volume 14571 of LNCS,
+pages 130--151, 2024.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-mata.pdf).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10044515](https://doi.org/10.5281/zenodo.10044515).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-mata.pdf).
+The library Mata is available at [GitHub](https://github.com/VeriFIT/mata).
+
 * Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Z3-Noodler: An Automata-based String Solver](https://doi.org/10.1007/978-3-031-57246-3_2).
 In *Proc. of 30th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'24](https://etaps.org/2024/conferences/tacas/),
