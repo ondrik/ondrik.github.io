@@ -13,10 +13,10 @@ Montreal, Canada,
 volume XXXXXX of LNCS,
 pages XXX--XXX, 2024.
 Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf). XXXXXXXXXXXXXXXX
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf).
 An extended version appeared as the technical report [CoRR abs/2403.18995](https://arxiv.org/abs/2403.18995), 2024.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10993434](https://doi.org/10.5281/zenodo.10993434).
-The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya)
+The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya) and at [DockerHub](https://hub.docker.com/r/mheck0/amaya).
 **INCOMPLETE REFERENCE**
 
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
