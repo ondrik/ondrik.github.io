@@ -6,6 +6,15 @@ classes: wide
 ---
 # 2024
 
+* V. Havlena, L. Holik, O. Lengal, and J. Sic.
+[Cooking String-Integer Conversions with Noodles](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 27th International Conference on Theory and Applications of Satisfiability Testing* --- [SAT'24](https://satisfiability.org/SAT24/),
+Pune, India,
+volume YYY of LIPIcs, article ZZZ, pages WWW:UU--WWW:UU, 2024.
+Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf).
+**INCOMPLETE REFERENCE**
+
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of 36th International Conference on Computer Aided Verification* --- [CAV'24](http://www.i-cav.org/2024),
@@ -13,10 +22,10 @@ Montreal, Canada,
 volume XXXXXX of LNCS,
 pages XXX--XXX, 2024.
 Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf). XXXXXXXXXXXXXXXX
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf).
 An extended version appeared as the technical report [CoRR abs/2403.18995](https://arxiv.org/abs/2403.18995), 2024.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10993434](https://doi.org/10.5281/zenodo.10993434).
-The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya)
+The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya) and at [DockerHub](https://hub.docker.com/r/mheck0/amaya).
 **INCOMPLETE REFERENCE**
 
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
