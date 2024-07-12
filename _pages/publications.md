@@ -6,6 +6,15 @@ classes: wide
 ---
 # 2024
 
+* V. Havlena, L. Holik, O. Lengal, and J. Sic.
+[Cooking String-Integer Conversions with Noodles](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 27th International Conference on Theory and Applications of Satisfiability Testing* --- [SAT'24](https://satisfiability.org/SAT24/),
+Pune, India,
+volume YYY of LIPIcs, article ZZZ, pages WWW:UU--WWW:UU, 2024.
+Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf).
+**INCOMPLETE REFERENCE**
+
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of 36th International Conference on Computer Aided Verification* --- [CAV'24](http://www.i-cav.org/2024),
