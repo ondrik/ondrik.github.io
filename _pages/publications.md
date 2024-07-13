@@ -6,6 +6,16 @@ classes: wide
 ---
 # 2024
 
+* T. Chen, Y. Chen, J. Jiang, O. Lengal, and S. Jobranova.
+[Accelerating Quantum Circuit Simulation with Symbolic Execution and Loop Summarization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided Design* --- [ICCAD'24](https://2024.iccad.com/),
+New Jersey, USA,
+pages XXX--XXX, 2024.
+PUBLISHER.
+A preliminary version is available [here](XXXXXXXXXXYYYYYYYYYYYYYY).
+The tool Medusa is available at [GitHub](https://github.com/s-jobra/MEDUSA/).
+**INCOMPLETE REFERENCE**
+
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Cooking String-Integer Conversions with Noodles](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of 27th International Conference on Theory and Applications of Satisfiability Testing* --- [SAT'24](https://satisfiability.org/SAT24/),
