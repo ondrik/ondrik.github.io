@@ -11,7 +11,7 @@ classes: wide
 To appear in *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided Design* --- [ICCAD'24](https://2024.iccad.com/),
 New Jersey, USA,
 pages XXX--XXX, 2024.
-PUBLISHER.
+ACM.
 A preliminary version is available [here](XXXXXXXXXXYYYYYYYYYYYYYY).
 The tool Medusa is available at [GitHub](https://github.com/s-jobra/MEDUSA/).
 **INCOMPLETE REFERENCE**
