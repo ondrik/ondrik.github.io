@@ -26,18 +26,17 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 **INCOMPLETE REFERENCE**
 
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
-[Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 36th International Conference on Computer Aided Verification* --- [CAV'24](http://www.i-cav.org/2024),
+[Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/978-3-031-65627-9_3).
+In *Proc. of 36th International Conference on Computer Aided Verification* --- [CAV'24](http://www.i-cav.org/2024),
 Montreal, Canada,
-volume XXXXXX of LNCS,
-pages XXX--XXX, 2024.
+volume 14681 of LNCS,
+pages 42--67, 2024.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf).
 An extended version appeared as the technical report [CoRR abs/2403.18995](https://arxiv.org/abs/2403.18995), 2024.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.10993434](https://doi.org/10.5281/zenodo.10993434).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav24-presburger-algebraic.pdf).
 The tool Amaya is available at [GitHub](https://github.com/MichalHe/amaya) and at [DockerHub](https://hub.docker.com/r/mheck0/amaya).
-**INCOMPLETE REFERENCE**
 
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
 [Mata: A Fast and Simple Finite Automata Library](https://doi.org/10.1007/978-3-031-57249-4_7).
