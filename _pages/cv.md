@@ -13,6 +13,7 @@ toc: true
 
 ## Membership
 
+* [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/) Artifact Evaluation chair
 * [AVM'19](https://avm19.fit.vutbr.cz) co-organiser (together with [Tomáš Vojnar](https://www.fit.vutbr.cz/~vojnar) and [Jan Strejček](https://www.fi.muni.cz/~xstrejc/))
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
@@ -44,6 +45,8 @@ toc: true
 
 ## Awards
 
+* A co-authored string solver [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) won the [QF_Strings division](https://smt-comp.github.io/2024/results/qf_strings-single-query/) (single query track) of SMT-COMP'24 under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA
+* A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) won the [NIA logic](https://smt-comp.github.io/2024/results/nia-single-query/) (single query) category of SMT-COMP'24 under the 24s performance scoring scheme (and was the second under the sequential performance, parallel performance, and UNSAT performance scoring schemes, and the third under the SAT performance scoring scheme)
 * A Distinguished paper award for the paper [Solving String Constraints with Lengths by Stabilization](http://dx.doi.org/10.1145/3622872) at [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla)
 * A Distinguished paper award for the paper [An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits](http://dx.doi.org/10.1145/3591270) at [PLDI'23](https://pldi23.sigplan.org/).
 * A Best paper award for the paper [Word Equations in Synergy with Regular Constraints](http://dx.doi.org/10.1007/978-3-031-27481-7_23) at [FM'23](https://fm2023.isp.uni-luebeck.de/).
