@@ -12,8 +12,9 @@ To appear in *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided 
 New Jersey, USA,
 pages XXX--XXX, 2024.
 ACM.
-A preliminary version is available [here](XXXXXXXXXXYYYYYYYYYYYYYY).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf).
 The tool Medusa is available at [GitHub](https://github.com/s-jobra/MEDUSA/).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13243595](https://doi.org/10.5281/zenodo.13243595).
 **INCOMPLETE REFERENCE**
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
