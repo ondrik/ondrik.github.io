@@ -18,13 +18,12 @@ The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.
 **INCOMPLETE REFERENCE**
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
-[Cooking String-Integer Conversions with Noodles](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 27th International Conference on Theory and Applications of Satisfiability Testing* --- [SAT'24](https://satisfiability.org/SAT24/),
+[Cooking String-Integer Conversions with Noodles](https://doi.org/10.4230/LIPIcs.SAT.2024.14).
+In *Proc. of 27th International Conference on Theory and Applications of Satisfiability Testing* --- [SAT'24](https://satisfiability.org/SAT24/),
 Pune, India,
-volume YYY of LIPIcs, article ZZZ, pages WWW:UU--WWW:UU, 2024.
+volume 305 of LIPIcs, article 14, pages 14:1--14:19, 2024.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf).
-**INCOMPLETE REFERENCE**
 
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/978-3-031-65627-9_3).
