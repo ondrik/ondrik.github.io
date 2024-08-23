@@ -24,6 +24,7 @@ Pune, India,
 volume 305 of LIPIcs, article 14, pages 14:1--14:19, 2024.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/sat24-noodler-conversions.pdf).
 
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/978-3-031-65627-9_3).
