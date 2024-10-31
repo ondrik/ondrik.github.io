@@ -13,6 +13,7 @@ New Jersey, USA,
 pages XXX--XXX, 2024.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/iccad24-quantum-symbolic-exec.pdf).
 The tool Medusa is available at [GitHub](https://github.com/s-jobra/MEDUSA/).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13243595](https://doi.org/10.5281/zenodo.13243595).
 **INCOMPLETE REFERENCE**
