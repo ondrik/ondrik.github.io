@@ -6,7 +6,7 @@ classes: wide
 ---
 # 2025
 
-* P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, W. Tsai.
+* P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, and W. Tsai.
 [Verifying Quantum Circuits with Level-Synchronized Tree Automata](https://doi.org/10.1145/3704868).
 To appear in *Proc. of 52nd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'25](https://popl25.sigplan.org/), PACMPL 9 (32),
 Denver, Colorado, USA,
@@ -21,7 +21,7 @@ The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 
 # 2024
 
-* T. Chen, Y. Chen, J. Jiang, O. Lengal, and S. Jobranova.
+* T. Chen, Y. Chen, J. Jiang, S. Jobranova, and O. Lengal.
 [Accelerating Quantum Circuit Simulation with Symbolic Execution and Loop Summarization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
 To appear in *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided Design* --- [ICCAD'24](https://2024.iccad.com/),
 New Jersey, USA,
@@ -94,7 +94,7 @@ The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/oopsla23-strings-with-lengths.pdf).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 
-* Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai.
+* Y. Chen, K. Chung, O. Lengal, J. Lin, and W. Tsai.
 [AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/10.1007/978-3-031-37709-9_7).
 In *Proc. of 35th International Conference on Computer Aided Verification* --- [CAV'23](http://www.i-cav.org/2023),
 Paris, France,
@@ -105,7 +105,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.7966542](https://doi.org/10.5281/zenodo.7966542).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 
-* Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, D. Yen.
+* Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, and D. Yen.
 [An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/10.1145/3591270).
 In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/), PACMPL 7 (156),
 Orlando, Florida, USA,
