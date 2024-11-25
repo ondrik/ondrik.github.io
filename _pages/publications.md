@@ -4,6 +4,21 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2025
+
+* P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, W. Tsai.
+[Verifying Quantum Circuits with Level-Synchronized Tree Automata](https://doi.org/10.1145/3704868).
+To appear in *Proc. of 52nd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'25](https://popl25.sigplan.org/), PACMPL 9 (32),
+Denver, Colorado, USA,
+pages XXX--YYY, 2025.
+ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl25-lstas-for-quantum.pdf).
+An extended version appeared as the technical report [CoRR abs/2410.18540](https://arxiv.org/abs/2410.18540), 2024.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13957472](https://doi.org/10.5281/zenodo.13957472).
+The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+**INCOMPLETE REFERENCE**
+
+
 # 2024
 
 * T. Chen, Y. Chen, J. Jiang, O. Lengal, and S. Jobranova.
