@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAT Solver</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+<h1>SAT solver</h1>
+<p>
+Toto je webové rozhraní pro SAT solver (<a href="http://minisat.se/"/>MiniSat</a> zkompilovaný do JavaScriptu <a href="https://github.com/jgalenson/research.js/tree/master/minisat">odsud</a>).
+</p>
+
+<h2>Vstupní formát</h2>
+<p>
+Vstupní formát DIMACS je standardní formát pro zápis formulí v konjunktivní normální formě (CNF). Pro připomenutí, CNF je formule ve tvaru konjunkce disjunkcí (tzv. klauzulí), ve které se negace objevují pouze před proměnnými.
+DIMACS soubor vždy začíná hlavičkou, která udává počet proměnných a počet klauzulí ve formuli:
+</p>
+
+<div style="background-color: #DDDDDD;width:12cm;">
+<pre>
+<code>p cnf &lt;pocet-promennych&gt; &lt;pocet-klauzuli&gt;</code>
+</pre>
+</div>
+
+<p>
+Dále následuje samotná formule. Jako názvy proměnných jsou použity celá nenulová čísla v rozsahu vymezeném hlavičkou. Negace před proměnnou je zapsána pomocí symbolu <em>mínus</em> <tt>-</tt>.
+Jednotlivé klauzule jsou pak zapisovány po řádcích ukončených znakem <tt>0</tt> (<tt>0</tt> tedy nelze použít jako proměnnou).
+Komentáře jsou řádky začínající symbolem <tt>c</tt>.
+</p>
+
+<p>
+Například, formuli (x1) ∧ (¬x2 ∨ ¬x3) ∧ (x1 ∨ x2 ∨ x3) lze zapsat jako:
+
+<div style="background-color: #DDDDDD;width:12cm;">
+<pre>
+<code>p cnf 3 3
+1 0
+-2 -3 0
+1 2 3 0</code>
+</pre>
+</div>
+
+</p>
+Výstupem SAT solveru je pak buď řetězec <tt>SAT</tt> spolu s modelem (např. <tt>SAT 1 2 -3</tt> pro předchozí příklad značí, že ohodnocení proměnných
+{𝑥₁↦1, 𝑥₂↦1, 𝑥₃↦0} je modelem formule) pokud je formule splnitelná nebo řetězec <tt>UNSAT</tt> (pokud formule splnitelná není).
+</p>
+
+<h2>Solver</h2>
+
+Vstup:<br/>
+<textarea id='input' cols=60 rows=30>
+p cnf 3 3
+1 0
+-2 -3 0
+1 2 3 0
+</textarea><br/>
+Výstup:<br/>
+<textarea id='output' cols=60 rows=10>
+</textarea><br/>
+<script src="minisat.js"></script>
+<script>
+  function solve() {
+    var solve_string = Module.cwrap('solve_string', 'string', ['string', 'int']);
+    var oldPrint = Module.print;
+    var oldPrintErr = Module.printErr;
+    var outputElem = document.getElementById('output');
+    outputElem.value = "";
+    Module['print'] = function(x) {
+      outputElem.value += x + "\n";
+    }
+    Module['printErr'] = function(x) {
+      outputElem.value += x + "\n";
+    }
+    try {
+      var input = document.getElementById('input').value;
+      var startTime = (new Date()).getTime();
+      var result = solve_string(input, input.length);
+      var endTime = (new Date()).getTime();
+     // outputElem.value += 'CPU time: ' + ((endTime - startTime) / 1000) + 's\n';
+      outputElem.value += result;
+    } catch(e) {
+      Module.printErr('Error: ' + e);
+    }
+    Module.print = oldPrint;
+    Module.printErr = oldPrintErr;
+  }
+</script>
+<input value='Solve' type='button' onclick='solve()'>
+</body>
+</html>
