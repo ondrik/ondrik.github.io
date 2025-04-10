@@ -8,7 +8,7 @@ classes: wide
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Complementation of Emerson-Lei Automata](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-In *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
+To appear in *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
 Hamilton, Canada,
 volume 15691 of LNCS,
 pages XXX--YYY, 2025.
