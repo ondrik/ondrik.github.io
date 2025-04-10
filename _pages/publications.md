@@ -21,16 +21,16 @@ The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 # 2024
 
 * T. Chen, Y. Chen, J. Jiang, S. Jobranova, and O. Lengal.
-[Accelerating Quantum Circuit Simulation with Symbolic Execution and Loop Summarization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided Design* --- [ICCAD'24](https://2024.iccad.com/),
+[Accelerating Quantum Circuit Simulation with Symbolic Execution and Loop Summarization](https://doi.org/10.1145/3676536.3676711).
+In *Proc. of 2024 ACM/IEEE International Conference on Computer-Aided Design* --- [ICCAD'24](https://2024.iccad.com/),
 New Jersey, USA,
-pages XXX--XXX, 2024.
+Article No. 42,
+pages 1--9, 2024.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/iccad24-quantum-symbolic-exec.pdf).
 The tool Medusa is available at [GitHub](https://github.com/s-jobra/MEDUSA/).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13243595](https://doi.org/10.5281/zenodo.13243595).
-**INCOMPLETE REFERENCE**
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Cooking String-Integer Conversions with Noodles](https://doi.org/10.4230/LIPIcs.SAT.2024.14).
