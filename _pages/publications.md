@@ -6,6 +6,17 @@ classes: wide
 ---
 # 2025
 
+* V. Havlena, O. Lengal, and B. Smahlikova.
+[Complementation of Emerson-Lei Automata](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
+Hamilton, Canada,
+volume 15691 of LNCS,
+pages XXX--YYY, 2025.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fossacs25-complement-emerson-lei.pdf).
+An extended version appeared as the technical report [CoRR abs/2410.11644](https://arxiv.org/abs/2410.11644), 2024.
+**INCOMPLETE REFERENCE**
+
 * P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, and W. Tsai.
 [Verifying Quantum Circuits with Level-Synchronized Tree Automata](https://doi.org/10.1145/3704868).
 In *Proc. of 52nd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'25](https://popl25.sigplan.org/), PACMPL 9 (32),
@@ -125,7 +136,7 @@ Elsevier.
 An extended version appeared as the technical report [CoRR abs/2303.01142](https://arxiv.org/abs/2303.01142), 2023.
 
 * V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
-[Modular Mix-and-Match Complementation of Büchi automata](https://doi.org/10.1007/978-3-031-30823-9_13).
+[Modular Mix-and-Match Complementation of Büchi Automata](https://doi.org/10.1007/978-3-031-30823-9_13).
 In *Proc. of 29th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'23](https://www.etaps.org/index.php/2023/tacas),
 Paris, France,
 volume 13993 of LNCS,
