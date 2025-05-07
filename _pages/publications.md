@@ -14,6 +14,7 @@ volume 15698 of LNCS,
 pages 87--108, 2025.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf).
+An extended version appeared as the technical report [CoRR abs/2411.09121](https://arxiv.org/abs/2411.09121), 2024.
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791). 
 **INCOMPLETE REFERENCE**
