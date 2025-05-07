@@ -7,15 +7,15 @@ classes: wide
 # 2025
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
-[Complementation of Emerson-Lei Automata](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
+[Complementation of Emerson-Lei Automata](https://doi.org/10.1007/978-3-031-90897-2_5).
+In *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
 Hamilton, Canada,
 volume 15691 of LNCS,
-pages XXX--YYY, 2025.
+pages 88--110, 2025.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fossacs25-complement-emerson-lei.pdf).
 An extended version appeared as the technical report [CoRR abs/2410.11644](https://arxiv.org/abs/2410.11644), 2024.
-**INCOMPLETE REFERENCE**
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fossacs25-tela-complement.pdf).
 
 * P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, and W. Tsai.
 [Verifying Quantum Circuits with Level-Synchronized Tree Automata](https://doi.org/10.1145/3704868).
