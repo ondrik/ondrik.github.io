@@ -6,6 +6,18 @@ classes: wide
 ---
 # 2025
 
+* Y. Chen, K. Chung, M. Hsieh, W. Huang, O. Lengal, J.Lin, and W. Tsai.
+[AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://doi.org/10.1007/978-3-031-90660-2_5).
+In *Proc. of 31th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'25](https://etaps.org/2025/conferences/tacas/),
+Hamilton, Canada,
+volume 15698 of LNCS,
+pages 87--108, 2025.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf).
+The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791). 
+**INCOMPLETE REFERENCE**
+
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Complementation of Emerson-Lei Automata](https://doi.org/10.1007/978-3-031-90897-2_5).
 In *Proc. of 28th International Conference on Foundations of Software Science and Computation Structures* --- [FoSSaCS'25](https://etaps.org/2025/conferences/fossacs/),
