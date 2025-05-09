@@ -6,6 +6,18 @@ classes: wide
 ---
 # 2025
 
+* D. Chocholaty, V. Havlena, L. Holik, J. Hranicka, O. Lengal, and J. Sic.
+[Z3-Noodler 1.3: Shepherding Decision Procedures for Strings with Model Generation](https://doi.org/10.1007/978-3-031-90653-4_2).
+In *Proc. of 31th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'25](https://etaps.org/2025/conferences/tacas/),
+Hamilton, Canada,
+volume 15697 of LNCS,
+pages 23--44, 2025.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-noodler-speherding.pdf).
+The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13989789](https://doi.org/10.5281/zenodo.13989789).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-noodler-speherding.pdf).
+
 * Y. Chen, K. Chung, M. Hsieh, W. Huang, O. Lengal, J.Lin, and W. Tsai.
 [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://doi.org/10.1007/978-3-031-90660-2_5).
 In *Proc. of 31th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'25](https://etaps.org/2025/conferences/tacas/),
@@ -64,6 +76,7 @@ volume 305 of LIPIcs, article 14, pages 14:1--14:19, 2024.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/sat24-noodler-conversions.pdf).
+The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/978-3-031-65627-9_3).
