@@ -13,10 +13,10 @@ Hamilton, Canada,
 volume 15697 of LNCS,
 pages 23--44, 2025.
 Springer-Verlag.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-noodler-speherding.pdf).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-noodler-shepherding.pdf).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13989789](https://doi.org/10.5281/zenodo.13989789).
-The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-noodler-speherding.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-noodler-shepherding.pdf).
 
 * Y. Chen, K. Chung, M. Hsieh, W. Huang, O. Lengal, J.Lin, and W. Tsai.
 [AutoQ 2.0: From Verification of Quantum Circuits to Verification of Quantum Programs](https://doi.org/10.1007/978-3-031-90660-2_5).
