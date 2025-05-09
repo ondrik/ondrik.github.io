@@ -6,6 +6,17 @@ classes: wide
 ---
 # 2025
 
+* Y. Chen, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
+[A Uniform Framework for Handling Position Constraints in String Solving](https://doi.org/10.1145/3729273).
+To appear in *Proc. of 46th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'25](https://pldi25.sigplan.org/), PACMPL 9 (169),
+Seoul, South Korea,
+pages XXX--YYY, 2025.
+ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi25-position-constraints.pdf).
+The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.15230216](https://doi.org/10.5281/zenodo.15230216).
+**INCOMPLETE REFERENCE**
+
 * D. Chocholaty, V. Havlena, L. Holik, J. Hranicka, O. Lengal, and J. Sic.
 [Z3-Noodler 1.3: Shepherding Decision Procedures for Strings with Model Generation](https://doi.org/10.1007/978-3-031-90653-4_2).
 In *Proc. of 31th International Conference on Tools and Algorithms for the Construction and Analysis of Systems* --- [TACAS'25](https://etaps.org/2025/conferences/tacas/),
