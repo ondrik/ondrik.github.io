@@ -39,8 +39,8 @@ Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf).
 An extended version appeared as the technical report [CoRR abs/2411.09121](https://arxiv.org/abs/2411.09121), 2024.
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
-The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791). 
-**INCOMPLETE REFERENCE**
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pptx)).
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
 [Complementation of Emerson-Lei Automata](https://doi.org/10.1007/978-3-031-90897-2_5).
