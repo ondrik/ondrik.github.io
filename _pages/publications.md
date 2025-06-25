@@ -7,7 +7,7 @@ classes: wide
 # 2025
 
 * O. Lengal.
-[Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal_habilitation.pdf).
+[Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
 Habilitation thesis. FIT BUT, Brno, Czech Republic, 2025.
 Slides from my [public habilitation lecture](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf).
 Slides from my [scientific council talk](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf).
