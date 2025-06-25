@@ -6,6 +6,12 @@ classes: wide
 ---
 # 2025
 
+* O. Lengal.
+[Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal_habilitation.pdf).
+Habilitation thesis. FIT BUT, Brno, Czech Republic, 2025.
+Slides from my [public habilitation lecture](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf).
+Slides from my [scientific council talk](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf).
+
 * Y. Chen, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [A Uniform Framework for Handling Position Constraints in String Solving](https://doi.org/10.1145/3729273).
 In *Proc. of 46th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'25](https://pldi25.sigplan.org/), PACMPL 9 (169),
