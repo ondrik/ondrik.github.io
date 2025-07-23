@@ -86,6 +86,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/2410.18540](https://arxiv.org/abs/2410.18540), 2024.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13957472](https://doi.org/10.5281/zenodo.13957472).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+The slides from a [VQC'25](https://verifiedqc.github.io/2025/) presentation summarizing this and previous works are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc-25-automata-quantum.pdf).
 
 
 # 2024
