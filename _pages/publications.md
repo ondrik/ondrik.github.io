@@ -6,7 +6,9 @@ classes: wide
 ---
 # 2025
 
-<!-- VQC slides -->
+<!-- FCT -->
+
+
 
 * V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Negated String Containment is Decidable](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
@@ -16,12 +18,15 @@ volume XXX of LIPIcs, article YY, pages YY:1--YY:ZZ, 2025.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/mfcs25-not-contains.pdf).
 An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
-**INCOMPLETE PUBLICATION**
+**INCOMPLETE REFERENCE**
 
-<!-- Constraints  -->
-
-<!-- FCT -->
-
+F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
+[Word equations in synergy with regular constraints (extended version)](https://doi.org/10.1007/s10601-025-09379-w).
+Constraints XX, YYY.
+2025.
+Springer. 2025.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/constraints-25-stabilization.pdf).
+**INCOMPLETE REFERENCE**
 
 * O. Lengal.
 [Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
@@ -86,6 +91,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/2410.18540](https://arxiv.org/abs/2410.18540), 2024.
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.13957472](https://doi.org/10.5281/zenodo.13957472).
 The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+The slides from a [VQC'25](https://verifiedqc.github.io/2025/) presentation summarizing this and previous works are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc-25-automata-quantum.pdf).
 
 
 # 2024
@@ -192,7 +198,7 @@ The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 * Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
 [A Symbolic Algorithm for the Case-Split Rule in Solving Word Constraints with Extensions](https://doi.org/10.1016/j.jss.2023.111673).
 Journal of Systems and Software (JSS) 201, 111673.
-Elsevier.
+Elsevier. 2023.
 An extended version appeared as the technical report [CoRR abs/2303.01142](https://arxiv.org/abs/2303.01142), 2023.
 
 * V. Havlena, O. Lengal, Y. Li, B. Smahlikova, and A. Turrini.
