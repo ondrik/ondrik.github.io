@@ -20,7 +20,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
 **INCOMPLETE REFERENCE**
 
-F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
+* F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
 [Word equations in synergy with regular constraints (extended version)](https://doi.org/10.1007/s10601-025-09379-w).
 Constraints XX, YYY.
 2025.
