@@ -6,10 +6,17 @@ classes: wide
 ---
 # 2025
 
+<!-- VQC slides -->
+
+<!-- MFCS  -->
+
+<!-- Constraints  -->
+
+
 * O. Lengal.
 [Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
 Habilitation thesis. FIT BUT, Brno, Czech Republic, 2025.
-Slides from my [public habilitation lecture](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf).
+Slides from my [public habilitation lecture](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf) ([video](https://www.youtube.com/live/qCGN5xeDtJ8)).
 Slides from my [scientific council talk](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf).
 
 * Y. Chen, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
