@@ -6,6 +6,29 @@ classes: wide
 ---
 # 2025
 
+<!-- VQC slides -->
+
+* V. Havlena, M. Hecko, L. Holik, and O. Lengal.
+[Negated String Containment is Decidable](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
+To appear in *Proc. of 50th International Symposium on Mathematical Foundations of Computer Science* --- [MFCS'25](https://mfcs2025.mimuw.edu.pl/),
+Warsaw, Poland,
+volume XXX of LIPIcs, article YY, pages YY:1--YY:ZZ, 2025.
+Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/mfcs25-not-contains.pdf).
+An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
+**INCOMPLETE PUBLICATION**
+
+<!-- Constraints  -->
+
+<!-- FCT -->
+
+
+* O. Lengal.
+[Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
+Habilitation thesis. FIT BUT, Brno, Czech Republic, 2025.
+Slides from my [public habilitation lecture](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf) ([video](https://www.youtube.com/live/qCGN5xeDtJ8)).
+Slides from my [scientific council talk](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf).
+
 * Y. Chen, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [A Uniform Framework for Handling Position Constraints in String Solving](https://doi.org/10.1145/3729273).
 In *Proc. of 46th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'25](https://pldi25.sigplan.org/), PACMPL 9 (169),
