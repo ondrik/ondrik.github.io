@@ -66,6 +66,10 @@ toc: true
 * Two first place awards at a local student research competition (EEICT 2008, EEICT 2010)
 * GE Foundation Scholar-Leaders scholarship (Czech Republic, 2007)
 
+## Awards
+
+* Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
+
 ## Links
 
 * [Google Scholar](https://scholar.google.com/citations?user=m3bsxv4AAAAJ)
