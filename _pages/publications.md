@@ -19,13 +19,14 @@ The tool AliGater is available [here](https://gitlab.fi.muni.cz/xstepkov/aligate
 **INCOMPLETE REFERENCE**
 
 * V. Havlena, M. Hecko, L. Holik, and O. Lengal.
-[Negated String Containment is Decidable](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 50th International Symposium on Mathematical Foundations of Computer Science* --- [MFCS'25](https://mfcs2025.mimuw.edu.pl/),
+[Negated String Containment is Decidable](https://doi.org/10.4230/LIPIcs.MFCS.2025.56).
+In *Proc. of 50th International Symposium on Mathematical Foundations of Computer Science* --- [MFCS'25](https://mfcs2025.mimuw.edu.pl/),
 Warsaw, Poland,
-volume XXX of LIPIcs, article YY, pages YY:1--YY:ZZ, 2025.
+volume 345 of LIPIcs, article 56, pages 56:1--56:20, 2025.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/mfcs25-not-contains.pdf).
 An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/XXXXXXXXXXXXXXXXXXXXXXX.pdf).
 **INCOMPLETE REFERENCE**
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
