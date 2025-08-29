@@ -26,8 +26,7 @@ volume 345 of LIPIcs, article 56, pages 56:1--56:20, 2025.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/mfcs25-not-contains.pdf).
 An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
-The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/XXXXXXXXXXXXXXXXXXXXXXX.pdf).
-**INCOMPLETE REFERENCE**
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/mfcs25-notcontains.pdf).
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
 [Word equations in synergy with regular constraints (extended version)](https://doi.org/10.1007/s10601-025-09379-w).
