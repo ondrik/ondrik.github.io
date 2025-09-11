@@ -49,7 +49,7 @@ toc: true
   * [SV-COMP'16](https://sv-comp.sosy-lab.org/2016/index.php)
   * [SV-COMP'15](https://sv-comp.sosy-lab.org/2015/index.php)
 * 龍龖龘隊
-* The fanclub of Ondra Lengál ([link](https://www.facebook.com/groups/410164136336727"))
+* The fanclub of Ondra Lengál ([link](https://www.facebook.com/groups/410164136336727))
 
 ## Awards
 
