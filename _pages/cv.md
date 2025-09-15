@@ -6,7 +6,8 @@ toc: true
 ---
 ## Timeline
 
-* **2016--now:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
+* **2025--now:** associate professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
+* **2016--2025:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw), Taiwan, Republic of China
 * **2010--2015:** Ph.D. student under Tomáš Vojnar and Lukáš Holík in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2005--2010:** Bc. and MSc. student at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
