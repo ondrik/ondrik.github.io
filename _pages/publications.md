@@ -16,6 +16,7 @@ Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fct25-nfa-complement.pdf).
 An extended version appeared as the technical report [CoRR abs/2507.03439](https://arxiv.org/abs/2507.03439), 2025.
 The tool AliGater is available [here](https://gitlab.fi.muni.cz/xstepkov/aligater).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fct25-nfa-complementation.pdf).
 **INCOMPLETE REFERENCE**
 
 * V. Havlena, M. Hecko, L. Holik, and O. Lengal.
