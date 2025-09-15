@@ -3,7 +3,7 @@ permalink: /
 published: true
 classes: wide
 ---
-I am currently an assistant professor at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic.
+I am currently an associate professor at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic.
 
 # Research Interests
 
