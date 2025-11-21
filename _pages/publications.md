@@ -7,16 +7,16 @@ classes: wide
 # 2025
 
 * L. Holik, O. Lengal, J. Major, A. Stepkova, and J. Strejcek.
-[On Complementation of Nondeterministic Finite Automata without Full Determinization](https://doi.org/XXXXXXXXXXXXXXXXXXXXXXX).
-To appear in *Proc. of 25th International Symposium on Fundamentals of Computation Theory* --- [FCT'25](https://fct2025.cs.uni.wroc.pl/),
+[On Complementation of Nondeterministic Finite Automata without Full Determinization](https://doi.org/10.1007/978-3-032-04700-7_17).
+In *Proc. of 25th International Symposium on Fundamentals of Computation Theory* --- [FCT'25](https://fct2025.cs.uni.wroc.pl/),
 Wroclaw, Poland,
-volume YYYYY of LNCS,
-pages ZZ--ZZ, 2025.
+volume 16106 of LNCS,
+pages 221--237, 2025.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fct25-nfa-complement.pdf).
 An extended version appeared as the technical report [CoRR abs/2507.03439](https://arxiv.org/abs/2507.03439), 2025.
 The tool AliGater is available [here](https://gitlab.fi.muni.cz/xstepkov/aligater).
-**INCOMPLETE REFERENCE**
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fct25-nfa-complementation.pdf).
 
 * V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Negated String Containment is Decidable](https://doi.org/10.4230/LIPIcs.MFCS.2025.56).
