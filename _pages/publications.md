@@ -4,6 +4,16 @@ published: true
 title: Publications
 classes: wide
 ---
+# 2026
+
+P. A. Abdulla, Y. Chen, M. Hecko, L. Holik, O. Lengal, J. Lin, R. S. Thinniyam.
+[Parameterized Verification of Quantum Circuits](https://doi.org/10.1145/3776712).
+In *53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'26](https://popl26.sigplan.org/), PACMPL 10 (70),
+Rennes, France,
+pages XXX--XXX, 2026.
+ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXX).
+
 # 2025
 
 * L. Holik, O. Lengal, J. Major, A. Stepkova, and J. Strejcek.
