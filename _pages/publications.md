@@ -6,6 +6,7 @@ classes: wide
 ---
 # 2026
 
+
 * P. A. Abdulla, Y. Chen, M. Hecko, L. Holik, O. Lengal, J. Lin, R. S. Thinniyam.
 [Parameterized Verification of Quantum Circuits](https://doi.org/10.1145/3776712).
 In *53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'26](https://popl26.sigplan.org/), PACMPL 10 (70),
@@ -626,5 +627,5 @@ pages 213--218, 2008.
 IEEE.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/ddecs08-network-probe.pdf).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MzAzNDE5XX0=
+eyJoaXN0b3J5IjpbMTM0MTA2MTUxN119
 -->
