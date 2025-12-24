@@ -12,7 +12,7 @@ In *53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL
 Rennes, France,
 pages XXX--XXX, 2026.
 ACM.
-A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/XXXXXXXXX).
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl26-swtas-for-quantum.pdf).
 
 # 2025
 
@@ -625,3 +625,6 @@ Bratislava, Slovakia,
 pages 213--218, 2008.
 IEEE.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/ddecs08-network-probe.pdf).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzQ2MzAzNDE5XX0=
+-->
