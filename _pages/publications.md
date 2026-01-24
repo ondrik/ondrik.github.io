@@ -11,9 +11,10 @@ classes: wide
 [Parameterized Verification of Quantum Circuits](https://doi.org/10.1145/3776712).
 In *53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'26](https://popl26.sigplan.org/), PACMPL 10 (70),
 Rennes, France,
-pages XXX--XXX, 2026.
+article 70, pages 2021--2050, 2026.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl26-swtas-for-quantum.pdf).
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/popl26-quantum-swta.pdf).
 
 # 2025
 
