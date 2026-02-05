@@ -15,6 +15,7 @@ article 70, pages 2021--2050, 2026.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl26-swtas-for-quantum.pdf).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/popl26-quantum-swta.pdf).
+A video with the presentation is available [here](https://www.youtube.com/watch?v=JUsI21KtXG4).
 
 # 2025
 
@@ -68,6 +69,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.15230216](https://doi.org/10.5281/zenodo.15230216).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi25-position-slides.pdf).
+A video with the presentation is available [here](https://www.youtube.com/watch?v=uKeWyLDHeZI).
 
 * D. Chocholaty, V. Havlena, L. Holik, J. Hranicka, O. Lengal, and J. Sic.
 [Z3-Noodler 1.3: Shepherding Decision Procedures for Strings with Model Generation](https://doi.org/10.1007/978-3-031-90653-4_2).
