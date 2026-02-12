@@ -21,6 +21,8 @@ toc: true
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
+  * [CAV'26](https://conferences.i-cav.org/2026/)
+  * [PAAR'26](https://paar2026.github.io/)
   * [PLDI'26](https://pldi26.sigplan.org/)
   * [DATE'26](https://date26.date-conference.com/)
   * [VECoS'25](https://www.vecos-world.org/2025/)
