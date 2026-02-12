@@ -17,6 +17,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/popl26-quantum-swta.pdf).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=JUsI21KtXG4).
 
+
 # 2025
 
 * L. Holik, O. Lengal, J. Major, A. Stepkova, and J. Strejcek.
