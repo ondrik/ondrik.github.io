@@ -14,6 +14,7 @@ toc: true
 
 ## Membership
 
+* [CAV'26](https://conferences.i-cav.org/2026/) Artifact Evaluation co-chair (together with [Magnus Myreen](https://www.cse.chalmers.se/~myreen/))
 * [VMCAI'26](https://conf.researchr.org/home/VMCAI-2026) PC co-chair (together with [Yu-Fang Chen](https://guluchen.github.io/) and [Thomas Jensen](https://www.irisa.fr/celtique/jensen/))
 * [MOSCA'25](https://mosca2025.github.io/) co-organiser (together with [Joel Day](https://www.lboro.ac.uk/departments/compsci/staff/joel-day/) and [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/))
 * [ESOP/FASE/FoSSaCS'25](https://etaps.org/2025/conferences/ae-esop-fase-fossacs/) Artifact Evaluation co-chair (together with Laura Bussi, Michalis Kokologiannakis, and Stefan Winter)
