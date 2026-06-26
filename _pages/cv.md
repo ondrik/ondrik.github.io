@@ -22,6 +22,9 @@ toc: true
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
+  * [VECoS'26](https://vecos-world.org/2026/)
+  * [FMCAD'26](https://fmcad.org/FMCAD26/)
+  * [SMT'26](https://smt-workshop.cs.uiowa.edu/2026/)
   * [CAV'26](https://conferences.i-cav.org/2026/)
   * [PAAR'26](https://paar2026.github.io/)
   * [PLDI'26](https://pldi26.sigplan.org/)
@@ -59,7 +62,7 @@ toc: true
 
 * Our PLDI'23 paper *An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits* was chosen as a [CACM Research Highlight](https://dl.acm.org/doi/10.1145/3725728).
 * A co-authored string solver [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) and a derived solver based on it got the first two places in the [QF_Strings division](https://smt-comp.github.io/2025/results/qf_strings-single-query/) (single query track) of SMT-COMP'25 under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA.
-* A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) got the first place in the [LIA logic](https://smt-comp.github.io/2025/results/lia-single-query/) (single query) category of SMT-COMP'24 under the sequential and parallel performance scoring schemes and the second place in the [NIA logic](https://smt-comp.github.io/2025/results/nia-single-query/) under the UNSAT performance scoring scheme.
+* A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) got the third place in the [LIA logic](https://smt-comp.github.io/2025/results/lia-single-query/) (single query) category of SMT-COMP'25 under the sequential and parallel performance scoring schemes and the second place in the [NIA logic](https://smt-comp.github.io/2025/results/nia-single-query/) under the UNSAT performance scoring scheme.
 * A co-authored string solver [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) won the [QF_Strings division](https://smt-comp.github.io/2024/results/qf_strings-single-query/) (single query track) of SMT-COMP'24 under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA
 * A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) won the [NIA logic](https://smt-comp.github.io/2024/results/nia-single-query/) (single query) category of SMT-COMP'24 under the 24s performance scoring scheme (and was the second under the sequential performance, parallel performance, and UNSAT performance scoring schemes, and the third under the SAT performance scoring scheme)
 * A Distinguished paper award for the paper [Solving String Constraints with Lengths by Stabilization](http://dx.doi.org/10.1145/3622872) at [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla)

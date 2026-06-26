@@ -17,6 +17,7 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/popl26-quantum-swta.pdf).
 A video with the presentation is available [here](https://www.youtube.com/watch?v=JUsI21KtXG4).
 
+
 # 2025
 
 * L. Holik, O. Lengal, J. Major, A. Stepkova, and J. Strejcek.
@@ -41,13 +42,12 @@ A preliminary version is available [here](https://github.com/ondrik/ondrik.githu
 An extended version appeared as the technical report [CoRR abs/2506.22061](https://arxiv.org/abs/2506.22061), 2025.
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/mfcs25-notcontains.pdf).
 
-* F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengál, and Juraj Sic.
+* F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and Juraj Sic.
 [Word equations in synergy with regular constraints (extended version)](https://doi.org/10.1007/s10601-025-09379-w).
-Constraints XX, YYY.
+Constraints 30, 1--34.
 2025.
 Springer. 2025.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/constraints-25-stabilization.pdf).
-**INCOMPLETE REFERENCE**
 
 * O. Lengal.
 [Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
