@@ -6,10 +6,19 @@ classes: wide
 ---
 # 2026
 
+* V. Havlena, L. Holik, O. Lengal, J. Vasak, and S. Gulcikova.
+[Towards Efficient Matching of Regexes with Backreferences using Register Set Automata](https://dl.acm.org/doi/10.1145/3808281).
+In *Proc. of 47th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'26](https://pldi26.sigplan.org/), PACMPL 10 (PLDI),
+Boulder, Colorado, USA,
+article 203, pages 855--880, 2026.
+ACM.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi26-rsa-regex-matching.pdf).
+An extended version appeared as the technical report [CoRR abs/2205.12114v5](https://arxiv.org/abs/2205.12114v5), 2026.
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.19223981](https://doi.org/10.5281/zenodo.19223981).
 
-* P. A. Abdulla, Y. Chen, M. Hecko, L. Holik, O. Lengal, J. Lin, R. S. Thinniyam.
+* P. A. Abdulla, Y. Chen, M. Hecko, L. Holik, O. Lengal, J. Lin, and R. S. Thinniyam.
 [Parameterized Verification of Quantum Circuits](https://doi.org/10.1145/3776712).
-In *53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'26](https://popl26.sigplan.org/), PACMPL 10 (70),
+In *Proc. of 53rd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'26](https://popl26.sigplan.org/), PACMPL 10 (POPL),
 Rennes, France,
 article 70, pages 2021--2050, 2026.
 ACM.
@@ -61,9 +70,9 @@ Communications of the ACM (CACM) 68(6), pages 85--93, 2025.
 
 * Y. Chen, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [A Uniform Framework for Handling Position Constraints in String Solving](https://doi.org/10.1145/3729273).
-In *Proc. of 46th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'25](https://pldi25.sigplan.org/), PACMPL 9 (169),
+In *Proc. of 46th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'25](https://pldi25.sigplan.org/), PACMPL 9 (PLDI),
 Seoul, South Korea,
-pages 550--575, 2025.
+article 169, pages 550--575, 2025.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi25-position-constraints.pdf).
 The tool Z3-Noodler is available at [GitHub](https://github.com/VeriFIT/z3-noodler).
@@ -109,9 +118,9 @@ The slides from the presentation are available [here](https://github.com/ondrik/
 
 * P. A. Abdulla, Y. Chen, Y. Chen, L. Holik, O. Lengal, J. Lin, F. Lo, and W. Tsai.
 [Verifying Quantum Circuits with Level-Synchronized Tree Automata](https://doi.org/10.1145/3704868).
-In *Proc. of 52nd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'25](https://popl25.sigplan.org/), PACMPL 9 (32),
+In *Proc. of 52nd ACM SIGPLAN Symposium on Principles of Programming Languages* --- [POPL'25](https://popl25.sigplan.org/), PACMPL 9 (POPL),
 Denver, Colorado, USA,
-pages 923--953, 2025.
+article 32, pages 923--953, 2025.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl25-lstas-for-quantum.pdf).
 An extended version appeared as the technical report [CoRR abs/2410.18540](https://arxiv.org/abs/2410.18540), 2024.
@@ -209,9 +218,9 @@ The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, and D. Yen.
 [An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/10.1145/3591270).
-In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/), PACMPL 7 (156),
+In *Proc. of 44th ACM SIGPLAN Conference on Programming Language Design and Implementation* --- [PLDI'23](https://pldi23.sigplan.org/), PACMPL 7 (PLDI),
 Orlando, Florida, USA,
-pages 1218--1243, 2023.
+article 156, pages 1218--1243, 2023.
 ACM.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi23-quantum-bug-hunting.pdf).
 **Distinguished Paper of PLDI'23**.
