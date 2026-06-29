@@ -6,6 +6,30 @@ classes: wide
 ---
 # 2026
 
+* O. Alexaj, V. Havlena, O. Lengal, Y. Li, and N. Mazzocchi.
+[Complementing Emerson-Lei Elevator Automata](https://doi.org/XXXXXXXXXXXXXX).
+In *Proc. of 37th International Conference on Concurrency Theory* --- [CONCUR'26](https://confest-2026.github.io/concur/),
+Liverpool, United Kingdom,
+volume XXXXX of LIPIcs, article YY, pages ZZZ:1--WWWW:UUU, 2026.
+Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf).
+An extended version appeared as the technical report [CoRR abs/2606.26768](https://arxiv.org/abs/2606.26768), 2026.
+The tool Kofola is available [here](https://github.com/VeriFIT/kofola/).
+**INCOMPLETE REFERENCE**
+
+* W. Tsai, Y. Chen, and O. Lengal.
+[A Practical Specification Language for Automatic Quantum Program Verification](https://doi.org/XXXXXXXXXXXXXX).
+In *Proc. of 38th International Conference on Computer Aided Verification* --- [CAV'26](https://conferences.i-cav.org/2026/),
+Lisboa, Portugal,
+volume XXXXX of LNCS,
+pages YY-ZZ, 2026.
+Springer-Verlag.
+A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-quantum-specification.pdf).
+An extended version appeared as the technical report [CoRR abs/2605.05786](https://arxiv.org/abs/2605.05786), 2026.
+The tool AutoQ is available at [GitHub](https://github.com/fmlab-iis/AutoQ).
+The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.19756802](https://doi.org/10.5281/zenodo.19756802).
+**INCOMPLETE REFERENCE**
+
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
 [Kofola 1.0: A Modular Approach to 𝝎-Regular Complementation and Inclusion Checking](https://doi.org/XXXXXXXXXXXXXX).
 In *Proc. of 38th International Conference on Computer Aided Verification* --- [CAV'26](https://conferences.i-cav.org/2026/),
@@ -114,7 +138,7 @@ pages 87--108, 2025.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf).
 An extended version appeared as the technical report [CoRR abs/2411.09121](https://arxiv.org/abs/2411.09121), 2024.
-The tool AutoQ is available at [GitHub](https://github.com/alan23273850/AutoQ/).
+The tool AutoQ is available at [GitHub](https://github.com/fmlab-iis/AutoQ).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791).
 The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pptx)).
 
