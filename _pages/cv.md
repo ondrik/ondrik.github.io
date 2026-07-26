@@ -9,7 +9,7 @@ toc: true
 * **2025--now:** associate professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2016--2025:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw), Taiwan, Republic of China
-* **2010--2015:** Ph.D. student under Tomáš Vojnar and Lukáš Holík in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
+* **2010--2015:** Ph.D. student under Tomáš Vojnar in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2005--2010:** Bc. and MSc. student at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 
 ## Membership
@@ -22,6 +22,7 @@ toc: true
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
+  * [OOPSLA'27](ttps://XXXXXXXX) **TODO**
   * [VECoS'26](https://vecos-world.org/2026/)
   * [FMCAD'26](https://fmcad.org/FMCAD26/)
   * [SMT'26](https://smt-workshop.cs.uiowa.edu/2026/)
