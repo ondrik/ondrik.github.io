@@ -9,7 +9,7 @@ toc: true
 * **2025--now:** associate professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2016--2025:** assistant professor in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2015--2016:** postdoc with Yu-Fang Chen at [Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw), Taiwan, Republic of China
-* **2010--2015:** Ph.D. student under Tomáš Vojnar and Lukáš Holík in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
+* **2010--2015:** Ph.D. student under Tomáš Vojnar in the [VeriFIT group](http://www.fit.vutbr.cz/research/groups/verifit/) at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 * **2005--2010:** Bc. and MSc. student at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic
 
 ## Membership
@@ -22,6 +22,7 @@ toc: true
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
+  * [OOPSLA'27](ttps://XXXXXXXX) **TODO**
   * [VECoS'26](https://vecos-world.org/2026/)
   * [FMCAD'26](https://fmcad.org/FMCAD26/)
   * [SMT'26](https://smt-workshop.cs.uiowa.edu/2026/)
@@ -60,12 +61,17 @@ toc: true
 
 ## Awards
 
+* [SMT-COMP](https://smt-comp.github.io/):
+  * [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) (solver for the theory of strings):
+    * [2026](https://smt-comp.github.io/2026/): winner of the [QF_Strings division](https://smt-comp.github.io/2026/results/qf_strings-single-query/) (single query track) under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA.
+    * [2025](https://smt-comp.github.io/2025/): together with a derived solver based on it, getting the first two places in the [QF_Strings division](https://smt-comp.github.io/2025/results/qf_strings-single-query/) (single query track)  under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA.
+    * [2024](https://smt-comp.github.io/2024/): winner of the [QF_Strings division](https://smt-comp.github.io/2024/results/qf_strings-single-query/) (single query track) under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA.
+  * [Amaya](https://github.com/MichalHe/amaya) (solver for the linear integer arithmetic):
+    * [2026](https://smt-comp.github.io/2026/): overall winner of the [largest contribution](https://smt-comp.github.io/2026/results/largest-contribution-single-query/) (single query) category (under sequential and parallel scoring schemes) and winner of the [LIA logic](https://smt-comp.github.io/2026/results/lia-single-query/) (single query) category under the sat scoring scheme.
+    * [2025](https://smt-comp.github.io/2025/): third place in the [LIA logic](https://smt-comp.github.io/2025/results/lia-single-query/) (single query) category under the sequential and parallel performance scoring schemes and the second place in the [NIA logic](https://smt-comp.github.io/2025/results/nia-single-query/) under the UNSAT performance scoring scheme.
+    * [2024](https://smt-comp.github.io/2024/): winning the [NIA logic](https://smt-comp.github.io/2024/results/nia-single-query/) (single query) category under the 24s performance scoring scheme (and second palce under the sequential performance, parallel performance, and UNSAT performance scoring schemes, and the third place under the SAT performance scoring scheme).
 * Our PLDI'23 paper *An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits* was chosen as a [CACM Research Highlight](https://dl.acm.org/doi/10.1145/3725728).
-* A co-authored string solver [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) and a derived solver based on it got the first two places in the [QF_Strings division](https://smt-comp.github.io/2025/results/qf_strings-single-query/) (single query track) of SMT-COMP'25 under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA.
-* A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) got the third place in the [LIA logic](https://smt-comp.github.io/2025/results/lia-single-query/) (single query) category of SMT-COMP'25 under the sequential and parallel performance scoring schemes and the second place in the [NIA logic](https://smt-comp.github.io/2025/results/nia-single-query/) under the UNSAT performance scoring scheme.
-* A co-authored string solver [Z3-Noodler](https://github.com/VeriFIT/z3-noodler) won the [QF_Strings division](https://smt-comp.github.io/2024/results/qf_strings-single-query/) (single query track) of SMT-COMP'24 under all scoring schemes, as well as the categories for the logics QF_S and QF_SLIA
-* A co-authored linear integer arithmetic (LIA) solver [Amaya](https://github.com/MichalHe/amaya) won the [NIA logic](https://smt-comp.github.io/2024/results/nia-single-query/) (single query) category of SMT-COMP'24 under the 24s performance scoring scheme (and was the second under the sequential performance, parallel performance, and UNSAT performance scoring schemes, and the third under the SAT performance scoring scheme)
-* A Distinguished paper award for the paper [Solving String Constraints with Lengths by Stabilization](http://dx.doi.org/10.1145/3622872) at [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla)
+* A Distinguished paper award for the paper [Solving String Constraints with Lengths by Stabilization](http://dx.doi.org/10.1145/3622872) at [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla).
 * A Distinguished paper award for the paper [An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits](http://dx.doi.org/10.1145/3591270) at [PLDI'23](https://pldi23.sigplan.org/).
 * A Best paper award for the paper [Word Equations in Synergy with Regular Constraints](http://dx.doi.org/10.1007/978-3-031-27481-7_23) at [FM'23](https://fm2023.isp.uni-luebeck.de/).
 * A Best paper award for the paper [Automata Terms in a Lazy WSkS Decision Procedure](http://dx.doi.org/10.1007/978-3-030-29436-6_18) at [CADE-27](https://www.mat.ufrn.br/cade-27) (2019).
