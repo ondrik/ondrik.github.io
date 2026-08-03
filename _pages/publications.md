@@ -18,11 +18,11 @@ The tool Kofola is available [here](https://github.com/VeriFIT/kofola/).
 **INCOMPLETE REFERENCE**
 
 * W. Tsai, Y. Chen, and O. Lengal.
-[A Practical Specification Language for Automatic Quantum Program Verification](https://doi.org/XXXXXXXXXXXXXX).
+[A Practical Specification Language for Automatic Quantum Program Verification](https://doi.org/10.1007/978-3-032-32537-2_15).
 In *Proc. of 38th International Conference on Computer Aided Verification* --- [CAV'26](https://conferences.i-cav.org/2026/),
 Lisboa, Portugal,
-volume XXXXX of LNCS,
-pages YY-ZZ, 2026.
+volume 16684 of LNCS,
+pages 302--325, 2026.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-quantum-specification.pdf).
 An extended version appeared as the technical report [CoRR abs/2605.05786](https://arxiv.org/abs/2605.05786), 2026.
@@ -31,17 +31,17 @@ The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.
 **INCOMPLETE REFERENCE**
 
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
-[Kofola 1.0: A Modular Approach to 𝝎-Regular Complementation and Inclusion Checking](https://doi.org/XXXXXXXXXXXXXX).
+[Kofola 1.0: A Modular Approach to 𝝎-Regular Complementation and Inclusion Checking](https://doi.org/10.1007/978-3-032-32519-8_10).
 In *Proc. of 38th International Conference on Computer Aided Verification* --- [CAV'26](https://conferences.i-cav.org/2026/),
 Lisboa, Portugal,
-volume XXXXX of LNCS,
-pages YY-ZZ, 2026.
+volume 16682 of LNCS,
+pages 181--197, 2026.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-kofola.pdf).
 An extended version appeared as the technical report [CoRR abs/2605.15390](https://arxiv.org/abs/2605.15390), 2026.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-kofola.pdf).
 The tool Kofola is available [here](https://github.com/VeriFIT/kofola/).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.17457592](https://doi.org/10.5281/zenodo.17457592).
-**INCOMPLETE REFERENCE**
 
 * V. Havlena, L. Holik, O. Lengal, J. Vasak, and S. Gulcikova.
 [Towards Efficient Matching of Regexes with Backreferences using Register Set Automata](https://doi.org/10.1145/3808281).
