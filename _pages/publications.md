@@ -10,7 +10,7 @@ classes: wide
 [Complementing Emerson-Lei Elevator Automata](https://doi.org/XXXXXXXXXXXXXX).
 In *Proc. of 37th International Conference on Concurrency Theory* --- [CONCUR'26](https://confest-2026.github.io/concur/),
 Liverpool, United Kingdom,
-volume XXXXX of LIPIcs, article YY, pages ZZZ:1--WWWW:UUU, 2026.
+volume 391 of LIPIcs, article 8, pages 8:1--8:UUU, 2026.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf).
 An extended version appeared as the technical report [CoRR abs/2606.26768](https://arxiv.org/abs/2606.26768), 2026.
