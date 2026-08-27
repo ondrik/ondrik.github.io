@@ -550,7 +550,7 @@ Paris, France,
 volume 10145 of LNCS, pages 288--309, 2017.
 Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/vmcai17-forester-pred-abstr.pdf)
-  * technical report [FIT-TR-2016-03](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2016-03.pdf), FIT BUT, Brno, Czech Republic
+  * technical report [FIT-TR-2016-03](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2016-03.pdf)
 
 # 2016
 
@@ -590,7 +590,7 @@ volume 9035 of LNCS, pages 658--674, 2015.
 Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas15_ws1s.pdf)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas15-ws1s-antichains.pdf)
-  * technical report [FIT-TR-2014-06](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-06.pdf), FIT BUT, Brno, Czech Republic
+  * technical report [FIT-TR-2014-06](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-06.pdf)
   * tool: [dWiNA](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/)
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
@@ -611,7 +611,7 @@ volume 8858 of LNCS, pages 314--333, 2014.
 Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/aplas14_seplog_decproc.pdf)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/aplas14_seplog_decproc.pdf)
-  * technical report [FIT-TR-2014-01](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-01.pdf), FIT BUT, Brno, Czech Republic
+  * technical report [FIT-TR-2014-01](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-01.pdf)
 
 # 2013
 
@@ -622,7 +622,7 @@ Hanoi, Vietnam,
 volume 8172 of LNCS, pages 224--239, 2013.
 Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva13_forester_data.pdf)
-  * technical report [FIT-TR-2013-02](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2013-02.pdf), FIT BUT, Brno, Czech Republic
+  * technical report [FIT-TR-2013-02](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2013-02.pdf)
 
 * L. Holik, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
 [Fully Automated Shape Analysis Based on Forest Automata](http://dx.doi.org/10.1007/978-3-642-39799-8_52).
@@ -654,7 +654,7 @@ volume 6996 of LNCS, pages 243--258, 2011.
 Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/atva11-downward-incl.pdf)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/atva11-symbolicTA.pdf)
-  * technical report [FIT-TR-2011-04](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2011-04.pdf), FIT BUT, Brno, Czech Republic
+  * technical report [FIT-TR-2011-04](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2011-04.pdf)
 
 # 2010
 
