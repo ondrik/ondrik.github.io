@@ -243,7 +243,7 @@ volume 7 of PACMPL (number OOPSLA2), article number 296, 2023. ACM.
   * artifact: [10.5281/zenodo.8289595](https://doi.org/10.5281/zenodo.8289595)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/oopsla23-strings-with-lengths.pdf)
   * tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
-**Distinguished Paper of OOPSLA'23**.
+  * **Distinguished Paper of OOPSLA'23**
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, and W. Tsai.
 [AutoQ: An Automata-based Quantum Circuit Verifier](https://doi.org/10.1007/978-3-031-37709-9_7).
@@ -268,7 +268,7 @@ ACM.
   * [video](https://www.youtube.com/live/1L1eKWwa6fE?t=4481)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pptx))
   * tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
-**Distinguished Paper of PLDI'23**.
+  * **Distinguished Paper of PLDI'23**
 
 * Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
 [A Symbolic Algorithm for the Case-Split Rule in Solving Word Constraints with Extensions](https://doi.org/10.1016/j.jss.2023.111673).
@@ -300,7 +300,7 @@ Springer-Verlag.
   * technical report [CoRR abs/2212.02317](https://arxiv.org/abs/2212.02317)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fm23-strings-noodler.pdf)
   * tool: [Noodler](https://github.com/vhavlena/Noodler)
-**Best Paper of FM'23**.
+  * **Best Paper of FM'23**
 
 # 2022
 
@@ -429,7 +429,7 @@ volume 11716 of LNAI, pages 300--318, 2019. Springer-Verlag.
   * [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cade19-wsks-lazy.pdf)
   * technical report [CoRR abs/1905.08697](https://arxiv.org/abs/1905.08697)
   * [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cade19-automata-terms.pdf)
-**Best Paper of CADE-27**.
+  * **Best Paper of CADE-27**
 
 * M. Ceska, V. Havlena, L. Holik, J. Korenek O. Lengal, D. Matousek, J. Matousek, J. Semric, and T. Vojnar. [Deep Packet Inspection in FPGAs via Approximate Nondeterministic Automata](http://dx.doi.org/10.1109/FCCM.2019.00025).
 In *Proc. of 27th IEEE International Symposium On Field-Programmable Custom Computing Machines* --- [FCCM'19](http://www.fccm.org/),
