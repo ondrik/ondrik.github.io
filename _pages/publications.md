@@ -26,9 +26,9 @@ pages 302--325, 2026.
 Springer-Verlag.
 A preliminary version is available [here](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-quantum-specification.pdf).
 An extended version appeared as the technical report [CoRR abs/2605.05786](https://arxiv.org/abs/2605.05786), 2026.
+The slides from the presentation are available [here](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-autoq-specification.pdf).
 The tool AutoQ is available at [GitHub](https://github.com/fmlab-iis/AutoQ).
 The artifact for the paper is available at Zenodo under the DOI [10.5281/zenodo.19756802](https://doi.org/10.5281/zenodo.19756802).
-**INCOMPLETE REFERENCE**
 
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
 [Kofola 1.0: A Modular Approach to 𝝎-Regular Complementation and Inclusion Checking](https://doi.org/10.1007/978-3-032-32519-8_10).
