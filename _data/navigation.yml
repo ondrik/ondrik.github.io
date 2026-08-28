@@ -6,12 +6,8 @@ main:
     url: /
   - title: "CV"
     url: /cv/
-  - title: "Teaching"
-    url: /teaching/
   - title: "Publications"
     url: /publications/
-  - title: "Tools"
-    url: /tools/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
