@@ -1,0 +1,32 @@
+---
+layout: compress
+---
+
+{% comment %}
+  Local override of academicpages' _layouts/default.html: the footer
+  is a fixed-position bar with its own background/border baked directly
+  into this layout, not just empty includes, so removing it (per site
+  owner's request) requires dropping the <div class="page__footer">
+  block here rather than overriding footer.html/footer/custom.html.
+{% endcomment %}
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    {% include scripts.html %}
+
+  </body>
+</html>
