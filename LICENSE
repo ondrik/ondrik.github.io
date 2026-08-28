@@ -1,6 +1,23 @@
+This site is built with Jekyll on the "academicpages" theme
+(https://github.com/academicpages/academicpages.github.io), itself a
+fork of "Minimal Mistakes" (https://github.com/mmistakes/minimal-mistakes)
+by Michael Rose. The theme is loaded via Jekyll's remote_theme mechanism
+and is not vendored in this repository, aside from one small local
+customization in _includes/head/custom.html.
+
+The MIT license below applies only to that theme code.
+
+It does NOT apply to the personal and academic content published on
+this site — page text, CV, publication and talk lists, teaching
+materials, or any images and PDFs under presentations/, publications/,
+and teaching/. That content is Copyright (c) 2026 Ondřej Lengál, all
+rights reserved, and is not licensed for reuse.
+
+---
+
 The MIT License (MIT)
 
-Copyright (c) 2013-2019 Michael Rose and contributors
+Copyright (c) 2016 Michael Rose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
