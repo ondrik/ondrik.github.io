@@ -1,0 +1,29 @@
+/*
+ * Site-wide tightening of type size and line/list spacing.
+ * Overrides academicpages' layout/reset.scss and layout/base.scss,
+ * which default to a fairly loose desktop reading size (18px root,
+ * 1.5 line-height, 0.5em list-item gaps) - too roomy for pages that
+ * are mostly dense lists (CV, publications).
+ */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul li,
+ol li {
+  margin-bottom: 0.3em;
+}
+
+li ul,
+li ol {
+  margin-top: 0.3em;
+}
