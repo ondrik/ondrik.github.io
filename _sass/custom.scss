@@ -60,3 +60,22 @@ li ol {
 #page-publications .page__content li ul li a:hover {
   text-decoration: underline;
 }
+
+/*
+ * CV page: the "Program committees" list (~35 entries) is wrapped in
+ * <div class="pc-list" markdown="1"> in cv.md so this can target just
+ * that list, not other nested lists on the page (e.g. Awards).
+ * Only column-related properties are set here - padding-left is left
+ * at the browser default (~40px) so it still lines up with the
+ * indentation of every other list on the page.
+ */
+.pc-list ul {
+  columns: 3;
+  column-gap: 2em;
+  margin: 0.3em 0 0.8em;
+}
+
+.pc-list ul li {
+  margin-bottom: 0.2em;
+  break-inside: avoid;
+}

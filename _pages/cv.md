@@ -22,6 +22,7 @@ toc: true
 * [ATVA'19](http://atva2019.iis.sinica.edu.tw/) Artifact Evaluation chair
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
+<div class="pc-list" markdown="1">
   * [OOPSLA'27](https://conf.researchr.org/track/splash-2027/splashoopsla2027)
   * [VECoS'26](https://vecos-world.org/2026/)
   * [FMCAD'26](https://fmcad.org/FMCAD26/)
@@ -56,6 +57,7 @@ toc: true
   * [RP'17](http://rp17.cs.rhul.ac.uk/)
   * [SV-COMP'16](https://sv-comp.sosy-lab.org/2016/index.php)
   * [SV-COMP'15](https://sv-comp.sosy-lab.org/2015/index.php)
+</div>
 * 龍龖龘隊
 * The fanclub of Ondra Lengál ([link](https://www.facebook.com/groups/410164136336727))
 
