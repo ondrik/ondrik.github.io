@@ -12,11 +12,11 @@ In *Proc. of 37th International Conference on Concurrency Theory* --- [CONCUR'26
 Liverpool, United Kingdom,
 volume 391 of LIPIcs, article 8, pages 8:1--8:22, 2026.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
+**INCOMPLETE REFERENCE**
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2606.26768)
   * 🛠️ tool: [Kofola](https://github.com/VeriFIT/kofola/)
 
-  **INCOMPLETE REFERENCE**
 
 * W. Tsai, Y. Chen, and O. Lengal.
 [A Practical Specification Language for Automatic Quantum Program Verification](https://doi.org/10.1007/978-3-032-32537-2_15).
@@ -63,7 +63,7 @@ ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl26-swtas-for-quantum.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/popl26-quantum-swta.pdf)
   * 🎥 [video](https://www.youtube.com/watch?v=JUsI21KtXG4)
-  * 🎥 [video](https://www.youtube.com/watch?v=-o0lX1CfMz0) from a [FLAT talk](https://flat.fc.up.pt/) that is relevant to the paper (but broader)
+  * 🎥 [video](https://www.youtube.com/watch?v=-o0lX1CfMz0) from a relevant [FLAT talk](https://flat.fc.up.pt/)
 
 
 # 2025
@@ -100,8 +100,8 @@ Springer. 2025.
 * O. Lengal.
 [Awesome Automata: Algorithms and Applications](https://github.com/ondrik/ondrik.github.io/raw/master/publications/lengal-habilitation.pdf).
 Habilitation thesis. FIT BUT, Brno, Czech Republic, 2025.
-  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf) from my public habilitation lecture ([video](https://www.youtube.com/live/qCGN5xeDtJ8))
-  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf) from my scientific council talk
+  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fi_muni_colloquium_25.pdf) (public habilitation lecture), [video](https://www.youtube.com/live/qCGN5xeDtJ8)
+  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/lengal-habilitation-slides.pdf) (scientific council talk)
 
 *  Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, and D. Yen.
 [An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/10.1145/3725728).
@@ -165,7 +165,7 @@ ACM.
   * 📝 [technical report](https://arxiv.org/abs/2410.18540)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.13957472)
   * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
-  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-automata-quantum.pdf) from a [VQC'25](https://verifiedqc.github.io/2025/) presentation summarizing this and previous works
+  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-automata-quantum.pdf) (from a [VQC'25](https://verifiedqc.github.io/2025/))
   * 🖼️ [poster](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-poster-autoq.pdf)
 
 
@@ -204,7 +204,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2403.18995)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.10993434)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav24-presburger-algebraic.pdf)
-  * 🛠️ tool: [Amaya](https://github.com/MichalHe/amaya) (also on [DockerHub](https://hub.docker.com/r/mheck0/amaya))
+  * 🛠️ tool: [Amaya](https://github.com/MichalHe/amaya) ( [DockerHub](https://hub.docker.com/r/mheck0/amaya))
 
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
 [Mata: A Fast and Simple Finite Automata Library](https://doi.org/10.1007/978-3-031-57249-4_7).
@@ -285,7 +285,7 @@ pages 249--270, 2023.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2301.01890)
-  * 📦 [artifact](https://doi.org/10.5281/zenodo.7505280), as a package for the [TACAS'23 AE VM](https://doi.org/10.5281/zenodo.7113223)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.7505280), (package for [TACAS'23 AE VM](https://doi.org/10.5281/zenodo.7113223))
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas23-modular-complementation.pdf)
   * 🛠️ tool: [Kofola](https://github.com/verifit/kofola)
 
@@ -314,9 +314,9 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav22-ranker-tool.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2206.01946)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav22-ranker-tool.pdf)
-  * 📦 [artifact](https://doi.org/10.5281/zenodo.6524909) (virtual machine) and [10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (installable package), also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.6524909) ([package form](https://doi.org/10.5281/zenodo.6525219))
   * 🛠️ tool: [Ranker](https://github.com/vhavlena/ranker)
-  * ⚙️ evaluation environment: [GitHub](https://github.com/VeriFIT/ba-compl-eval)
+  * ⚙️ [evaluation environment](https://github.com/VeriFIT/ba-compl-eval)
 
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
 [Counting in Regexes Considered Harmful: Exposing ReDoS Vulnerability of Nonbacktracking Matchers](https://www.usenix.org/conference/usenixsecurity22/presentation/turonova).
@@ -385,9 +385,9 @@ In *Proc. of the ACM on Programming Languages* --- [OOPSLA'20](https://2020.spla
 volume 4 of PACMPL, article number 218, 2020. ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf)
   * 🎙️ [recording](https://youtu.be/bICOrgqkF40)
-  * 📝 [technical report](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft
+  * 📝 [technical report](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.3975566)
-  * 🗂️ data set: [10.5281/zenodo.3974360](https://doi.org/10.5281/zenodo.3974360)
+  * 🗂️[ data set](https://doi.org/10.5281/zenodo.3974360)
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
 [Approximate reduction of finite automata for high-speed network intrusion detection](https://doi.org/10.1007/s10009-019-00520-8).
