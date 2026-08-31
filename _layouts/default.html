@@ -3,11 +3,15 @@ layout: compress
 ---
 
 {% comment %}
-  Local override of academicpages' _layouts/default.html: the footer
-  is a fixed-position bar with its own background/border baked directly
-  into this layout, not just empty includes, so removing it (per site
-  owner's request) requires dropping the <div class="page__footer">
-  block here rather than overriding footer.html/footer/custom.html.
+  Local override of academicpages' _layouts/default.html:
+  - the footer is a fixed-position bar with its own background/border
+    baked directly into this layout, not just empty includes, so
+    removing it (per site owner's request) requires dropping the
+    <div class="page__footer"> block here rather than overriding
+    footer.html/footer/custom.html.
+  - <body> gets a per-page id (from page.url) so assets/css/custom.scss
+    can scope tweaks, e.g. the publications badge list, to a single
+    page without touching the theme's shared page__content rules.
 {% endcomment %}
 
 {% include base_path %}
@@ -19,7 +23,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.url %} id="page-{{ page.url | slugify }}"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

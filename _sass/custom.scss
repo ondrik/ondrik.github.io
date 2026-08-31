@@ -27,3 +27,36 @@ li ul,
 li ol {
   margin-top: 0.3em;
 }
+
+/*
+ * Publications page: render each entry's sub-list (preliminary version,
+ * technical report, slides, tool, artifact, video, ...) as a row of
+ * button-like tags instead of a vertical bullet list. Scoped to
+ * #page-publications (set on <body> by _layouts/default.html) so it
+ * doesn't affect nested lists elsewhere, e.g. the CV's PC membership.
+ */
+#page-publications .page__content li ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 0.6em;
+  list-style: none;
+  margin: 0.6em 0 0.9em;
+  padding-left: 0;
+}
+
+#page-publications .page__content li ul li {
+  margin-bottom: 0;
+  padding: 0.2em 0.7em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  font-size: 0.85em;
+}
+
+#page-publications .page__content li ul li a {
+  text-decoration: none;
+}
+
+#page-publications .page__content li ul li a:hover {
+  text-decoration: underline;
+}
