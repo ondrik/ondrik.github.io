@@ -65,10 +65,18 @@ li ol {
  * CV page: the "Program committees" list (~35 entries) is wrapped in
  * <div class="pc-list" markdown="1"> in cv.md so this can target just
  * that list, not other nested lists on the page (e.g. Awards).
- * Only column-related properties are set here - padding-left is left
- * at the browser default (~40px) so it still lines up with the
- * indentation of every other list on the page.
+ * The nested indentation is done as margin-left on the wrapping div,
+ * not padding-left on the <ul> itself: with list-style-position:outside
+ * (the default) inside a `columns` layout, this browser doesn't offset
+ * the markers by the list's own padding-left at all, so that approach
+ * silently has no effect and the list renders flush with its *parent*
+ * bullet ("Program committees:") instead of nested one level in from
+ * it. A margin on the block-level wrapper isn't subject to that quirk.
  */
+.pc-list {
+  margin-left: 2.5em;
+}
+
 .pc-list ul {
   columns: 3;
   column-gap: 2em;
