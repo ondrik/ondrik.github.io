@@ -15,7 +15,7 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 **INCOMPLETE REFERENCE**
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2606.26768)
-  * 🛠️ tool: [Kofola](https://github.com/VeriFIT/kofola/)
+  * 🛠️ [Kofola](https://github.com/VeriFIT/kofola/)
 
 
 * W. Tsai, Y. Chen, and O. Lengal.
@@ -28,7 +28,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-quantum-specification.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2605.05786)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-autoq-specification.pdf)
-  * 🛠️ tool: [AutoQ](https://github.com/fmlab-iis/AutoQ)
+  * 🛠️ [AutoQ](https://github.com/fmlab-iis/AutoQ)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.19756802)
 
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
@@ -41,7 +41,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-kofola.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2605.15390)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-kofola.pdf)
-  * 🛠️ tool: [Kofola](https://github.com/VeriFIT/kofola/)
+  * 🛠️ [Kofola](https://github.com/VeriFIT/kofola/)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.17457592)
 
 * V. Havlena, L. Holik, O. Lengal, J. Vasak, and S. Gulcikova.
@@ -77,7 +77,7 @@ pages 221--237, 2025.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fct25-nfa-complement.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2507.03439)
-  * 🛠️ tool: [AliGater](https://gitlab.fi.muni.cz/xstepkov/aligater)
+  * 🛠️ [AliGater](https://gitlab.fi.muni.cz/xstepkov/aligater)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fct25-nfa-complementation.pdf)
 
 * V. Havlena, M. Hecko, L. Holik, and O. Lengal.
@@ -114,7 +114,7 @@ Seoul, South Korea,
 article 169, pages 550--575, 2025.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi25-position-constraints.pdf)
-  * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
+  * 🛠️ [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.15230216)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi25-position-slides.pdf)
   * 🎥 [video](https://www.youtube.com/watch?v=uKeWyLDHeZI)
@@ -127,7 +127,7 @@ volume 15697 of LNCS,
 pages 23--44, 2025.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-noodler-shepherding.pdf)
-  * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
+  * 🛠️ [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.13989789)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-noodler-shepherding.pdf)
 
@@ -140,7 +140,7 @@ pages 87--108, 2025.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2411.09121)
-  * 🛠️ tool: [AutoQ](https://github.com/fmlab-iis/AutoQ)
+  * 🛠️ [AutoQ](https://github.com/fmlab-iis/AutoQ)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.14114791)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pptx))
 
@@ -164,7 +164,7 @@ ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl25-lstas-for-quantum.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2410.18540)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.13957472)
-  * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
+  * 🛠️ [AutoQ](https://github.com/alan23273850/AutoQ/)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-automata-quantum.pdf) (from a [VQC'25](https://verifiedqc.github.io/2025/))
   * 🖼️ [poster](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-poster-autoq.pdf)
 
@@ -180,7 +180,7 @@ pages 1--9, 2024.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/iccad24-quantum-symbolic-exec.pdf)
-  * 🛠️ tool: [Medusa](https://github.com/s-jobra/MEDUSA/)
+  * 🛠️ [Medusa](https://github.com/s-jobra/MEDUSA/)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.13243595)
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
@@ -191,7 +191,7 @@ volume 305 of LIPIcs, article 14, pages 14:1--14:19, 2024.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/sat24-string-conversions.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/sat24-noodler-conversions.pdf)
-  * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
+  * 🛠️ [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
 
 * P. Habermehl, V. Havlena, M. Hecko, L. Holik, and O. Lengal.
 [Algebraic Reasoning Meets Automata in Solving Linear Integer Arithmetic](https://doi.org/10.1007/978-3-031-65627-9_3).
@@ -204,7 +204,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2403.18995)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.10993434)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav24-presburger-algebraic.pdf)
-  * 🛠️ tool: [Amaya](https://github.com/MichalHe/amaya) ( [DockerHub](https://hub.docker.com/r/mheck0/amaya))
+  * 🛠️ [Amaya](https://github.com/MichalHe/amaya) ( [DockerHub](https://hub.docker.com/r/mheck0/amaya))
 
 * D. Chocholaty, T. Fiedor, V. Havlena, L. Holik, M. Hruska, O. Lengal, and J. Sic.
 [Mata: A Fast and Simple Finite Automata Library](https://doi.org/10.1007/978-3-031-57249-4_7).
@@ -230,7 +230,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2310.08327)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.10034513)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-z3-noodler.pdf)
-  * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
+  * 🛠️ [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
 
 
 # 2023
@@ -242,7 +242,7 @@ volume 7 of PACMPL (number OOPSLA2), article number 296, 2023. ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla23-noodles-with-strings.pdf)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.8289595)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/oopsla23-strings-with-lengths.pdf)
-  * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
+  * 🛠️ [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
   * 🏆 **Distinguished Paper of OOPSLA'23**
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, and W. Tsai.
@@ -254,7 +254,7 @@ pages 139--153, 2023.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq.pdf)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.7966542)
-  * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
+  * 🛠️ [AutoQ](https://github.com/alan23273850/AutoQ/)
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, and D. Yen.
 [An Automata-based Framework for Verification and Bug Hunting in Quantum Circuits](https://doi.org/10.1145/3591270).
@@ -267,7 +267,7 @@ ACM.
   * 📦 [artifact](https://doi.org/10.5281/zenodo.7707349)
   * 🎥 [video](https://www.youtube.com/live/1L1eKWwa6fE?t=4481)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pptx))
-  * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
+  * 🛠️ [AutoQ](https://github.com/alan23273850/AutoQ/)
   * 🏆 **Distinguished Paper of PLDI'23**
 
 * Y. Chen, V. Havlena, O. Lengal, and A. Turrini.
@@ -287,7 +287,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2301.01890)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.7505280), (package for [TACAS'23 AE VM](https://doi.org/10.5281/zenodo.7113223))
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas23-modular-complementation.pdf)
-  * 🛠️ tool: [Kofola](https://github.com/verifit/kofola)
+  * 🛠️ [Kofola](https://github.com/verifit/kofola)
 
 * F. Blahoudek, Y. Chen, D. Chocholaty, V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Word Equations in Synergy with Regular Constraints](https://doi.org/10.1007/978-3-031-27481-7_23).
@@ -299,7 +299,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fm23-noodler.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2212.02317)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/fm23-strings-noodler.pdf)
-  * 🛠️ tool: [Noodler](https://github.com/vhavlena/Noodler)
+  * 🛠️ [Noodler](https://github.com/vhavlena/Noodler)
   * 🏆 **Best Paper of FM'23**
 
 # 2022
@@ -315,7 +315,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2206.01946)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav22-ranker-tool.pdf)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.6524909) ([package form](https://doi.org/10.5281/zenodo.6525219))
-  * 🛠️ tool: [Ranker](https://github.com/vhavlena/ranker)
+  * 🛠️ [Ranker](https://github.com/vhavlena/ranker)
   * ⚙️ [evaluation environment](https://github.com/VeriFIT/ba-compl-eval)
 
 * L. Turonova, L. Holik, I. Homoliak, O. Lengal, M. Veanes, and T. Vojnar.
@@ -445,7 +445,7 @@ Acta Informatica 56(3),
 pages 205--228, 2019.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/fhlv-acta-19-ws1s-dwina.pdf)
-  * 🛠️ tool: [dWiNA](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/)
+  * 🛠️ [dWiNA](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/)
 
 # 2018
 
@@ -541,7 +541,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas17-ws1s-lazy.pdf)
   * 📝 [technical report](https://arxiv.org/abs/1701.06282)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas17-lazy-automata-ws1s.pdf)
-  * 🛠️ tool: [Gaston](http://www.fit.vutbr.cz/research/groups/verifit/tools/gaston/)
+  * 🛠️ [Gaston](http://www.fit.vutbr.cz/research/groups/verifit/tools/gaston/)
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, and T. Vojnar.
 [Counterexample Validation and Interpolation-Based Refinement for Forest Automata](http://dx.doi.org/10.1007/978-3-319-52234-0_16).
@@ -591,7 +591,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas15_ws1s.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas15-ws1s-antichains.pdf)
   * 📝 [technical report](https://github.com/ondrik/ondrik.github.io/raw/master/publications/FIT-TR-2014-06.pdf)
-  * 🛠️ tool: [dWiNA](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/)
+  * 🛠️ [dWiNA](http://www.fit.vutbr.cz/research/groups/verifit/tools/dWiNA/)
 
 * L. Holik, M. Hruska, O. Lengal, A. Rogalewicz, J. Simacek, and T. Vojnar.
 [Forester: Shape Analysis Using Tree Automata (Competition Contribution)](http://dx.doi.org/10.1007/978-3-662-46681-0_37).
