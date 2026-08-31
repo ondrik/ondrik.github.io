@@ -29,7 +29,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2605.05786)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-autoq-specification.pdf)
   * 🛠️ tool: [AutoQ](https://github.com/fmlab-iis/AutoQ)
-  * 📦 artifact: [10.5281/zenodo.19756802](https://doi.org/10.5281/zenodo.19756802)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.19756802)
 
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
 [Kofola 1.0: A Modular Approach to 𝝎-Regular Complementation and Inclusion Checking](https://doi.org/10.1007/978-3-032-32519-8_10).
@@ -42,7 +42,7 @@ Springer-Verlag.
   * 📝 [technical report](https://arxiv.org/abs/2605.15390)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-kofola.pdf)
   * 🛠️ tool: [Kofola](https://github.com/VeriFIT/kofola/)
-  * 📦 artifact: [10.5281/zenodo.17457592](https://doi.org/10.5281/zenodo.17457592)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.17457592)
 
 * V. Havlena, L. Holik, O. Lengal, J. Vasak, and S. Gulcikova.
 [Towards Efficient Matching of Regexes with Backreferences using Register Set Automata](https://doi.org/10.1145/3808281).
@@ -52,7 +52,7 @@ article 203, pages 855--880, 2026.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi26-rsa-regex-matching.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2205.12114v5)
-  * 📦 artifact: [10.5281/zenodo.19223981](https://doi.org/10.5281/zenodo.19223981)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.19223981)
 
 * P. A. Abdulla, Y. Chen, M. Hecko, L. Holik, O. Lengal, J. Lin, and R. S. Thinniyam.
 [Parameterized Verification of Quantum Circuits](https://doi.org/10.1145/3776712).
@@ -115,7 +115,7 @@ article 169, pages 550--575, 2025.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi25-position-constraints.pdf)
   * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
-  * 📦 artifact: [10.5281/zenodo.15230216](https://doi.org/10.5281/zenodo.15230216)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.15230216)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi25-position-slides.pdf)
   * 🎥 [video](https://www.youtube.com/watch?v=uKeWyLDHeZI)
 
@@ -128,7 +128,7 @@ pages 23--44, 2025.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-noodler-shepherding.pdf)
   * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
-  * 📦 artifact: [10.5281/zenodo.13989789](https://doi.org/10.5281/zenodo.13989789)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.13989789)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-noodler-shepherding.pdf)
 
 * Y. Chen, K. Chung, M. Hsieh, W. Huang, O. Lengal, J.Lin, and W. Tsai.
@@ -141,7 +141,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas25-autoq-2-programs.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2411.09121)
   * 🛠️ tool: [AutoQ](https://github.com/fmlab-iis/AutoQ)
-  * 📦 artifact: [10.5281/zenodo.14114791](https://doi.org/10.5281/zenodo.14114791)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.14114791)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas25-autoq-2-programs.pptx))
 
 * V. Havlena, O. Lengal, and B. Smahlikova.
@@ -163,7 +163,7 @@ article 32, pages 923--953, 2025.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/popl25-lstas-for-quantum.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2410.18540)
-  * 📦 artifact: [10.5281/zenodo.13957472](https://doi.org/10.5281/zenodo.13957472)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.13957472)
   * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-automata-quantum.pdf) from a [VQC'25](https://verifiedqc.github.io/2025/) presentation summarizing this and previous works
   * 🖼️ [poster](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/vqc25-poster-autoq.pdf)
@@ -181,7 +181,7 @@ ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/iccad24-quantum-symbolic-exec.pdf)
   * 🛠️ tool: [Medusa](https://github.com/s-jobra/MEDUSA/)
-  * 📦 artifact: [10.5281/zenodo.13243595](https://doi.org/10.5281/zenodo.13243595)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.13243595)
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
 [Cooking String-Integer Conversions with Noodles](https://doi.org/10.4230/LIPIcs.SAT.2024.14).
@@ -202,7 +202,7 @@ pages 42--67, 2024.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav24-presburger-automata.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2403.18995)
-  * 📦 artifact: [10.5281/zenodo.10993434](https://doi.org/10.5281/zenodo.10993434)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.10993434)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav24-presburger-algebraic.pdf)
   * 🛠️ tool: [Amaya](https://github.com/MichalHe/amaya) (also on [DockerHub](https://hub.docker.com/r/mheck0/amaya))
 
@@ -215,7 +215,7 @@ pages 130--151, 2024.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-mata.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2310.10136)
-  * 📦 artifact: [10.5281/zenodo.10044515](https://doi.org/10.5281/zenodo.10044515)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.10044515)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-mata.pdf)
   * 📚 library: [Mata](https://github.com/VeriFIT/mata)
 
@@ -228,7 +228,7 @@ pages 24--33, 2024.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas24-z3-noodler.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2310.08327)
-  * 📦 artifact: [10.5281/zenodo.10034513](https://doi.org/10.5281/zenodo.10034513)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.10034513)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas24-z3-noodler.pdf)
   * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
 
@@ -240,7 +240,7 @@ Springer-Verlag.
 In *Proc. of the ACM on Programming Languages* --- [OOPSLA'23](https://2023.splashcon.org/track/splash-2023-oopsla) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
 volume 7 of PACMPL (number OOPSLA2), article number 296, 2023. ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla23-noodles-with-strings.pdf)
-  * 📦 artifact: [10.5281/zenodo.8289595](https://doi.org/10.5281/zenodo.8289595)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.8289595)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/oopsla23-strings-with-lengths.pdf)
   * 🛠️ tool: [Z3-Noodler](https://github.com/VeriFIT/z3-noodler)
   * 🏆 **Distinguished Paper of OOPSLA'23**
@@ -253,7 +253,7 @@ volume 13966 of LNCS,
 pages 139--153, 2023.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav23-autoq.pdf)
-  * 📦 artifact: [10.5281/zenodo.7966542](https://doi.org/10.5281/zenodo.7966542)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.7966542)
   * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
 
 * Y. Chen, K. Chung, O. Lengal, J. Lin, W. Tsai, and D. Yen.
@@ -264,7 +264,7 @@ article 156, pages 1218--1243, 2023.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/pldi23-quantum-bug-hunting.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2301.07747)
-  * 📦 artifact: [10.5281/zenodo.7707349](https://doi.org/10.5281/zenodo.7707349)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.7707349)
   * 🎥 [video](https://www.youtube.com/live/1L1eKWwa6fE?t=4481)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pdf) ([.pptx](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/pldi23-quantum-bug-hunting.pptx))
   * 🛠️ tool: [AutoQ](https://github.com/alan23273850/AutoQ/)
@@ -285,7 +285,7 @@ pages 249--270, 2023.
 Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/tacas23-buchi-mix-and-match.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2301.01890)
-  * 📦 artifact: [10.5281/zenodo.7505280](https://doi.org/10.5281/zenodo.7505280), as a package for the [TACAS'23 AE VM](https://doi.org/10.5281/zenodo.7113223)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.7505280), as a package for the [TACAS'23 AE VM](https://doi.org/10.5281/zenodo.7113223)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/tacas23-modular-complementation.pdf)
   * 🛠️ tool: [Kofola](https://github.com/verifit/kofola)
 
@@ -314,7 +314,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav22-ranker-tool.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2206.01946)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav22-ranker-tool.pdf)
-  * 📦 artifact: [10.5281/zenodo.6524909](https://doi.org/10.5281/zenodo.6524909) (virtual machine) and [10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (installable package), also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.6524909) (virtual machine) and [10.5281/zenodo.6525219](https://doi.org/10.5281/zenodo.6525219) (installable package), also versioned on [GitHub](https://github.com/VeriFIT/cav22-ranker-artifact)
   * 🛠️ tool: [Ranker](https://github.com/vhavlena/ranker)
   * ⚙️ evaluation environment: [GitHub](https://github.com/VeriFIT/ba-compl-eval)
 
@@ -386,7 +386,7 @@ volume 4 of PACMPL, article number 218, 2020. ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla20-counting-set-automata.pdf)
   * 🎙️ [recording](https://youtu.be/bICOrgqkF40)
   * 📝 [technical report](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/MSR-TR-2020-31.pdf), Microsoft
-  * 📦 artifact: [10.5281/zenodo.3975566](https://doi.org/10.5281/zenodo.3975566)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.3975566)
   * 🗂️ data set: [10.5281/zenodo.3974360](https://doi.org/10.5281/zenodo.3974360)
 
 * M. Ceska, V. Havlena, L. Holik, O. Lengal, and T. Vojnar.
