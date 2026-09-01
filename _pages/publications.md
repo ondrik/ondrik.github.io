@@ -180,7 +180,7 @@ pages 1--9, 2024.
 ACM.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/iccad24-quantum-symb-exec.pdf)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/iccad24-quantum-symbolic-exec.pdf)
-  * 🛠️ [Medusa](https://github.com/s-jobra/MEDUSA/)
+  * 🛠️ [Medusa](https://github.com/VeriFIT/MEDUSA)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.13243595)
 
 * V. Havlena, L. Holik, O. Lengal, and J. Sic.
