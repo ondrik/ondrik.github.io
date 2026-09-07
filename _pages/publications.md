@@ -12,7 +12,6 @@ In *Proc. of 37th International Conference on Concurrency Theory* --- [CONCUR'26
 Liverpool, United Kingdom,
 volume 391 of LIPIcs, article 8, pages 8:1--8:22, 2026.
 Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
-**INCOMPLETE REFERENCE**
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2606.26768)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur26-emerson-lei-elevator.pdf)
