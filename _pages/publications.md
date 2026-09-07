@@ -15,6 +15,7 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
 **INCOMPLETE REFERENCE**
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2606.26768)
+  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur26-emerson-lei-elevator.pdf)
   * 🛠️ [Kofola](https://github.com/VeriFIT/kofola/)
 
 
