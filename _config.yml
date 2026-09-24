@@ -97,8 +97,8 @@ author:
   email            : "ondra.lengal@gmail.com"
 
   # Academic websites
-  googlescholar    : m3bsxv4AAAAJ
-  orcid            : 0000-0002-3038-5875
+  googlescholar    : "https://scholar.google.com/citations?user=m3bsxv4AAAAJ"
+  orcid            : "https://orcid.org/0000-0002-3038-5875"
 
   # Repositories and software development
   github           : "ondrik"
