@@ -23,6 +23,7 @@ toc: true
 * [TACAS'19](https://conf.researchr.org/track/etaps-2019/tacas-2019-papers) Artifact Evaluation co-chair (together with [Ernst Moritz Hahn](http://iscasmc.ios.ac.cn/?page_id=71))
 * Program committees:
 <div class="pc-list" markdown="1">
+  * [PLanQC'27](https://popl27.sigplan.org/home/planqc-2027)
   * [OOPSLA'27](https://conf.researchr.org/track/splash-2027/splashoopsla2027)
   * [VECoS'26](https://vecos-world.org/2026/)
   * [FMCAD'26](https://fmcad.org/FMCAD26/)

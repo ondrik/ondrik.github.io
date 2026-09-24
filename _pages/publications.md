@@ -6,6 +6,16 @@ classes: wide
 ---
 # 2026
 
+* J. Lin, Y. Chen, J. Havlik, O. Lengal, F. Lo, W. Tsai, Y. Wu.
+[Verifying Repeat-Until-Success Protocols using Automata](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+In *Proc. of the ACM on Programming Languages* --- [OOPSLA'26](https://2026.splashcon.org/track/oopsla-2026) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
+volume YYY of PACMPL (number OOPSLAZZZZZZ), article number WWWWWW, 2026. ACM
+  * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/oopsla26-rus-verification.pdf)
+  * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
+  * 🛠️  [AutoQ](https://github.com/fmlab-iis/AutoQ)
+  * 📦 [artifact](https://doi.org/10.5281/RRRRRRRRRRRRRRRRRRRRRRRR)
+**INCOMPLETE REFERENCE**
+
 * O. Alexaj, V. Havlena, O. Lengal, Y. Li, and N. Mazzocchi.
 [Complementing Emerson-Lei Elevator Automata](https://doi.org/10.4230/LIPIcs.CONCUR.2026.8).
 In *Proc. of 37th International Conference on Concurrency Theory* --- [CONCUR'26](https://confest-2026.github.io/concur/),
@@ -15,8 +25,7 @@ Schloss Dagstuhl --- Leibniz-Zentrum für Informatik.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/concur26-complement-elea.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2606.26768)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/concur26-emerson-lei-elevator.pdf)
-  * 🛠️ [Kofola](https://github.com/VeriFIT/kofola/)
-
+  * 🛠️  [Kofola](https://github.com/VeriFIT/kofola/)
 
 * W. Tsai, Y. Chen, and O. Lengal.
 [A Practical Specification Language for Automatic Quantum Program Verification](https://doi.org/10.1007/978-3-032-32537-2_15).
@@ -28,7 +37,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-quantum-specification.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2605.05786)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-autoq-specification.pdf)
-  * 🛠️ [AutoQ](https://github.com/fmlab-iis/AutoQ)
+  * 🛠️  [AutoQ](https://github.com/fmlab-iis/AutoQ)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.19756802)
 
 * O. Alexaj, V. Havlena, L. Holik, O. Lengal, Y. Li, and N. Mazzocchi.
@@ -41,7 +50,7 @@ Springer-Verlag.
   * 📄 [preliminary version](https://github.com/ondrik/ondrik.github.io/raw/master/publications/cav26-kofola.pdf)
   * 📝 [technical report](https://arxiv.org/abs/2605.15390)
   * 📊 [slides](https://github.com/ondrik/ondrik.github.io/raw/master/presentations/cav26-kofola.pdf)
-  * 🛠️ [Kofola](https://github.com/VeriFIT/kofola/)
+  * 🛠️  [Kofola](https://github.com/VeriFIT/kofola/)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.17457592)
 
 * V. Havlena, L. Holik, O. Lengal, J. Vasak, and S. Gulcikova.
