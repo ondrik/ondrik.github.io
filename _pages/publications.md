@@ -7,13 +7,13 @@ classes: wide
 # 2026
 
 * J. Lin, Y. Chen, J. Havlik, O. Lengal, F. Lo, W. Tsai, Y. Wu.
-[Verifying Repeat-Until-Success Protocols using Automata](XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+[Verifying Repeat-Until-Success Protocols using Automata](https://doi.org/10.1145/3839506).
 In *Proc. of the ACM on Programming Languages* --- [OOPSLA'26](https://2026.splashcon.org/track/oopsla-2026) issue (for Object-Oriented Programming, Systems, Languages, and Applications),
-volume YYY of PACMPL (number OOPSLAZZZZZZ), article number WWWWWW, 2026. ACM
+volume 10 of PACMPL (number OOPSLA2), article number 374, 2026. ACM
   * 📄 [preliminary version](/publications/oopsla26-rus-verification.pdf)
   * 📊 [slides](/presentations/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
   * 🛠️  [AutoQ](https://github.com/fmlab-iis/AutoQ)
-  * 📦 [artifact](https://doi.org/10.5281/RRRRRRRRRRRRRRRRRRRRRRRR)
+  * 📦 [artifact](https://doi.org/10.5281/zenodo.21428108)
 **INCOMPLETE REFERENCE**
 
 * O. Alexaj, V. Havlena, O. Lengal, Y. Li, and N. Mazzocchi.
