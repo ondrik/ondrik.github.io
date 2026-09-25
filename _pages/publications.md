@@ -14,7 +14,7 @@ volume 10 of PACMPL (number OOPSLA2), article number 374, 2026. ACM
   * 📊 [slides](/presentations/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ)
   * 🛠️  [AutoQ](https://github.com/fmlab-iis/AutoQ)
   * 📦 [artifact](https://doi.org/10.5281/zenodo.21428108)
-**INCOMPLETE REFERENCE**
+  * 🚧 **INCOMPLETE REFERENCE**
 
 * O. Alexaj, V. Havlena, O. Lengal, Y. Li, and N. Mazzocchi.
 [Complementing Emerson-Lei Elevator Automata](https://doi.org/10.4230/LIPIcs.CONCUR.2026.8).
