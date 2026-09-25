@@ -70,6 +70,7 @@ Rennes, France,
 article 70, pages 2021--2050, 2026.
 ACM.
   * 📄 [preliminary version](/publications/popl26-swtas-for-quantum.pdf)
+  * 📝 [technical report](https://arxiv.org/abs/2511.19897)
   * 📊 [slides](/presentations/popl26-quantum-swta.pdf)
   * 🎥 [video](https://www.youtube.com/watch?v=JUsI21KtXG4)
   * 🎥 [video](https://www.youtube.com/watch?v=-o0lX1CfMz0) from a relevant [FLAT talk](https://flat.fc.up.pt/)
