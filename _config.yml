@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "academicpages/academicpages.github.io"
+remote_theme             : "academicpages/academicpages.github.io@a962ac052faf0679e7ce551fdcb6ea1b968a8ea6"
 site_theme               : "air" # "default", "air", "sunrise", "mint", "dirt", "contrast"
 
 # Site Settings

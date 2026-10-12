@@ -5,7 +5,7 @@ classes: wide
 ---
 I am currently an associate professor at [Faculty of Information Technology, Brno University of Technology](https://www.fit.vutbr.cz), Czech Republic.
 
-<!-- I am the PI in the research group [\|QuantumFIT⟩](https://quantum.fit.vut.cz/). -->
+I am the PI in the research group [\|QuantumFIT⟩](https://quantum.fit.vut.cz/).
 
 # Research Interests
 
